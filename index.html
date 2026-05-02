@@ -890,7 +890,7 @@ function renderQuestoes(){
     html += `<div class="q-nav">`;
     html += i>0 ? `<button class="btn btn-ghost" onclick="navQ(${i},${i-1})">← Anterior</button>` : `<span></span>`;
     html += `<span class="center" id="qninfo${i}"></span>`;
-    html += `<button class="btn btn-primary" id="qnbtn${i}" onclick="confirmar(${i},'${q.tipo}',${JSON.stringify(q.resposta)},${JSON.stringify(q.explicacao||'')},${total})">Confirmar</button>`;
+    html += `<button class="btn btn-primary" id="qnbtn${i}" onclick="confirmar(${i},'${q.tipo}',${total})">Confirmar</button>`;
     html += `</div>`;
     html += `</div>`;
   });
@@ -982,12 +982,13 @@ function rmPar(btn,idx){
 }
 
 // ── Confirmar ─────────────────────────────────
-function confirmar(idx, tipo, correto, explicacao, total){
+function confirmar(idx, tipo, total){
   const w   = document.getElementById(`qw${idx}`);
   const fb  = document.getElementById(`fb${idx}`);
   const fbt = document.getElementById(`fbt${idx}`);
   const fbx = document.getElementById(`fbx${idx}`);
   const btn = document.getElementById(`qnbtn${idx}`);
+  const explicacao = (atualAtiv.questoes[idx] && atualAtiv.questoes[idx].explicacao) || '';
   let acertou = false;
 
   if(tipo==='multipla_escolha'){
