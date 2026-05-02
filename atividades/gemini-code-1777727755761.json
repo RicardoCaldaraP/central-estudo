@@ -1,0 +1,373 @@
+{
+  "id": "politica-administracao-unidade-1-3",
+  "titulo": "Atividades de Política e Administração",
+  "descricao": "Exercícios abrangendo conceitos de política, Estado, corrupção estrutural no Brasil, burocracia, liderança pública e economia política.",
+  "disciplina": "Política e Administração",
+  "criado_em": "2024-05-22",
+  "cor": "#2C3E50",
+  "icone": "⚖️",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Segundo o material, qual é a definição fundamental de Política?",
+      "opcoes": [
+        "O exercício exclusivo do poder por parte do governo estatal.",
+        "O processo pelo qual pessoas ou grupos tentam influenciar o comportamento alheio para atender seus interesses.",
+        "Um ato isolado de tomada de decisão técnica sem influência social.",
+        "A ausência de conflitos em uma sociedade homogênea."
+      ],
+      "resposta": "O processo pelo qual pessoas ou grupos tentam influenciar o comportamento alheio para atender seus interesses.",
+      "explicacao": "A política é definida como o processo de transformação de interesses em decisões que influenciam a sociedade através da influência no comportamento alheio[cite: 5, 11]."
+    },
+    {
+      "id": "q002",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A afirmação de que alguém é 'apolítico' é validada pelo texto como uma posição neutra que não afeta o poder.",
+      "resposta": false,
+      "explicacao": "O texto afirma que não existe 'apolítico'; a passividade de quem diz não ligar para a política acaba favorecendo quem já detém o poder[cite: 34, 36]."
+    },
+    {
+      "id": "q003",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue os conceitos às suas respectivas definições conforme o texto:",
+      "pares": [
+        {
+          "esquerda": "Estado",
+          "direita": "Estrutura política e jurídica organizada com leis e instituições."
+        },
+        {
+          "esquerda": "Nação",
+          "direita": "Comunidade cultural baseada em língua, costumes e identidade."
+        },
+        {
+          "esquerda": "Poder",
+          "direita": "Capacidade de influenciar o comportamento das pessoas."
+        },
+        {
+          "esquerda": "Institucionalização",
+          "direita": "Criação de estruturas permanentes onde o poder não depende de uma pessoa específica."
+        }
+      ],
+      "explicacao": "O Estado é a organização jurídica [cite: 108], a Nação é a identidade cultural [cite: 110], o Poder é influência [cite: 8] e a institucionalização torna o poder independente do ocupante do cargo[cite: 75, 78]."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que diferencia um conflito comum (como uma briga de casal) de um fato político?",
+      "opcoes": [
+        "O nível de violência envolvido no conflito.",
+        "O envolvimento de autoridades policiais no local.",
+        "A presença de um interesse público ou coletivo que afeta a sociedade.",
+        "O valor financeiro da disputa entre as partes."
+      ],
+      "resposta": "A presença de um interesse público ou coletivo que afeta a sociedade.",
+      "explicacao": "Para ser político, o evento precisa envolver o interesse coletivo ou refletir problemas sociais como a desigualdade de gênero[cite: 41, 47]."
+    },
+    {
+      "id": "q005",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O patrimonialismo é caracterizado pela separação rígida e clara entre os bens públicos e os interesses privados.",
+      "resposta": false,
+      "explicacao": "O patrimonialismo ocorre justamente quando não existe separação clara entre o que é público e o que é privado[cite: 139]."
+    },
+    {
+      "id": "q006",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual autor utiliza o conceito de 'homem cordial' para explicar a dificuldade de aplicar regras impessoais no Brasil?",
+      "opcoes": [
+        "Raymundo Faoro",
+        "Darcy Ribeiro",
+        "Sérgio Buarque de Holanda",
+        "Adam Smith"
+      ],
+      "resposta": "Sérgio Buarque de Holanda",
+      "explicacao": "Sérgio Buarque de Holanda define o homem cordial como aquele que age baseado em laços afetivos e familiares, dificultando a impessoalidade no Estado[cite: 147, 149]."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "Segundo Raymundo Faoro, quem compõe o 'estamento burocrático'?",
+      "opcoes": [
+        "A classe trabalhadora organizada em sindicatos.",
+        "Um grupo que controla o Estado e usa cargos públicos para interesses próprios.",
+        "Empresários estrangeiros que investem no desenvolvimento nacional.",
+        "Cidadãos que participam ativamente de conselhos municipais."
+      ],
+      "resposta": "Um grupo que controla o Estado e usa cargos públicos para interesses próprios.",
+      "explicacao": "O estamento burocrático é um grupo que se apropria do Estado para benefício próprio, agindo como instrumento de dominação[cite: 160, 166, 173]."
+    },
+    {
+      "id": "q008",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Darcy Ribeiro, a corrupção no Brasil se mantém, entre outros fatores, devido à exclusão histórica e baixa participação política da população.",
+      "resposta": true,
+      "explicacao": "Darcy Ribeiro argumenta que a desigualdade e a alienação da população impedem a pressão social por mudanças[cite: 191, 239]."
+    },
+    {
+      "id": "q009",
+      "tipo": "ligar_colunas",
+      "enunciado": "Relacione os autores aos seus focos de análise sobre a corrupção estrutural:",
+      "pares": [
+        {
+          "esquerda": "Sérgio Buarque",
+          "direita": "Cultura e relações pessoais."
+        },
+        {
+          "esquerda": "Raymundo Faoro",
+          "direita": "Estrutura do Estado e instituições."
+        },
+        {
+          "esquerda": "Darcy Ribeiro",
+          "direita": "Formação social e desigualdade."
+        }
+      ],
+      "explicacao": "Sérgio foca na cultura [cite: 194], Faoro nas instituições [cite: 195] e Darcy na formação social[cite: 196]."
+    },
+    {
+      "id": "q010",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são as três dimensões da função pública conforme o modelo da OCDE?",
+      "opcoes": [
+        "Eficaz e confiável; Responsiva e adaptável; Cultura e liderança orientadas por valores.",
+        "Política; Econômica; Social.",
+        "Executiva; Legislativa; Judiciária.",
+        "Nacional; Estadual; Municipal."
+      ],
+      "resposta": "Eficaz e confiável; Responsiva e adaptável; Cultura e liderança orientadas por valores.",
+      "explicacao": "O modelo da OCDE estrutura a função pública nessas três dimensões fundamentais[cite: 252, 260, 269]."
+    },
+    {
+      "id": "q011",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A liderança pública, segundo a ENAP, foca apenas na cobrança de resultados técnicos, sem necessidade de inspirar pessoas.",
+      "resposta": false,
+      "explicacao": "A liderança envolve simultaneamente desempenho, ética, inspiração e mobilização de pessoas[cite: 318, 320]."
+    },
+    {
+      "id": "q012",
+      "tipo": "multipla_escolha",
+      "enunciado": "A competência é definida como a mobilização de três elementos. Quais são eles?",
+      "opcoes": [
+        "Dinheiro, tempo e contatos.",
+        "Conhecimentos, habilidades e atitudes.",
+        "Leis, decretos e portarias.",
+        "Planejamento, execução e controle."
+      ],
+      "resposta": "Conhecimentos, habilidades e atitudes.",
+      "explicacao": "Competência é a capacidade de mobilizar conhecimentos (saber), habilidades (saber fazer) e atitudes (comportar-se)[cite: 322, 323, 325]."
+    },
+    {
+      "id": "q013",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são as dimensões em que se organizam as competências de liderança no setor público?",
+      "opcoes": [
+        "Passado, presente e futuro.",
+        "Estratégia, Resultados e Pessoas.",
+        "Teoria, Prática e Avaliação.",
+        "Governo, Mercado e Sociedade."
+      ],
+      "resposta": "Estratégia, Resultados e Pessoas.",
+      "explicacao": "As competências são divididas entre a visão estratégica, o alcance de metas e o engajamento de equipes[cite: 331, 332, 334, 336]."
+    },
+    {
+      "id": "q014",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "No contexto da liderança pública, a valorização da diversidade é considerada uma competência que melhora a qualidade das decisões.",
+      "resposta": true,
+      "explicacao": "A inclusão e o respeito às diferenças tornam o serviço público mais representativo e qualificado[cite: 292, 346]."
+    },
+    {
+      "id": "q015",
+      "tipo": "multipla_escolha",
+      "enunciado": "Sociologicamente, qual é a definição positiva de burocracia apresentada no texto?",
+      "opcoes": [
+        "Um sistema de lentidão e excesso de papelada inútil.",
+        "Uma forma de organizar o trabalho e a sociedade de maneira racional.",
+        "Um método de governo baseado na vontade pessoal do governante.",
+        "Uma estrutura informal de ajuda mútua entre servidores."
+      ],
+      "resposta": "Uma forma de organizar o trabalho e a sociedade de maneira racional.",
+      "explicacao": "Diferente do senso comum, a burocracia é vista como uma estrutura racional baseada em regras, cargos e funções[cite: 356, 357]."
+    },
+    {
+      "id": "q016",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A burocracia garante a impessoalidade porque as decisões dependem do cargo ocupado e não da pessoa que o ocupa.",
+      "resposta": true,
+      "explicacao": "A impessoalidade é um traço da burocracia onde a autoridade reside no cargo e nas regras formais[cite: 367]."
+    },
+    {
+      "id": "q017",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a principal 'contradição' da burocracia mencionada pelo autor?",
+      "opcoes": [
+        "Ela é muito barata, mas muito difícil de implementar.",
+        "Ela traz eficiência e ordem, mas gera rigidez e alienação.",
+        "Ela é aprovada pelos políticos, mas rejeitada pelo povo.",
+        "Ela funciona bem em empresas, mas nunca em governos."
+      ],
+      "resposta": "Ela traz eficiência e ordem, mas gera rigidez e alienação.",
+      "explicacao": "A burocracia tem um caráter ambíguo: resolve problemas de organização, mas cria rigidez e desmotivação[cite: 406, 407, 409]."
+    },
+    {
+      "id": "q018",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A alienação no trabalho burocrático ocorre porque o trabalhador tem uma visão total do processo e participa de todas as decisões.",
+      "resposta": false,
+      "explicacao": "A alienação ocorre justamente porque o trabalho é fragmentado e o trabalhador perde a visão do todo e a autonomia[cite: 387, 388, 392]."
+    },
+    {
+      "id": "q019",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que estuda a 'Economia Política'?",
+      "opcoes": [
+        "Apenas cálculos matemáticos de inflação e juros.",
+        "A economia como um sistema isolado da sociedade.",
+        "A economia como parte de um sistema de relações de poder, interesses e organização social.",
+        "As leis de mercado que funcionam independentemente da vontade humana."
+      ],
+      "resposta": "A economia como parte de um sistema de relações de poder, interesses e organização social.",
+      "explicacao": "A economia política analisa quem produz e como a riqueza é distribuída dentro de uma estrutura de poder[cite: 420, 421, 428]."
+    },
+    {
+      "id": "q020",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual conceito de Adam Smith descreve a autorregulação do mercado sem intervenção do Estado?",
+      "opcoes": [
+        "Mão Invisível",
+        "Mais-valia",
+        "Estamento Burocrático",
+        "Patrimonialismo"
+      ],
+      "resposta": "Mão Invisível",
+      "explicacao": "A 'mão invisível' é a ideia de que o mercado se autorregula através da busca do interesse individual[cite: 435]."
+    },
+    {
+      "id": "q021",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo a crítica de Marx, o mercado resolve automaticamente todos os problemas sociais e garante a igualdade.",
+      "resposta": false,
+      "explicacao": "Marx e o texto apontam que o aumento da produção não garante distribuição e que o sistema gera desigualdades estruturais[cite: 440, 497]."
+    },
+    {
+      "id": "q022",
+      "tipo": "ligar_colunas",
+      "enunciado": "Diferencie Produto de Mercadoria segundo a análise econômica:",
+      "pares": [
+        {
+          "esquerda": "Produto",
+          "direita": "Possui valor de uso e satisfaz necessidades."
+        },
+        {
+          "esquerda": "Mercadoria",
+          "direita": "Possui valor de uso e de troca; produzida para venda."
+        },
+        {
+          "esquerda": "Valor de Uso",
+          "direita": "Utilidade do bem para o ser humano."
+        },
+        {
+          "esquerda": "Valor de Troca",
+          "direita": "Quanto o bem vale no mercado para ser vendido."
+        }
+      ],
+      "explicacao": "Produtos focam na utilidade [cite: 445], enquanto mercadorias focam no lucro e na troca no mercado[cite: 449, 452]."
+    },
+    {
+      "id": "q023",
+      "tipo": "multipla_escolha",
+      "enunciado": "No capitalismo, o que o trabalhador vende ao empregador?",
+      "opcoes": [
+        "O objeto final produzido.",
+        "Sua força de trabalho (capacidade de trabalhar).",
+        "Seus instrumentos de trabalho.",
+        "Sua liberdade eterna."
+      ],
+      "resposta": "Sua força de trabalho (capacidade de trabalhar).",
+      "explicacao": "O trabalhador vende sua força de trabalho como uma mercadoria em troca de salário[cite: 473, 474]."
+    },
+    {
+      "id": "q024",
+      "tipo": "multipla_escolha",
+      "enunciado": "O conceito de 'Fetichismo da Mercadoria' de Marx explica que:",
+      "opcoes": [
+        "As pessoas adoram objetos religiosos.",
+        "O valor das coisas parece natural do objeto, escondendo o trabalho humano e as relações sociais.",
+        "Os produtos de luxo são os únicos que possuem valor real.",
+        "O mercado é um lugar sagrado onde todos são iguais."
+      ],
+      "resposta": "O valor das coisas parece natural do objeto, escondendo o trabalho humano e as relações sociais.",
+      "explicacao": "O fetiche distorce a percepção, fazendo relações entre pessoas parecerem simples relações entre coisas[cite: 508, 509, 513]."
+    },
+    {
+      "id": "q025",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O 'Pacto Social' na construção do valor indica que um bem só tem valor porque a sociedade aceita e reconhece esse valor coletivamente.",
+      "resposta": true,
+      "explicacao": "O valor não é intrínseco, mas resultado de um reconhecimento social e histórico[cite: 483, 484]."
+    },
+    {
+      "id": "q026",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual a relação entre o 'Homem Cordial' e a corrupção no Brasil?",
+      "opcoes": [
+        "A cordialidade impede que as pessoas roubem.",
+        "A valorização de amizades acima das regras facilita o favorecimento de conhecidos no Estado.",
+        "A educação do brasileiro torna o Estado mais eficiente.",
+        "Não há relação entre esses conceitos."
+      ],
+      "resposta": "A valorização de amizades acima das regras facilita o favorecimento de conhecidos no Estado.",
+      "explicacao": "A ética do homem cordial prioriza o privado sobre o público, enfraquecendo as regras impessoais e facilitando a corrupção[cite: 151, 153, 157]."
+    },
+    {
+      "id": "q027",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A gestão baseada em competências pode ajudar a reduzir a corrupção ao priorizar critérios técnicos e meritocracia.",
+      "resposta": true,
+      "explicacao": "O fortalecimento da técnica e da ética na administração pública reduz disfunções institucionais[cite: 545]."
+    },
+    {
+      "id": "q028",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual destas é uma característica da autoridade racional-legal na modernidade?",
+      "opcoes": [
+        "Poder baseado na hereditariedade (sangue).",
+        "Poder baseado no carisma pessoal do líder.",
+        "Poder fundamentado em regras formais, leis e hierarquia.",
+        "Poder exercido por quem tem mais força física."
+      ],
+      "resposta": "Poder fundamentado em regras formais, leis e hierarquia.",
+      "explicacao": "A burocracia moderna baseia sua legitimidade em normas impessoais e racionais[cite: 566]."
+    },
+    {
+      "id": "q029",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue os tipos de trabalho conforme a teoria marxista:",
+      "pares": [
+        {
+          "esquerda": "Trabalho Concreto",
+          "direita": "Produz valor de uso (algo útil)."
+        },
+        {
+          "esquerda": "Trabalho Abstrato",
+          "direita": "Produz valor de troca (valor econômico)."
+        }
+      ],
+      "explicacao": "No capitalismo, o trabalho abstrato é o que gera o valor reconhecido pelo mercado[cite: 478, 479, 480]."
+    },
+    {
+      "id": "q030",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que o Estado pode ser visto como uma 'ficção' no contexto da Economia Política?",
+      "opcoes": [
+        "Porque ele não existe de verdade.",
+        "Porque ele cria a ilusão de representar o bem comum enquanto muitas vezes atende a interesses do capital.",
+        "Porque ele é criado por escritores de livros.",
+        "Porque suas leis são todas mentirosas."
+      ],
+      "resposta": "Porque ele cria a ilusão de representar o bem comum enquanto muitas vezes atende a interesses do capital.",
+      "explicacao": "O pacto social e o fetiche criam a ideia de um Estado neutro, escondendo as reais relações de poder e interesses privados[cite: 537, 538]."
+    }
+  ]
+}
