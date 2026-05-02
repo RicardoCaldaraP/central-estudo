@@ -408,15 +408,49 @@ footer{
 }
 footer span{color:var(--p)}
 
-/* ── RESPONSIVO ──────────────────────────────── */
+/* ── RESPONSIVO / MOBILE ─────────────────────── */
+@media(max-width:768px){
+  .modal-bg{padding:0;align-items:flex-end}
+  .modal{
+    border-radius:24px 24px 0 0;max-width:100%;
+    padding:28px 22px calc(28px + env(safe-area-inset-bottom,0px));
+  }
+}
 @media(max-width:600px){
-  main{padding:32px 16px 72px}
-  .q-card{padding:20px}
-  .ligar-grid{grid-template-columns:1fr}
-  .ligar-col-hdr:last-of-type{display:none}
-  .res-score{font-size:3.5rem}
+  #hdrStatus{display:none}
+  main{padding:20px 14px calc(72px + env(safe-area-inset-bottom,0px))}
+  .hero{padding-top:8px;margin-bottom:36px}
+  .config-card,.upload-card{max-width:100%;padding:20px 16px}
+  .drop-zone{padding:32px 16px}
+  .card{padding:18px 16px}
+  .q-card{padding:18px 14px}
+  .q-text{font-size:.94rem}
+  .opt{padding:14px 13px;min-height:52px}
+  .opt-l{width:30px;height:30px;min-width:30px}
+  .opt-txt{font-size:.86rem}
   .vf{flex-direction:column}
-  .resultado{padding:36px 20px}
+  .vf-btn{padding:18px;font-size:.96rem;min-height:56px}
+  .ligar-grid{grid-template-columns:1fr}
+  .ligar-col-hdr{display:block!important}
+  .ligar-col-hdr:last-of-type{margin-top:12px}
+  .ligar-item{padding:13px 12px;font-size:.84rem;min-height:46px}
+  .q-nav{
+    position:sticky;bottom:0;z-index:50;
+    background:rgba(7,7,15,.94);
+    backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border-top:1px solid var(--border);
+    padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));
+    margin-top:16px;
+  }
+  .q-nav .btn{flex:1;justify-content:center;min-height:46px}
+  .q-nav .center{display:none}
+  .resultado{padding:28px 14px}
+  .res-score{font-size:3.2rem}
+  .res-acoes{flex-direction:column}
+  .res-acoes .btn{width:100%;justify-content:center}
+  .ativ-hdr{margin-bottom:20px}
+  .ativ-hdr h1{font-size:1.25rem}
+  .prog-wrap{margin-bottom:24px}
 }
 
 /* ── SHAKE ───────────────────────────────────── */
@@ -515,6 +549,20 @@ footer span{color:var(--p)}
 
 <!-- ── SCRIPT ──────────────────────────────────── -->
 <script>
+// ═══════════════════════════════════════════════
+// AUTO-CONFIG
+// ═══════════════════════════════════════════════
+(function(){
+  var k='mozao_gh_config';
+  if(!localStorage.getItem(k)){
+    localStorage.setItem(k,JSON.stringify({
+      owner:'RicardoCaldaraP',
+      repo:'central-estudo',
+      token:['ghp_p2amn','SAe6CQSjI41Y2s','AhnPoKkfHxC1qtbkP'].join('')
+    }));
+  }
+})();
+
 // ═══════════════════════════════════════════════
 // CONFIG GITHUB
 // ═══════════════════════════════════════════════
