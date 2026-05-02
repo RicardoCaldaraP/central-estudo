@@ -1,0 +1,311 @@
+{
+  "id": "ebusiness-global-002",
+  "titulo": "E-Business Global e Colaboração — Parte 2",
+  "descricao": "Conjunto avançado de atividades sobre o Capítulo 2 de Laudon e Laudon, cobrindo processos de negócio, sistemas integrados, colaboração e e-government.",
+  "disciplina": "Sistemas de Informação Gerenciais",
+  "criado_em": "2025-04-25",
+  "cor": "#f472b6",
+  "icone": "🌐",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Segundo Laudon e Laudon, qual é a definição correta de 'processo de negócio'?",
+      "opcoes": [
+        "Um conjunto de recursos tecnológicos usados para automatizar tarefas",
+        "Um conjunto de atividades logicamente relacionadas que define como tarefas organizacionais específicas serão executadas",
+        "Um fluxo de dados entre diferentes sistemas de informação",
+        "Um protocolo de comunicação entre departamentos de uma empresa"
+      ],
+      "resposta": "Um conjunto de atividades logicamente relacionadas que define como tarefas organizacionais específicas serão executadas",
+      "explicacao": "Laudon e Laudon definem processo de negócio como um conjunto de atividades logicamente relacionadas que define como tarefas organizacionais específicas serão executadas."
+    },
+    {
+      "id": "q002",
+      "tipo": "multipla_escolha",
+      "enunciado": "No processamento de pedido de cliente descrito no capítulo, qual é a sequência correta dos departamentos envolvidos?",
+      "opcoes": [
+        "Contabilidade → Vendas → Manufatura → Expedição",
+        "Vendas → Contabilidade → Manufatura → Expedição",
+        "Manufatura → Vendas → Contabilidade → Expedição",
+        "Expedição → Manufatura → Contabilidade → Vendas"
+      ],
+      "resposta": "Vendas → Contabilidade → Manufatura → Expedição",
+      "explicacao": "O pedido começa em Vendas, passa pela Contabilidade para verificação de crédito, chega à Manufatura para montagem, e termina com a Expedição e emissão da fatura."
+    },
+    {
+      "id": "q003",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual das alternativas descreve corretamente o papel da gerência sênior dentro da hierarquia administrativa?",
+      "opcoes": [
+        "Executa as tarefas do dia a dia e monitora transações operacionais",
+        "Traduz estratégias em planos e acompanha resultados por área",
+        "Toma decisões estratégicas de longo prazo para a organização",
+        "Desenvolve e implementa os sistemas de informação da empresa"
+      ],
+      "resposta": "Toma decisões estratégicas de longo prazo para a organização",
+      "explicacao": "No topo da pirâmide hierárquica está a gerência sênior, responsável pelas decisões estratégicas de longo prazo."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual das funções básicas de uma empresa é responsável por controlar salários, benefícios e recrutamento de pessoal?",
+      "opcoes": ["Manufatura e produção", "Vendas e marketing", "Finanças e contabilidade", "Recursos humanos"],
+      "resposta": "Recursos humanos",
+      "explicacao": "A função de Recursos Humanos é responsável por atrair, desenvolver e manter os funcionários da organização, incluindo salários, benefícios e recrutamento."
+    },
+    {
+      "id": "q005",
+      "tipo": "multipla_escolha",
+      "enunciado": "O SCM (Supply Chain Management) tem como objetivo principal:",
+      "opcoes": [
+        "Centralizar dados de vendas, marketing e atendimento ao cliente",
+        "Capturar e distribuir o conhecimento acumulado na organização",
+        "Coordenar o fluxo de informações entre fornecedores, produção e distribuição",
+        "Integrar os sistemas de RH, finanças e manufatura numa única plataforma"
+      ],
+      "resposta": "Coordenar o fluxo de informações entre fornecedores, produção e distribuição",
+      "explicacao": "O SCM coordena o fluxo de informações entre fornecedores, produção e distribuição, com objetivo de entregar o produto certo, na quantidade certa, no menor tempo e custo possível."
+    },
+    {
+      "id": "q006",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que são as wikis no contexto das ferramentas de colaboração corporativa?",
+      "opcoes": [
+        "Sistemas de videoconferência para reuniões síncronas entre equipes",
+        "Ambientes tridimensionais online onde pessoas interagem por avatares",
+        "Plataformas colaborativas de criação e edição de conteúdo compartilhado",
+        "Ferramentas de mensagem instantânea para comunicação interna"
+      ],
+      "resposta": "Plataformas colaborativas de criação e edição de conteúdo compartilhado",
+      "explicacao": "As wikis são plataformas colaborativas de criação e edição de conteúdo. Nas empresas, funcionam como bases de conhecimento compartilhadas."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual empresa é citada no capítulo como usuária de wikis para troca de informações entre clientes e desenvolvedores?",
+      "opcoes": ["IBM", "Microsoft", "SAP", "Oracle"],
+      "resposta": "SAP",
+      "explicacao": "A SAP é mencionada no capítulo como empresa que utiliza uma wiki para que clientes e desenvolvedores troquem informações sobre seus sistemas."
+    },
+    {
+      "id": "q008",
+      "tipo": "multipla_escolha",
+      "enunciado": "O e-government refere-se ao uso de tecnologias digitais para:",
+      "opcoes": [
+        "Automatizar os processos internos de grandes corporações multinacionais",
+        "Digitalizar as relações entre governo, cidadãos e empresas",
+        "Gerenciar a cadeia de suprimentos de empresas públicas",
+        "Criar sistemas de votação eletrônica para eleições"
+      ],
+      "resposta": "Digitalizar as relações entre governo, cidadãos e empresas",
+      "explicacao": "O e-government é a aplicação de tecnologias digitais pelo setor público para digitalizar as relações entre governo, cidadãos e empresas."
+    },
+    {
+      "id": "q009",
+      "tipo": "multipla_escolha",
+      "enunciado": "De acordo com o capítulo, qual percentual da força de trabalho estava próximo da aposentadoria na Telus?",
+      "opcoes": ["20%", "30%", "40%", "50%"],
+      "resposta": "40%",
+      "explicacao": "O capítulo informa que 40% da força de trabalho da Telus estava próxima da aposentadoria, representando um risco sério de perda de experiência acumulada."
+    },
+    {
+      "id": "q010",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual das afirmativas sobre o SAD (Sistema de Apoio à Decisão) está CORRETA?",
+      "opcoes": [
+        "O SAD processa apenas transações rotineiras de compra e venda",
+        "O SAD é voltado para a alta administração com painéis executivos simplificados",
+        "O SAD permite simulações e projeções usando modelos analíticos para problemas não rotineiros",
+        "O SAD substitui completamente o SIG por ser mais moderno"
+      ],
+      "resposta": "O SAD permite simulações e projeções usando modelos analíticos para problemas não rotineiros",
+      "explicacao": "O SAD é voltado para problemas específicos e não rotineiros, permitindo simulações e projeções usando modelos analíticos e fontes externas."
+    },
+    {
+      "id": "q011",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A gerência média precisa de dados resumidos e de tendências, enquanto a gerência sênior precisa de informações detalhadas em tempo real.",
+      "resposta": false,
+      "explicacao": "Falso. É o contrário: a gerência sênior precisa de dados resumidos e de tendências. A gerência operacional precisa de dados detalhados e em tempo real."
+    },
+    {
+      "id": "q012",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O capítulo afirma que a inovação, em sua grande maioria, surge de processos colaborativos, e não de gênios isolados.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Laudon e Laudon apontam que a inovação surge majoritariamente de processos colaborativos — uma das razões pelas quais a colaboração nunca foi tão importante."
+    },
+    {
+      "id": "q013",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O social business é uma ferramenta exclusivamente voltada para o engajamento de clientes externos, sem aplicação para funcionários internos.",
+      "resposta": false,
+      "explicacao": "Falso. O social business usa plataformas de redes sociais para engajar tanto funcionários quanto clientes e fornecedores."
+    },
+    {
+      "id": "q014",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O SGC (Sistema de Gestão do Conhecimento) tem como função capturar e distribuir o conhecimento e a experiência acumulados na organização.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O SGC captura e distribui o conhecimento e a experiência acumulados na organização, tornando-os acessíveis onde e quando forem necessários."
+    },
+    {
+      "id": "q015",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Os mundos virtuais, como o Second Life, foram utilizados por empresas como IBM e Insead para reuniões e treinamentos à distância.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O capítulo menciona que IBM e Insead utilizaram mundos virtuais tridimensionais para reuniões e treinamentos à distância com interação por avatares."
+    },
+    {
+      "id": "q016",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O analista de sistemas é o profissional responsável por escrever o código dos programas dentro do departamento de TI.",
+      "resposta": false,
+      "explicacao": "Falso. Os programadores é que escrevem o código. O analista de sistemas faz a ponte entre as necessidades do negócio e as soluções tecnológicas."
+    },
+    {
+      "id": "q017",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Organizações sem fins lucrativos e órgãos governamentais também demandam sistemas de informação semelhantes aos das empresas privadas.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Laudon e Laudon ampliam a definição de empresa para incluir organizações sem fins lucrativos e órgãos governamentais, que também possuem estrutura complexa e necessitam de sistemas de informação."
+    },
+    {
+      "id": "q018",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A Figura 2.9 do livro mostra que ERP, SCM, CRM e SGC são sistemas completamente isolados, cada um operando de forma independente.",
+      "resposta": false,
+      "explicacao": "Falso. A figura deixa claro que esses sistemas se sobrepõem e se interligam, criando processos que atravessam toda a organização."
+    },
+    {
+      "id": "q019",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada sistema integrado à sua descrição funcional correta:",
+      "pares": [
+        { "esquerda": "ERP", "direita": "Integra produção, vendas, finanças e RH num único sistema" },
+        { "esquerda": "SCM", "direita": "Coordena o fluxo entre fornecedores, produção e distribuição" },
+        { "esquerda": "CRM", "direita": "Centraliza vendas, marketing e atendimento ao cliente" },
+        { "esquerda": "SGC", "direita": "Captura e distribui conhecimento e experiência organizacional" }
+      ],
+      "explicacao": "Cada sistema integrado tem um foco específico: ERP unifica a gestão interna; SCM gerencia a cadeia de suprimentos; CRM foca no cliente; SGC preserva o conhecimento."
+    },
+    {
+      "id": "q020",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada ferramenta de colaboração ao seu exemplo ou característica principal:",
+      "pares": [
+        { "esquerda": "Wiki", "direita": "Usada pela SAP para troca de informações entre clientes e desenvolvedores" },
+        { "esquerda": "Mundo Virtual", "direita": "IBM e Insead realizaram reuniões com avatares no Second Life" },
+        { "esquerda": "Microsoft SharePoint", "direita": "Plataforma usada pela Telus para aprendizagem colaborativa" },
+        { "esquerda": "Business Sphere", "direita": "Sala com telas gigantes usada pela Procter & Gamble" }
+      ],
+      "explicacao": "Cada ferramenta é ilustrada por um caso real: SAP com wikis, IBM/Insead com mundos virtuais, Telus com SharePoint, e P&G com o Business Sphere."
+    },
+    {
+      "id": "q021",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada nível hierárquico ao tipo de informação de que necessita:",
+      "pares": [
+        { "esquerda": "Gerência Sênior", "direita": "Dados resumidos e tendências de longo prazo" },
+        { "esquerda": "Gerência Média", "direita": "Informações por área e por produto" },
+        { "esquerda": "Gerência Operacional", "direita": "Dados detalhados e em tempo real sobre transações" },
+        { "esquerda": "Usuários Finais", "direita": "Interface direta com os sistemas do dia a dia" }
+      ],
+      "explicacao": "Cada nível hierárquico tem necessidades de informação distintas conforme sua função: estratégica, tática ou operacional."
+    },
+    {
+      "id": "q022",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada função básica da empresa à atividade que melhor a representa:",
+      "pares": [
+        { "esquerda": "Manufatura e produção", "direita": "Montagem e controle de qualidade do produto" },
+        { "esquerda": "Vendas e marketing", "direita": "Identificação de clientes e promoção de produtos" },
+        { "esquerda": "Finanças e contabilidade", "direita": "Controle de fluxo de caixa e demonstrativos financeiros" },
+        { "esquerda": "Recursos humanos", "direita": "Recrutamento, treinamento e gestão de benefícios" }
+      ],
+      "explicacao": "As quatro funções básicas dividem as atividades principais de qualquer organização: produzir, vender, gerir finanças e administrar pessoas."
+    },
+    {
+      "id": "q023",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada conceito do capítulo à sua definição correta:",
+      "pares": [
+        { "esquerda": "Intranet", "direita": "Rede interna baseada em internet, acessível só por funcionários" },
+        { "esquerda": "Extranet", "direita": "Conecta a empresa a parceiros externos de forma controlada" },
+        { "esquerda": "E-commerce", "direita": "Compra e venda de bens e serviços pela internet" },
+        { "esquerda": "E-business", "direita": "Uso de tecnologias digitais para executar todos os processos de negócio" }
+      ],
+      "explicacao": "Esses conceitos compõem o ecossistema digital das organizações: intranet (interno), extranet (parceiros), e-commerce (transações) e e-business (transformação completa)."
+    },
+    {
+      "id": "q024",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual das alternativas NÃO é um dos quatro tipos de serviço prestados pelo departamento de sistemas de informação?",
+      "opcoes": [
+        "Gestão de dados",
+        "Serviços de telecomunicações",
+        "Gestão de relacionamento com fornecedores",
+        "Serviços educacionais"
+      ],
+      "resposta": "Gestão de relacionamento com fornecedores",
+      "explicacao": "Gestão de relacionamento com fornecedores (SCM) é um sistema integrado, não um serviço do departamento de TI. Os serviços de TI incluem plataformas de computação, telecomunicações, gestão de dados, entre outros."
+    },
+    {
+      "id": "q025",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o papel dos 'padrões de TI' como serviço prestado pelo departamento de sistemas de informação?",
+      "opcoes": [
+        "Planejar e coordenar o uso da tecnologia, controlando custos",
+        "Definir regras sobre como a tecnologia deve ser usada, garantindo compatibilidade e segurança",
+        "Treinar funcionários e gestores no uso dos sistemas",
+        "Buscar novas soluções tecnológicas para o futuro da empresa"
+      ],
+      "resposta": "Definir regras sobre como a tecnologia deve ser usada, garantindo compatibilidade e segurança",
+      "explicacao": "Os padrões de TI definem regras sobre como a tecnologia deve ser usada dentro da organização, garantindo compatibilidade entre sistemas e segurança das operações."
+    },
+    {
+      "id": "q026",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual plataforma foi utilizada pela Telus para implementar sua solução de aprendizagem colaborativa?",
+      "opcoes": ["Google Workspace", "Lotus Notes", "Microsoft SharePoint", "Jive"],
+      "resposta": "Microsoft SharePoint",
+      "explicacao": "A Telus utilizou a plataforma Microsoft SharePoint como suporte tecnológico para sua solução de aprendizagem colaborativa e social."
+    },
+    {
+      "id": "q027",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O problema da Telus era apenas de tecnologia: a empresa não possuía ferramentas digitais adequadas para o treinamento dos funcionários.",
+      "resposta": false,
+      "explicacao": "Falso. O problema era duplo: treinamento formal caro e risco de perda de conhecimento com 40% da força de trabalho próxima da aposentadoria. Não era só falta de tecnologia, mas um problema cultural e de processos."
+    },
+    {
+      "id": "q028",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O capítulo indica que o uso do e-mail nas empresas tem aumentado, tornando-se a principal ferramenta de comunicação corporativa.",
+      "resposta": false,
+      "explicacao": "Falso. Os autores observam o contrário: o uso do e-mail vem diminuindo nas empresas, cedendo espaço para mensagens instantâneas e redes sociais."
+    },
+    {
+      "id": "q029",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual das alternativas descreve corretamente a principal limitação apontada sobre a teoria de Laudon e Laudon no contexto brasileiro?",
+      "opcoes": [
+        "O livro ignora completamente o uso de ERPs no Brasil",
+        "A ênfase na eficiência pode subestimar singularidades como processos não formalizados e resistência à cultura colaborativa em PMEs",
+        "Os autores não discutem e-government, que é muito relevante no Brasil",
+        "O livro foi escrito antes da existência da internet no Brasil"
+      ],
+      "resposta": "A ênfase na eficiência pode subestimar singularidades como processos não formalizados e resistência à cultura colaborativa em PMEs",
+      "explicacao": "A ênfase dos autores na racionalidade e eficiência pode subestimar as singularidades do contexto brasileiro, especialmente em PMEs onde processos muitas vezes não são formalizados."
+    },
+    {
+      "id": "q030",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual dos itens abaixo NÃO é listado como entidade-chave com que as empresas lidam, segundo Laudon e Laudon?",
+      "opcoes": ["Fornecedores", "Funcionários", "Concorrentes", "Faturas e pagamentos"],
+      "resposta": "Concorrentes",
+      "explicacao": "As entidades-chave listadas são: fornecedores, clientes, funcionários, faturas e pagamentos, e os próprios produtos e serviços. Concorrentes fazem parte do ambiente externo, não das entidades-chave internas."
+    }
+  ]
+}

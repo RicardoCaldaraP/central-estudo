@@ -1,0 +1,143 @@
+{
+  "id": "ebusiness-global-001",
+  "titulo": "E-Business Global e Colaboração — Parte 1",
+  "descricao": "Atividades baseadas no Capítulo 2 de Laudon e Laudon — Sistemas de Informação Gerenciais.",
+  "disciplina": "Sistemas de Informação Gerenciais",
+  "criado_em": "2025-04-25",
+  "cor": "#6C63FF",
+  "icone": "💻",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual empresa canadense de telecomunicações é usada como caso de abertura do Capítulo 2 de Laudon e Laudon?",
+      "opcoes": ["Rogers Communications", "Bell Canada", "Telus", "Shaw Communications"],
+      "resposta": "Telus",
+      "explicacao": "A Telus é apresentada como exemplo de empresa que transformou seu treinamento por meio de aprendizagem colaborativa e social, usando wikis, blogs e a plataforma Microsoft SharePoint."
+    },
+    {
+      "id": "q002",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual foi a redução no orçamento de treinamento obtida pela Telus após implementar sua solução colaborativa?",
+      "opcoes": ["10%", "15%", "20%", "30%"],
+      "resposta": "20%",
+      "explicacao": "A Telus alcançou uma redução de 20% no orçamento de treinamento ao migrar para aprendizagem colaborativa com wikis, blogs, vídeos e mentoring via SharePoint."
+    },
+    {
+      "id": "q003",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual sistema de informação é responsável por registrar as atividades rotineiras da empresa, como vendas, pagamentos e estoque?",
+      "opcoes": ["SAD", "SAE", "SIG", "SPT"],
+      "resposta": "SPT",
+      "explicacao": "Os Sistemas de Processamento de Transações (SPTs) registram atividades rotineiras da empresa. São os mais básicos, mas também os mais críticos para a operação."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que diferencia um SAD de um SIG?",
+      "opcoes": [
+        "O SAD é usado apenas pela alta gerência, o SIG pela gerência média",
+        "O SAD responde perguntas novas e não rotineiras, o SIG responde perguntas previstas e periódicas",
+        "O SAD processa transações em tempo real, o SIG gera relatórios mensais",
+        "O SAD é um sistema de hardware, o SIG é um sistema de software"
+      ],
+      "resposta": "O SAD responde perguntas novas e não rotineiras, o SIG responde perguntas previstas e periódicas",
+      "explicacao": "A diferença fundamental é que o SIG responde perguntas rotineiras e previamente estruturadas (como relatórios mensais de vendas), enquanto o SAD ajuda a responder perguntas novas usando modelos analíticos e simulações."
+    },
+    {
+      "id": "q005",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o papel do CRM dentro dos sistemas integrados empresariais?",
+      "opcoes": [
+        "Gerenciar a cadeia de suprimentos entre fornecedores e produção",
+        "Integrar informações de produção, vendas, finanças e RH",
+        "Centralizar processos de vendas, marketing e atendimento ao cliente",
+        "Capturar e distribuir o conhecimento organizacional"
+      ],
+      "resposta": "Centralizar processos de vendas, marketing e atendimento ao cliente",
+      "explicacao": "O CRM (Customer Relationship Management) centraliza os processos relacionados aos clientes: vendas, marketing e atendimento, com objetivo de identificar clientes lucrativos, atrair novos e reter os existentes."
+    },
+    {
+      "id": "q006",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O e-commerce é sinônimo de e-business, pois ambos representam a mesma transformação digital nas empresas.",
+      "resposta": false,
+      "explicacao": "Falso. O e-commerce é apenas a dimensão comercial do e-business (compra e venda online). O e-business é mais amplo, abrangendo todos os principais processos de negócio realizados por meio de tecnologias digitais."
+    },
+    {
+      "id": "q007",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo Laudon e Laudon, 41% da força de trabalho nos países desenvolvidos exerce funções que dependem de coordenação constante.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Os autores apontam que as funções de interação representam 41% da força de trabalho nos países desenvolvidos, sendo um dos fatores que tornaram a colaboração tão essencial."
+    },
+    {
+      "id": "q008",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O ERP integra apenas os departamentos de finanças e recursos humanos de uma empresa.",
+      "resposta": false,
+      "explicacao": "Falso. O ERP integra informações de todas as áreas funcionais: produção, vendas, finanças E RH num único sistema, automatizando fluxos entre todos os departamentos."
+    },
+    {
+      "id": "q009",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A intranet conecta a empresa com parceiros externos, enquanto a extranet é acessível apenas pelos funcionários.",
+      "resposta": false,
+      "explicacao": "Falso. É o contrário: a intranet é uma rede interna acessível apenas pelos funcionários, enquanto a extranet conecta a empresa com parceiros externos de forma controlada e segura."
+    },
+    {
+      "id": "q010",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O CPO (Chief Privacy Officer) ganhou relevância especialmente com legislações como a LGPD no Brasil.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O CPO garante o cumprimento das leis de privacidade e a proteção de dados pessoais, cargo que ganhou enorme relevância com legislações como a LGPD no Brasil."
+    },
+    {
+      "id": "q011",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada sistema de informação ao seu nível hierárquico correspondente:",
+      "pares": [
+        { "esquerda": "SPT — Sistema de Processamento de Transações", "direita": "Nível Operacional" },
+        { "esquerda": "SIG — Sistema de Informação Gerencial", "direita": "Gerência Média" },
+        { "esquerda": "SAD — Sistema de Apoio à Decisão", "direita": "Gerência Média" },
+        { "esquerda": "SAE — Sistema de Apoio ao Executivo", "direita": "Nível Estratégico" }
+      ],
+      "explicacao": "Cada sistema atende a um nível hierárquico: SPT ao operacional, SIG e SAD à gerência média, e SAE à alta administração."
+    },
+    {
+      "id": "q012",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada cargo executivo de TI à sua responsabilidade principal:",
+      "pares": [
+        { "esquerda": "CIO — Chief Information Officer", "direita": "Alinha uso da TI com a estratégia de negócios" },
+        { "esquerda": "CSO — Chief Security Officer", "direita": "Protege os sistemas contra ameaças" },
+        { "esquerda": "CPO — Chief Privacy Officer", "direita": "Garante cumprimento das leis de privacidade" },
+        { "esquerda": "CKO — Chief Knowledge Officer", "direita": "Gerencia programas de gestão do conhecimento" }
+      ],
+      "explicacao": "Cada cargo executivo tem uma responsabilidade estratégica específica dentro do departamento de sistemas de informação."
+    },
+    {
+      "id": "q013",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual ferramenta de colaboração é classificada como assíncrona e entre lugares diferentes na matriz tempo/espaço?",
+      "opcoes": ["Reunião presencial", "Videoconferência em tempo real", "E-mail", "Quadro branco compartilhado presencial"],
+      "resposta": "E-mail",
+      "explicacao": "Na matriz tempo/espaço, o e-mail é classificado como assíncrono (não acontece em tempo real) e entre lugares diferentes, ao contrário de reuniões presenciais que são síncronas e no mesmo local."
+    },
+    {
+      "id": "q014",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual empresa utiliza o sistema chamado 'Business Sphere' — uma sala com telas gigantes para acompanhar dados em tempo real?",
+      "opcoes": ["Telus", "UPS", "Procter & Gamble", "IBM"],
+      "resposta": "Procter & Gamble",
+      "explicacao": "A Procter & Gamble é mencionada como usuária do Business Sphere, um SAE onde executivos acompanham em tempo real dados de vendas, participação de mercado e desempenho por região."
+    },
+    {
+      "id": "q015",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A adoção do SharePoint pela Telus, por si só, foi suficiente para resolver o problema de perda de conhecimento organizacional.",
+      "resposta": false,
+      "explicacao": "Falso. Foi necessário redesenhar processos e transformar a cultura de aprendizagem. A tecnologia foi o meio, mas a mudança cultural foi o fator determinante."
+    }
+  ]
+}
