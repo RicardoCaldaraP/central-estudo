@@ -1,101 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Central de Estudo Mozão 💜</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700;800;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* ── RESET ───────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-
-/* ── TOKENS ──────────────────────────────────── */
 :root{
-  --bg:       #07070f;
-  --s1:       #0f0f1a;
-  --s2:       #161625;
-  --border:   #1e1e30;
-  --border2:  #2a2a42;
-  --p:        #c084fc;
-  --p2:       #e879f9;
-  --g:        #4ade80;
-  --r:        #f87171;
-  --y:        #fbbf24;
-  --text:     #eeeef8;
-  --muted:    #6b6b90;
-  --radius:   16px;
+  --bg:#07070f;--s1:#0f0f1a;--s2:#161625;--border:#1e1e30;--border2:#2a2a42;
+  --p:#c084fc;--p2:#e879f9;--g:#4ade80;--r:#f87171;--y:#fbbf24;
+  --text:#eeeef8;--muted:#6b6b90;--radius:16px;
 }
+body{font-family:'Instrument Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden}
+body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;opacity:.4}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 70% 50% at 15% 5%,rgba(192,132,252,.09) 0%,transparent 55%),radial-gradient(ellipse 50% 40% at 85% 90%,rgba(232,121,249,.06) 0%,transparent 55%);pointer-events:none;z-index:0}
 
-body{
-  font-family:'Instrument Sans',sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  overflow-x:hidden;
-}
-
-/* ── GRAIN OVERLAY ───────────────────────────── */
-body::after{
-  content:'';
-  position:fixed;
-  inset:0;
-  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-  pointer-events:none;
-  z-index:9999;
-  opacity:.4;
-}
-
-/* Glows */
-body::before{
-  content:'';
-  position:fixed;
-  inset:0;
-  background:
-    radial-gradient(ellipse 70% 50% at 15% 5%,  rgba(192,132,252,.09) 0%,transparent 55%),
-    radial-gradient(ellipse 50% 40% at 85% 90%, rgba(232,121,249,.06) 0%,transparent 55%);
-  pointer-events:none;
-  z-index:0;
-}
-
-/* ── HEADER ──────────────────────────────────── */
-header{
-  position:sticky;top:0;z-index:200;
-  background:rgba(7,7,15,.8);
-  backdrop-filter:blur(20px);
-  border-bottom:1px solid var(--border);
-}
-.hdr{
-  max-width:1080px;margin:0 auto;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 24px;height:60px;gap:12px;
-}
-.logo{
-  font-family:'Cabinet Grotesk',sans-serif;
-  font-weight:900;font-size:1.05rem;
-  background:linear-gradient(135deg,var(--p),var(--p2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;text-decoration:none;white-space:nowrap;
-}
+header{position:sticky;top:0;z-index:200;background:rgba(7,7,15,.8);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.hdr{max-width:1080px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:60px;gap:12px}
+.logo{font-family:'Cabinet Grotesk',sans-serif;font-weight:900;font-size:1.05rem;background:linear-gradient(135deg,var(--p),var(--p2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none;white-space:nowrap}
 .hdr-right{display:flex;gap:8px;align-items:center}
 
-/* ── BOTÕES ──────────────────────────────────── */
-.btn{
-  display:inline-flex;align-items:center;gap:6px;
-  padding:8px 18px;border-radius:50px;
-  font-family:'Instrument Sans',sans-serif;font-size:.83rem;font-weight:600;
-  cursor:pointer;border:none;transition:all .2s;text-decoration:none;
-  white-space:nowrap;
-}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:50px;font-family:'Instrument Sans',sans-serif;font-size:.83rem;font-weight:600;cursor:pointer;border:none;transition:all .2s;text-decoration:none;white-space:nowrap}
 .btn-ghost{background:transparent;color:var(--muted);border:1px solid var(--border2)}
 .btn-ghost:hover{color:var(--text);border-color:var(--p)}
-.btn-primary{
-  background:linear-gradient(135deg,var(--p),var(--p2));
-  color:#fff;box-shadow:0 0 20px rgba(192,132,252,.25);
-}
+.btn-primary{background:linear-gradient(135deg,var(--p),var(--p2));color:#fff;box-shadow:0 0 20px rgba(192,132,252,.25)}
 .btn-primary:hover{transform:translateY(-1px);box-shadow:0 0 30px rgba(192,132,252,.4)}
 .btn-primary:disabled{opacity:.4;cursor:not-allowed;transform:none}
 .btn-green{background:linear-gradient(135deg,#4ade80,#22c55e);color:#0a1a0e}
@@ -103,318 +33,160 @@ header{
 .btn-sm{padding:6px 14px;font-size:.78rem}
 .btn-icon{width:36px;height:36px;padding:0;justify-content:center;font-size:1rem}
 
-/* ── MAIN ────────────────────────────────────── */
-main{
-  flex:1;position:relative;z-index:1;
-  max-width:1080px;margin:0 auto;width:100%;
-  padding:48px 24px 96px;
-}
-
-/* ── PÁGINAS ─────────────────────────────────── */
+main{flex:1;position:relative;z-index:1;max-width:1080px;margin:0 auto;width:100%;padding:48px 24px 96px}
 .page{display:none}
 .page.active{display:block;animation:fadeUp .35s both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 
-@keyframes fadeUp{
-  from{opacity:0;transform:translateY(12px)}
-  to{opacity:1;transform:none}
-}
-
-/* ── HERO ────────────────────────────────────── */
 .hero{text-align:center;margin-bottom:60px;padding-top:20px}
-.badge{
-  display:inline-flex;align-items:center;gap:6px;
-  background:rgba(192,132,252,.1);border:1px solid rgba(192,132,252,.2);
-  color:var(--p);border-radius:50px;padding:5px 16px;
-  font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
-  margin-bottom:24px;
-}
-.hero h1{
-  font-family:'Cabinet Grotesk',sans-serif;
-  font-weight:900;font-size:clamp(2.2rem,5vw,3.6rem);
-  line-height:1.1;margin-bottom:18px;
-}
-.hero h1 .grad{
-  background:linear-gradient(135deg,var(--p),var(--p2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(192,132,252,.1);border:1px solid rgba(192,132,252,.2);color:var(--p);border-radius:50px;padding:5px 16px;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:24px}
+.hero h1{font-family:'Cabinet Grotesk',sans-serif;font-weight:900;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.1;margin-bottom:18px}
+.hero h1 .grad{background:linear-gradient(135deg,var(--p),var(--p2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{color:var(--muted);font-size:1rem;max-width:440px;margin:0 auto 36px;line-height:1.7}
 
-/* ── CONFIG CARD ─────────────────────────────── */
-.config-card{
-  background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);
-  padding:28px;max-width:560px;margin:0 auto 16px;
-}
-.config-card h3{
-  font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;
-  margin-bottom:4px;display:flex;align-items:center;gap:8px;
-}
+.config-card{background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);padding:28px;max-width:560px;margin:0 auto 16px}
+.config-card h3{font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;margin-bottom:4px;display:flex;align-items:center;gap:8px}
 .config-card p{color:var(--muted);font-size:.8rem;margin-bottom:16px;line-height:1.5}
 .input-row{display:flex;gap:8px;flex-wrap:wrap}
-.inp{
-  flex:1;min-width:0;
-  background:var(--s2);border:1px solid var(--border2);border-radius:10px;
-  color:var(--text);font-family:'Instrument Sans',sans-serif;font-size:.85rem;
-  padding:10px 14px;outline:none;transition:border-color .2s;
-}
+.inp{flex:1;min-width:0;background:var(--s2);border:1px solid var(--border2);border-radius:10px;color:var(--text);font-family:'Instrument Sans',sans-serif;font-size:.85rem;padding:10px 14px;outline:none;transition:border-color .2s}
 .inp:focus{border-color:var(--p)}
 .inp::placeholder{color:var(--muted)}
 .inp-full{width:100%;margin-bottom:10px}
-
-.alert2{
-  padding:10px 14px;border-radius:8px;font-size:.8rem;
-  margin-top:12px;display:flex;align-items:center;gap:8px;
-}
-.alert-ok {background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:var(--g)}
+.alert2{padding:10px 14px;border-radius:8px;font-size:.8rem;margin-top:12px;display:flex;align-items:center;gap:8px}
+.alert-ok{background:rgba(74,222,128,.08);border:1px solid rgba(74,222,128,.25);color:var(--g)}
 .alert-err{background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.25);color:var(--r)}
 .alert-warn{background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.25);color:var(--y)}
 
-/* ── UPLOAD ──────────────────────────────────── */
-.upload-card{
-  background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);
-  padding:28px;max-width:560px;margin:0 auto 56px;
-}
-.upload-card h3{
-  font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;
-  margin-bottom:16px;display:flex;align-items:center;gap:8px;
-}
-.drop-zone{
-  border:2px dashed var(--border2);border-radius:12px;
-  padding:28px;text-align:center;cursor:pointer;
-  transition:border-color .2s,background .2s;position:relative;
-}
-.drop-zone:hover,.drop-zone.dragover{
-  border-color:var(--p);background:rgba(192,132,252,.04);
-}
+.upload-card{background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);padding:28px;max-width:560px;margin:0 auto 56px}
+.upload-card h3{font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.drop-zone{border:2px dashed var(--border2);border-radius:12px;padding:28px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative}
+.drop-zone:hover,.drop-zone.dragover{border-color:var(--p);background:rgba(192,132,252,.04)}
 .drop-zone input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
 .drop-icon{font-size:2.2rem;margin-bottom:8px}
 .drop-zone p{font-size:.82rem;color:var(--muted)}
 .drop-zone strong{color:var(--p)}
 .upload-actions{margin-top:14px;display:flex;justify-content:flex-end}
-.upload-prog{
-  margin-top:12px;height:3px;background:var(--border);border-radius:99px;overflow:hidden;display:none;
-}
+.upload-prog{margin-top:12px;height:3px;background:var(--border);border-radius:99px;overflow:hidden;display:none}
 .upload-prog-fill{height:100%;background:linear-gradient(90deg,var(--p),var(--p2));width:0%;transition:width .3s}
 
-/* ── SECTION ─────────────────────────────────── */
-.sec-title{
-  font-family:'Cabinet Grotesk',sans-serif;font-weight:800;font-size:1.1rem;
-  margin-bottom:20px;display:flex;align-items:center;gap:12px;
-}
+.sec-title{font-family:'Cabinet Grotesk',sans-serif;font-weight:800;font-size:1.1rem;margin-bottom:20px;display:flex;align-items:center;gap:12px}
 .sec-title::after{content:'';flex:1;height:1px;background:var(--border)}
 
-/* ── GRID ────────────────────────────────────── */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+/* ── BUSCA / FILTRO ──────────────────────────── */
+.busca-wrap{margin-bottom:20px;display:flex;flex-direction:column;gap:10px}
+.busca-inp{width:100%;font-size:.88rem;padding:11px 16px;flex:none}
+.disc-tags{display:flex;flex-wrap:wrap;gap:6px}
+.disc-tag{padding:4px 14px;border-radius:50px;font-size:.73rem;font-weight:600;border:1px solid var(--border2);background:var(--s2);color:var(--muted);cursor:pointer;transition:all .18s}
+.disc-tag:hover{border-color:var(--p);color:var(--p)}
+.disc-tag.ativo{background:rgba(192,132,252,.15);border-color:var(--p);color:var(--p)}
 
-.card{
-  background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);
-  padding:22px;cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s;
-  display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden;
-  text-decoration:none;color:inherit;
-}
-.card::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:3px;
-  background:var(--c-accent,var(--p));
-}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);padding:22px;cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s;display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden;text-decoration:none;color:inherit}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--c-accent,var(--p))}
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.5);border-color:var(--border2)}
 .card-icon{font-size:1.9rem}
 .card-title{font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;line-height:1.3}
 .card-sub{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.card-hist{font-size:.73rem;color:var(--muted);display:flex;align-items:center;gap:5px}
+.card-hist .melhor{color:var(--g);font-weight:700}
 .card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
-.tag{
-  background:rgba(255,255,255,.05);border:1px solid var(--border);
-  border-radius:50px;padding:3px 10px;font-size:.7rem;color:var(--muted);
-}
+.tag{background:rgba(255,255,255,.05);border:1px solid var(--border);border-radius:50px;padding:3px 10px;font-size:.7rem;color:var(--muted)}
 .tag-p{background:rgba(192,132,252,.1);border-color:rgba(192,132,252,.2);color:var(--p)}
-
-.empty{
-  grid-column:1/-1;text-align:center;padding:52px 24px;
-  border:1px dashed var(--border);border-radius:var(--radius);color:var(--muted);
-}
+.empty{grid-column:1/-1;text-align:center;padding:52px 24px;border:1px dashed var(--border);border-radius:var(--radius);color:var(--muted)}
 .empty .em-icon{font-size:3rem;margin-bottom:12px}
 
-/* ── SPINNER ─────────────────────────────────── */
-.spinner{
-  width:36px;height:36px;border:3px solid var(--border2);
-  border-top-color:var(--p);border-radius:50%;
-  animation:spin .7s linear infinite;margin:32px auto;
-}
+.spinner{width:36px;height:36px;border:3px solid var(--border2);border-top-color:var(--p);border-radius:50%;animation:spin .7s linear infinite;margin:32px auto}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* ── PÁGINA ATIVIDADE ────────────────────────── */
 .ativ-hdr{margin-bottom:36px}
-.back{
-  display:inline-flex;align-items:center;gap:6px;
-  color:var(--muted);text-decoration:none;font-size:.83rem;
-  margin-bottom:18px;transition:color .2s;
-}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:.83rem;margin-bottom:18px;transition:color .2s}
 .back:hover{color:var(--text)}
-.ativ-hdr h1{
-  font-family:'Cabinet Grotesk',sans-serif;font-weight:900;
-  font-size:clamp(1.4rem,3vw,2rem);margin-bottom:6px;
-}
+.ativ-hdr h1{font-family:'Cabinet Grotesk',sans-serif;font-weight:900;font-size:clamp(1.4rem,3vw,2rem);margin-bottom:6px}
 .ativ-hdr p{color:var(--muted);font-size:.88rem}
-
-/* Progresso */
 .prog-wrap{margin-bottom:36px}
 .prog-labels{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);margin-bottom:6px}
 .prog-bar{height:5px;background:var(--border);border-radius:99px;overflow:hidden}
 .prog-fill{height:100%;background:linear-gradient(90deg,var(--p),var(--p2));transition:width .4s;width:0%}
 
-/* ── QUESTÃO ─────────────────────────────────── */
 .q-wrapper{display:none}
 .q-wrapper.on{display:block;animation:fadeUp .3s both}
-
-.q-card{
-  background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);
-  padding:30px;margin-bottom:16px;
-}
-.q-meta{
-  font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
-  margin-bottom:14px;display:flex;align-items:center;gap:8px;
-}
-.q-type{
-  background:rgba(192,132,252,.1);border:1px solid rgba(192,132,252,.2);
-  color:var(--p);border-radius:50px;padding:2px 10px;font-size:.68rem;
-}
+.q-card{background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);padding:30px;margin-bottom:16px}
+.q-meta{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.q-type{background:rgba(192,132,252,.1);border:1px solid rgba(192,132,252,.2);color:var(--p);border-radius:50px;padding:2px 10px;font-size:.68rem}
 .q-text{font-size:1rem;line-height:1.65;margin-bottom:26px;font-weight:500}
 
-/* Múltipla escolha */
 .opts{display:flex;flex-direction:column;gap:9px}
-.opt{
-  display:flex;align-items:flex-start;gap:12px;
-  padding:13px 16px;border:1px solid var(--border2);border-radius:10px;
-  cursor:pointer;transition:all .18s;background:var(--s2);
-}
+.opt{display:flex;align-items:flex-start;gap:12px;padding:13px 16px;border:1px solid var(--border2);border-radius:10px;cursor:pointer;transition:all .18s;background:var(--s2)}
 .opt:hover{border-color:var(--p);background:rgba(192,132,252,.05)}
 .opt input{display:none}
-.opt-l{
-  width:26px;height:26px;min-width:26px;border-radius:50%;
-  background:var(--border2);display:flex;align-items:center;justify-content:center;
-  font-size:.72rem;font-weight:700;font-family:'Cabinet Grotesk',sans-serif;
-  transition:all .18s;
-}
+.opt-l{width:26px;height:26px;min-width:26px;border-radius:50%;background:var(--border2);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;font-family:'Cabinet Grotesk',sans-serif;transition:all .18s}
 .opt-txt{line-height:1.5;font-size:.88rem;padding-top:3px}
-
 .opt.sel{border-color:var(--p);background:rgba(192,132,252,.07)}
 .opt.sel .opt-l{background:var(--p);color:#fff}
-.opt.ok {border-color:var(--g)!important;background:rgba(74,222,128,.07)!important}
-.opt.ok  .opt-l{background:var(--g)!important;color:#0a1a0e}
+.opt.ok{border-color:var(--g)!important;background:rgba(74,222,128,.07)!important}
+.opt.ok .opt-l{background:var(--g)!important;color:#0a1a0e}
 .opt.bad{border-color:var(--r)!important;background:rgba(248,113,113,.07)!important}
 .opt.bad .opt-l{background:var(--r)!important;color:#fff}
 .opt.disabled{pointer-events:none}
 
-/* V/F */
 .vf{display:flex;gap:10px}
-.vf-btn{
-  flex:1;padding:16px;border:1px solid var(--border2);border-radius:10px;
-  background:var(--s2);color:var(--text);font-size:.95rem;font-weight:700;
-  cursor:pointer;transition:all .18s;font-family:'Cabinet Grotesk',sans-serif;
-  display:flex;align-items:center;justify-content:center;gap:8px;
-}
+.vf-btn{flex:1;padding:16px;border:1px solid var(--border2);border-radius:10px;background:var(--s2);color:var(--text);font-size:.95rem;font-weight:700;cursor:pointer;transition:all .18s;font-family:'Cabinet Grotesk',sans-serif;display:flex;align-items:center;justify-content:center;gap:8px}
 .vf-btn:hover{border-color:var(--p);background:rgba(192,132,252,.07)}
-.vf-btn.sel {border-color:var(--p);background:rgba(192,132,252,.1)}
-.vf-btn.ok  {border-color:var(--g)!important;background:rgba(74,222,128,.08)!important;color:var(--g)}
-.vf-btn.bad {border-color:var(--r)!important;background:rgba(248,113,113,.08)!important;color:var(--r)}
+.vf-btn.sel{border-color:var(--p);background:rgba(192,132,252,.1)}
+.vf-btn.ok{border-color:var(--g)!important;background:rgba(74,222,128,.08)!important;color:var(--g)}
+.vf-btn.bad{border-color:var(--r)!important;background:rgba(248,113,113,.08)!important;color:var(--r)}
 .vf-btn.disabled{pointer-events:none}
 
-/* Ligar */
 .ligar-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
 .ligar-col-hdr{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:4px}
-.ligar-item{
-  padding:11px 14px;border:1px solid var(--border2);border-radius:8px;
-  font-size:.83rem;line-height:1.4;transition:all .18s;background:var(--s2);
-  cursor:pointer;user-select:none;margin-bottom:7px;
-}
+.ligar-item{padding:11px 14px;border:1px solid var(--border2);border-radius:8px;font-size:.83rem;line-height:1.4;transition:all .18s;background:var(--s2);cursor:pointer;user-select:none;margin-bottom:7px}
 .ligar-item:hover:not(.ligado){border-color:var(--p)}
-.ligar-item.sel  {border-color:var(--p);background:rgba(192,132,252,.08)}
+.ligar-item.sel{border-color:var(--p);background:rgba(192,132,252,.08)}
 .ligar-item.ligado{opacity:.45;cursor:default}
-.ligar-item.ok  {border-color:var(--g)!important;background:rgba(74,222,128,.07)!important}
-.ligar-item.bad {border-color:var(--r)!important;background:rgba(248,113,113,.07)!important}
-
+.ligar-item.ok{border-color:var(--g)!important;background:rgba(74,222,128,.07)!important}
+.ligar-item.bad{border-color:var(--r)!important;background:rgba(248,113,113,.07)!important}
 .pares-feitos{grid-column:1/-1;display:flex;flex-direction:column;gap:7px;margin-top:4px}
-.par{
-  display:flex;align-items:center;gap:8px;
-  background:rgba(192,132,252,.07);border:1px solid rgba(192,132,252,.18);
-  border-radius:8px;padding:9px 13px;font-size:.8rem;
-}
+.par{display:flex;align-items:center;gap:8px;background:rgba(192,132,252,.07);border:1px solid rgba(192,132,252,.18);border-radius:8px;padding:9px 13px;font-size:.8rem}
 .par span{flex:1;line-height:1.4}
 .par .arrow{color:var(--p);font-weight:700;font-size:.9rem}
-.par .rm{
-  background:none;border:none;color:var(--muted);
-  cursor:pointer;font-size:.85rem;padding:2px 6px;border-radius:4px;transition:color .15s;
-}
+.par .rm{background:none;border:none;color:var(--muted);cursor:pointer;font-size:.85rem;padding:2px 6px;border-radius:4px;transition:color .15s}
 .par .rm:hover{color:var(--r)}
 
-/* Feedback */
-.feedback{
-  margin-top:18px;padding:15px 18px;border-radius:10px;
-  font-size:.85rem;line-height:1.6;display:none;animation:fadeUp .25s;
-}
-.feedback.ok {display:block;background:rgba(74,222,128,.07);border:1px solid rgba(74,222,128,.22);color:var(--g)}
+.feedback{margin-top:18px;padding:15px 18px;border-radius:10px;font-size:.85rem;line-height:1.6;display:none;animation:fadeUp .25s}
+.feedback.ok{display:block;background:rgba(74,222,128,.07);border:1px solid rgba(74,222,128,.22);color:var(--g)}
 .feedback.bad{display:block;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.22);color:var(--r)}
 .feedback strong{display:block;margin-bottom:4px}
 .feedback .exp{color:var(--text);opacity:.8;font-size:.82rem}
 
-/* Nav questão */
 .q-nav{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .q-nav .center{color:var(--muted);font-size:.78rem;flex:1;text-align:center}
 
-/* ── RESULTADO ───────────────────────────────── */
-.resultado{
-  background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);
-  padding:52px 32px;text-align:center;
-}
+.resultado{background:var(--s1);border:1px solid var(--border);border-radius:var(--radius);padding:52px 32px;text-align:center}
 .res-emoji{font-size:4rem;margin-bottom:12px}
-.res-score{
-  font-family:'Cabinet Grotesk',sans-serif;font-weight:900;font-size:4.5rem;
-  background:linear-gradient(135deg,var(--p),var(--p2));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  margin-bottom:4px;
-}
+.res-score{font-family:'Cabinet Grotesk',sans-serif;font-weight:900;font-size:4.5rem;background:linear-gradient(135deg,var(--p),var(--p2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:4px}
 .res-detalhe{color:var(--muted);font-size:.88rem;margin-bottom:8px}
 .res-titulo{font-family:'Cabinet Grotesk',sans-serif;font-weight:800;font-size:1.5rem;margin-bottom:8px}
 .res-msg{color:var(--muted);margin-bottom:36px;font-size:.92rem}
 .res-acoes{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
-
 .gabarito{text-align:left}
 .gab-title{font-family:'Cabinet Grotesk',sans-serif;font-weight:700;font-size:.95rem;margin-bottom:14px}
-.gab-item{
-  display:flex;align-items:flex-start;gap:10px;
-  padding:12px 0;border-bottom:1px solid var(--border);font-size:.85rem;line-height:1.5;
-}
+.gab-item{display:flex;align-items:flex-start;gap:10px;padding:12px 0;border-bottom:1px solid var(--border);font-size:.85rem;line-height:1.5}
 .gab-item:last-child{border-bottom:none}
 .gab-icon{font-size:1rem;min-width:20px;text-align:center;margin-top:1px}
 
-/* ── MODAL ───────────────────────────────────── */
-.modal-bg{
-  position:fixed;inset:0;background:rgba(0,0,0,.7);
-  backdrop-filter:blur(6px);z-index:300;
-  display:none;align-items:center;justify-content:center;padding:24px;
-}
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(6px);z-index:300;display:none;align-items:center;justify-content:center;padding:24px}
 .modal-bg.open{display:flex;animation:fadeUp .2s}
-.modal{
-  background:var(--s1);border:1px solid var(--border2);border-radius:20px;
-  padding:32px;width:100%;max-width:440px;
-}
+.modal{background:var(--s1);border:1px solid var(--border2);border-radius:20px;padding:32px;width:100%;max-width:440px}
 .modal h3{font-family:'Cabinet Grotesk',sans-serif;font-weight:800;font-size:1.1rem;margin-bottom:8px}
 .modal p{color:var(--muted);font-size:.85rem;margin-bottom:20px;line-height:1.6}
 .modal-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
 
-/* ── FOOTER ──────────────────────────────────── */
-footer{
-  position:relative;z-index:1;text-align:center;
-  padding:24px;border-top:1px solid var(--border);
-  color:var(--muted);font-size:.78rem;
-}
+footer{position:relative;z-index:1;text-align:center;padding:24px;border-top:1px solid var(--border);color:var(--muted);font-size:.78rem}
 footer span{color:var(--p)}
 
-/* ── RESPONSIVO / MOBILE ─────────────────────── */
 @media(max-width:768px){
   .modal-bg{padding:0;align-items:flex-end}
-  .modal{
-    border-radius:24px 24px 0 0;max-width:100%;
-    padding:28px 22px calc(28px + env(safe-area-inset-bottom,0px));
-  }
+  .modal{border-radius:24px 24px 0 0;max-width:100%;padding:28px 22px calc(28px + env(safe-area-inset-bottom,0px))}
 }
 @media(max-width:600px){
   #hdrStatus{display:none}
@@ -434,14 +206,7 @@ footer span{color:var(--p)}
   .ligar-col-hdr{display:block!important}
   .ligar-col-hdr:last-of-type{margin-top:12px}
   .ligar-item{padding:13px 12px;font-size:.84rem;min-height:46px}
-  .q-nav{
-    position:sticky;bottom:0;z-index:50;
-    background:rgba(7,7,15,.94);
-    backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
-    border-top:1px solid var(--border);
-    padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));
-    margin-top:16px;
-  }
+  .q-nav{position:sticky;bottom:0;z-index:50;background:rgba(7,7,15,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--border);padding:10px 0 calc(10px + env(safe-area-inset-bottom,0px));margin-top:16px}
   .q-nav .btn{flex:1;justify-content:center;min-height:46px}
   .q-nav .center{display:none}
   .resultado{padding:28px 14px}
@@ -452,18 +217,12 @@ footer span{color:var(--p)}
   .ativ-hdr h1{font-size:1.25rem}
   .prog-wrap{margin-bottom:24px}
 }
-
-/* ── SHAKE ───────────────────────────────────── */
-@keyframes shake{
-  0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}
-  40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}
-}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 .shake{animation:shake .3s}
 </style>
 </head>
 <body>
 
-<!-- ── HEADER ─────────────────────────────────── -->
 <header>
   <div class="hdr">
     <a href="#" class="logo" onclick="irHome()">📖 Central de Estudo Mozão</a>
@@ -474,19 +233,14 @@ footer span{color:var(--p)}
   </div>
 </header>
 
-<!-- ── MAIN ───────────────────────────────────── -->
 <main>
-
-  <!-- ═══ HOME ══════════════════════════════════ -->
   <div class="page active" id="pageHome">
-
     <div class="hero">
       <div class="badge">✨ Plataforma de Estudos</div>
       <h1>Estude com <span class="grad">inteligência</span><br>e carinho 💜</h1>
       <p>Importe conjuntos de atividades em JSON e estude com correção automática em qualquer dispositivo.</p>
     </div>
 
-    <!-- Upload -->
     <div class="upload-card" id="uploadCard">
       <h3>📤 Importar Atividades (.json)</h3>
       <div class="drop-zone" id="dropZone">
@@ -501,15 +255,14 @@ footer span{color:var(--p)}
       </div>
     </div>
 
-    <!-- Lista -->
     <div class="sec-title">📚 Meus Conjuntos</div>
-    <div id="listaContainer">
-      <div class="spinner"></div>
+    <div class="busca-wrap" id="buscaWrap" style="display:none">
+      <input class="inp busca-inp" id="buscaInp" placeholder="🔍 Buscar por título ou disciplina..." oninput="filtrarAtividades()">
+      <div id="discTags" class="disc-tags"></div>
     </div>
+    <div id="listaContainer"><div class="spinner"></div></div>
+  </div>
 
-  </div><!-- /pageHome -->
-
-  <!-- ═══ ATIVIDADE ══════════════════════════════ -->
   <div class="page" id="pageAtiv">
     <div class="ativ-hdr">
       <a href="#" class="back" onclick="irHome();return false">← Voltar</a>
@@ -525,10 +278,8 @@ footer span{color:var(--p)}
     </div>
     <div id="questoesWrap"></div>
   </div>
-
 </main>
 
-<!-- ── MODAL CONFIG ────────────────────────────── -->
 <div class="modal-bg" id="modalConfig">
   <div class="modal">
     <h3>⚙️ Configurar GitHub</h3>
@@ -544,10 +295,8 @@ footer span{color:var(--p)}
   </div>
 </div>
 
-<!-- ── FOOTER ──────────────────────────────────── -->
 <footer>Feito por <span>mozin</span> com muito 💜</footer>
 
-<!-- ── SCRIPT ──────────────────────────────────── -->
 <script>
 // ═══════════════════════════════════════════════
 // AUTO-CONFIG
@@ -567,52 +316,39 @@ footer span{color:var(--p)}
 // CONFIG GITHUB
 // ═══════════════════════════════════════════════
 const CFG_KEY = 'mozao_gh_config';
-
-function getCfg(){
-  try{ return JSON.parse(localStorage.getItem(CFG_KEY)||'{}'); }catch(e){ return {}; }
-}
+function getCfg(){ try{ return JSON.parse(localStorage.getItem(CFG_KEY)||'{}'); }catch(e){ return {}; } }
 function saveCfg(o){ localStorage.setItem(CFG_KEY, JSON.stringify(o)); }
-
-function temConfig(){
-  const c = getCfg();
-  return c.owner && c.repo && c.token;
-}
+function temConfig(){ const c=getCfg(); return c.owner&&c.repo&&c.token; }
 
 function atualizarStatusHeader(){
   const el = document.getElementById('hdrStatus');
-  if(temConfig()){
-    const c = getCfg();
-    el.textContent = `📡 ${c.owner}/${c.repo}`;
-    el.style.color = 'var(--g)';
-  } else {
-    el.textContent = '⚠️ GitHub não configurado';
-    el.style.color = 'var(--y)';
-  }
+  if(temConfig()){ const c=getCfg(); el.textContent=`📡 ${c.owner}/${c.repo}`; el.style.color='var(--g)'; }
+  else { el.textContent='⚠️ GitHub não configurado'; el.style.color='var(--y)'; }
 }
 
 function abrirConfig(){
-  const c = getCfg();
-  document.getElementById('mOwner').value = c.owner||'';
-  document.getElementById('mRepo').value  = c.repo||'';
-  document.getElementById('mToken').value = c.token||'';
-  document.getElementById('mMsg').innerHTML = '';
+  const c=getCfg();
+  document.getElementById('mOwner').value=c.owner||'';
+  document.getElementById('mRepo').value=c.repo||'';
+  document.getElementById('mToken').value=c.token||'';
+  document.getElementById('mMsg').innerHTML='';
   document.getElementById('modalConfig').classList.add('open');
 }
 function fecharModal(){ document.getElementById('modalConfig').classList.remove('open'); }
 
 async function salvarConfigModal(){
-  const owner = document.getElementById('mOwner').value.trim();
-  const repo  = document.getElementById('mRepo').value.trim();
-  const token = document.getElementById('mToken').value.trim();
-  const msg   = document.getElementById('mMsg');
+  const owner=document.getElementById('mOwner').value.trim();
+  const repo=document.getElementById('mRepo').value.trim();
+  const token=document.getElementById('mToken').value.trim();
+  const msg=document.getElementById('mMsg');
   if(!owner||!repo||!token){ msg.innerHTML='<div class="alert2 alert-err">❌ Preencha todos os campos.</div>'; return; }
   msg.innerHTML='<div class="alert2 alert-warn">🔄 Verificando...</div>';
-  const ok = await testarGitHub(owner,repo,token);
+  const ok=await testarGitHub(owner,repo,token);
   if(ok){
     saveCfg({owner,repo,token});
     msg.innerHTML='<div class="alert2 alert-ok">✅ Conectado com sucesso!</div>';
     atualizarStatusHeader();
-    setTimeout(()=>{ fecharModal(); carregarLista(); }, 1200);
+    setTimeout(()=>{ fecharModal(); carregarLista(); },1200);
   } else {
     msg.innerHTML='<div class="alert2 alert-err">❌ Não foi possível conectar. Verifique os dados e se o repositório existe.</div>';
   }
@@ -620,9 +356,7 @@ async function salvarConfigModal(){
 
 async function testarGitHub(owner,repo,token){
   try{
-    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}`,{
-      headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}
-    });
+    const r=await fetch(`https://api.github.com/repos/${owner}/${repo}`,{headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}});
     return r.ok;
   }catch(e){ return false; }
 }
@@ -630,200 +364,204 @@ async function testarGitHub(owner,repo,token){
 // ═══════════════════════════════════════════════
 // GITHUB API
 // ═══════════════════════════════════════════════
-const PASTA = 'atividades';
+const PASTA='atividades';
 
 async function listarArquivos(){
-  const {owner,repo,token} = getCfg();
-  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${PASTA}`,{
-    headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}
-  });
+  const {owner,repo,token}=getCfg();
+  const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${PASTA}`,{headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}});
   if(r.status===404) return [];
   if(!r.ok) throw new Error('Erro ao listar arquivos');
-  const arr = await r.json();
+  const arr=await r.json();
   return arr.filter(f=>f.name.endsWith('.json'));
 }
 
 async function baixarArquivo(path){
-  const {owner,repo,token} = getCfg();
-  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{
-    headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}
-  });
+  const {owner,repo,token}=getCfg();
+  const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}});
   if(!r.ok) throw new Error('Erro ao baixar arquivo');
-  const data = await r.json();
+  const data=await r.json();
   return JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g,'')))));
 }
 
-async function uploadArquivo(nome, conteudo){
-  const {owner,repo,token} = getCfg();
-  const path = `${PASTA}/${nome}`;
-
-  // Verificar se já existe (pegar SHA)
-  let sha = undefined;
+async function uploadArquivo(nome,conteudo){
+  const {owner,repo,token}=getCfg();
+  const path=`${PASTA}/${nome}`;
+  let sha=undefined;
   try{
-    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{
-      headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}
-    });
-    if(r.ok){ const d = await r.json(); sha = d.sha; }
+    const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json'}});
+    if(r.ok){ const d=await r.json(); sha=d.sha; }
   }catch(e){}
-
-  const body = {
-    message: `Adicionar atividade: ${nome}`,
-    content: btoa(unescape(encodeURIComponent(JSON.stringify(conteudo,null,2))))
-  };
-  if(sha) body.sha = sha;
-
-  const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{
-    method:'PUT',
-    headers:{
-      'Authorization':`token ${token}`,
-      'Accept':'application/vnd.github.v3+json',
-      'Content-Type':'application/json'
-    },
-    body: JSON.stringify(body)
-  });
-  if(!r.ok){ const e = await r.json(); throw new Error(e.message||'Erro no upload'); }
+  const body={message:`Adicionar atividade: ${nome}`,content:btoa(unescape(encodeURIComponent(JSON.stringify(conteudo,null,2))))};
+  if(sha) body.sha=sha;
+  const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{method:'PUT',headers:{'Authorization':`token ${token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)});
+  if(!r.ok){ const e=await r.json(); throw new Error(e.message||'Erro no upload'); }
   return true;
+}
+
+// ═══════════════════════════════════════════════
+// HISTÓRICO
+// ═══════════════════════════════════════════════
+const HIST_KEY='mozao_historico';
+function getHistorico(){ try{ return JSON.parse(localStorage.getItem(HIST_KEY)||'{}'); }catch(e){ return {}; } }
+function salvarHistorico(id,pct,acertos,total){
+  if(!id) return;
+  const h=getHistorico();
+  if(!h[id]) h[id]=[];
+  h[id].unshift({data:new Date().toISOString(),pct,acertos,total});
+  if(h[id].length>10) h[id]=h[id].slice(0,10);
+  localStorage.setItem(HIST_KEY,JSON.stringify(h));
 }
 
 // ═══════════════════════════════════════════════
 // LISTA DE ATIVIDADES
 // ═══════════════════════════════════════════════
-let atividades = [];
+let atividades=[];
+let discFiltro='';
+let discsList=[];
 
 async function carregarLista(){
-  const container = document.getElementById('listaContainer');
-
+  const container=document.getElementById('listaContainer');
   if(!temConfig()){
-    container.innerHTML = `
-      <div class="empty">
-        <div class="em-icon">⚙️</div>
-        <p>Configure seu GitHub para salvar e acessar atividades em qualquer dispositivo.</p>
-        <br>
-        <button class="btn btn-primary" onclick="abrirConfig()">Configurar GitHub</button>
-      </div>`;
+    document.getElementById('buscaWrap').style.display='none';
+    container.innerHTML=`<div class="empty"><div class="em-icon">⚙️</div><p>Configure seu GitHub para salvar e acessar atividades em qualquer dispositivo.</p><br><button class="btn btn-primary" onclick="abrirConfig()">Configurar GitHub</button></div>`;
     return;
   }
-
-  container.innerHTML = '<div class="spinner"></div>';
-
+  container.innerHTML='<div class="spinner"></div>';
   try{
-    const arquivos = await listarArquivos();
-    atividades = [];
-
-    if(arquivos.length === 0){
-      container.innerHTML = `
-        <div class="empty">
-          <div class="em-icon">📭</div>
-          <p>Nenhum conjunto importado ainda.<br>Faça upload de um <strong>.json</strong> para começar.</p>
-        </div>`;
+    const arquivos=await listarArquivos();
+    atividades=[];
+    if(arquivos.length===0){
+      document.getElementById('buscaWrap').style.display='none';
+      container.innerHTML=`<div class="empty"><div class="em-icon">📭</div><p>Nenhum conjunto importado ainda.<br>Faça upload de um <strong>.json</strong> para começar.</p></div>`;
       return;
     }
-
-    // Baixar todos em paralelo
-    const dados = await Promise.all(arquivos.map(f=>baixarArquivo(f.path).catch(()=>null)));
-    atividades = dados.filter(d=>d&&d.questoes);
-
+    const dados=await Promise.all(arquivos.map(f=>baixarArquivo(f.path).catch(()=>null)));
+    atividades=dados.filter(d=>d&&d.questoes);
+    discFiltro='';
     renderLista();
   }catch(e){
-    container.innerHTML = `<div class="empty"><div class="em-icon">❌</div><p>Erro ao carregar: ${e.message}</p><br><button class="btn btn-ghost" onclick="carregarLista()">Tentar novamente</button></div>`;
+    container.innerHTML=`<div class="empty"><div class="em-icon">❌</div><p>Erro ao carregar: ${e.message}</p><br><button class="btn btn-ghost" onclick="carregarLista()">Tentar novamente</button></div>`;
   }
 }
 
 function renderLista(){
-  const container = document.getElementById('listaContainer');
   if(!atividades.length){
-    container.innerHTML = `<div class="empty"><div class="em-icon">📭</div><p>Nenhum conjunto ainda. Faça upload de um .json!</p></div>`;
+    document.getElementById('buscaWrap').style.display='none';
+    document.getElementById('listaContainer').innerHTML=`<div class="empty"><div class="em-icon">📭</div><p>Nenhum conjunto ainda. Faça upload de um .json!</p></div>`;
     return;
   }
-  const html = `<div class="grid">${atividades.map((a,i)=>{
-    const cor    = a.cor||'#c084fc';
-    const tipos  = [...new Set((a.questoes||[]).map(q=>q.tipo))];
+  document.getElementById('buscaWrap').style.display='flex';
+  document.getElementById('buscaInp').value='';
+  renderDiscTags();
+  renderGrid(atividades);
+}
+
+function renderGrid(arr){
+  const hist=getHistorico();
+  const container=document.getElementById('listaContainer');
+  if(!arr.length){
+    container.innerHTML=`<div class="empty"><div class="em-icon">🔍</div><p>Nenhum resultado encontrado.</p></div>`;
+    return;
+  }
+  const html=`<div class="grid">${arr.map(a=>{
+    const i=atividades.indexOf(a);
+    const cor=a.cor||'#c084fc';
+    const tipos=[...new Set((a.questoes||[]).map(q=>q.tipo))];
+    const h=hist[a.id];
+    const melhor=h?Math.max(...h.map(e=>e.pct)):null;
+    const tent=h?h.length:0;
     return `<div class="card" style="--c-accent:${cor}" onclick="abrirAtividade(${i})">
       <div class="card-icon">${a.icone||'📚'}</div>
       <div class="card-title">${esc(a.titulo||'Sem título')}</div>
       <div class="card-sub">${esc(a.disciplina||'')}</div>
+      ${melhor!==null?`<div class="card-hist">🏅 <span class="melhor">${melhor}%</span> · <span>${tent} ${tent===1?'tentativa':'tentativas'}</span></div>`:''}
       <div class="card-tags">
         <span class="tag tag-p">${(a.questoes||[]).length} questões</span>
         ${tipos.map(t=>`<span class="tag">${t.replace(/_/g,' ')}</span>`).join('')}
       </div>
     </div>`;
   }).join('')}</div>`;
-  container.innerHTML = html;
+  container.innerHTML=html;
+}
+
+function renderDiscTags(){
+  discsList=[...new Set(atividades.map(a=>a.disciplina||'').filter(Boolean))];
+  const el=document.getElementById('discTags');
+  if(discsList.length<=1){ el.innerHTML=''; return; }
+  el.innerHTML=discsList.map((d,i)=>`<span class="disc-tag${discFiltro===d?' ativo':''}" onclick="toggleDisc(${i})">${esc(d)}</span>`).join('');
+}
+
+function toggleDisc(i){
+  const d=discsList[i];
+  discFiltro=discFiltro===d?'':d;
+  renderDiscTags();
+  filtrarAtividades();
+}
+
+function filtrarAtividades(){
+  const q=(document.getElementById('buscaInp').value||'').toLowerCase().trim();
+  const filtradas=atividades.filter(a=>{
+    const matchQ=!q||(a.titulo||'').toLowerCase().includes(q)||(a.disciplina||'').toLowerCase().includes(q);
+    const matchD=!discFiltro||(a.disciplina||'')===discFiltro;
+    return matchQ&&matchD;
+  });
+  renderGrid(filtradas);
 }
 
 // ═══════════════════════════════════════════════
 // UPLOAD
 // ═══════════════════════════════════════════════
-let arquivoSelecionado = null;
+let arquivoSelecionado=null;
 
 function onFile(input){
-  const f = input.files[0];
+  const f=input.files[0];
   if(!f) return;
-  document.getElementById('dropIcon').textContent = '✅';
-  document.getElementById('dropTxt').innerHTML = `<strong>${esc(f.name)}</strong>`;
-  document.getElementById('btnUpload').disabled = false;
-  arquivoSelecionado = f;
+  document.getElementById('dropIcon').textContent='✅';
+  document.getElementById('dropTxt').innerHTML=`<strong>${esc(f.name)}</strong>`;
+  document.getElementById('btnUpload').disabled=false;
+  arquivoSelecionado=f;
 }
 
 async function fazerUpload(){
   if(!arquivoSelecionado) return;
-  if(!temConfig()){
-    mostrarMsg('uploadMsg','err','⚙️ Configure o GitHub primeiro clicando em "Config".');
-    return;
-  }
-
-  const btn = document.getElementById('btnUpload');
-  const prog = document.getElementById('uploadProg');
-  const progFill = document.getElementById('uploadProgFill');
-  btn.disabled = true;
-  btn.textContent = 'Enviando...';
-  prog.style.display = 'block';
-  progFill.style.width = '30%';
-
+  if(!temConfig()){ mostrarMsg('uploadMsg','err','⚙️ Configure o GitHub primeiro clicando em "Config".'); return; }
+  const btn=document.getElementById('btnUpload');
+  const prog=document.getElementById('uploadProg');
+  const progFill=document.getElementById('uploadProgFill');
+  btn.disabled=true; btn.textContent='Enviando...';
+  prog.style.display='block'; progFill.style.width='30%';
   try{
-    const texto = await arquivoSelecionado.text();
-    const dados = JSON.parse(texto);
-
-    if(!dados.questoes||!Array.isArray(dados.questoes))
-      throw new Error('JSON inválido — campo "questoes" não encontrado.');
-
-    progFill.style.width = '60%';
-    await uploadArquivo(arquivoSelecionado.name, dados);
-    progFill.style.width = '100%';
-
+    const texto=await arquivoSelecionado.text();
+    const dados=JSON.parse(texto);
+    if(!dados.questoes||!Array.isArray(dados.questoes)) throw new Error('JSON inválido — campo "questoes" não encontrado.');
+    progFill.style.width='60%';
+    await uploadArquivo(arquivoSelecionado.name,dados);
+    progFill.style.width='100%';
     mostrarMsg('uploadMsg','ok',`✅ "${esc(dados.titulo||arquivoSelecionado.name)}" importado com sucesso!`);
-    setTimeout(()=>{ carregarLista(); }, 800);
-
-    // Reset
-    document.getElementById('fileInput').value = '';
-    document.getElementById('dropIcon').textContent = '📄';
-    document.getElementById('dropTxt').innerHTML = '<strong>Clique para selecionar</strong> ou arraste um <strong>.json</strong>';
-    btn.disabled = true;
-    btn.textContent = 'Importar';
-    arquivoSelecionado = null;
-
+    setTimeout(()=>{ carregarLista(); },800);
+    document.getElementById('fileInput').value='';
+    document.getElementById('dropIcon').textContent='📄';
+    document.getElementById('dropTxt').innerHTML='<strong>Clique para selecionar</strong> ou arraste um <strong>.json</strong>';
+    btn.disabled=true; btn.textContent='Importar';
+    arquivoSelecionado=null;
   }catch(e){
     mostrarMsg('uploadMsg','err',`❌ ${e.message}`);
-    btn.disabled = false;
-    btn.textContent = 'Importar';
-  } finally{
-    setTimeout(()=>prog.style.display='none', 1000);
-  }
+    btn.disabled=false; btn.textContent='Importar';
+  }finally{ setTimeout(()=>prog.style.display='none',1000); }
 }
 
 function mostrarMsg(id,tipo,txt){
-  document.getElementById(id).innerHTML = `<div class="alert2 alert-${tipo==='ok'?'ok':'err'}">${txt}</div>`;
+  document.getElementById(id).innerHTML=`<div class="alert2 alert-${tipo==='ok'?'ok':'err'}">${txt}</div>`;
 }
 
-// Drag & drop
-const dz = document.getElementById('dropZone');
+const dz=document.getElementById('dropZone');
 if(dz){
   dz.addEventListener('dragover',e=>{ e.preventDefault(); dz.classList.add('dragover'); });
   dz.addEventListener('dragleave',()=>dz.classList.remove('dragover'));
   dz.addEventListener('drop',e=>{
     e.preventDefault(); dz.classList.remove('dragover');
-    const fi = document.getElementById('fileInput');
-    fi.files = e.dataTransfer.files;
+    const fi=document.getElementById('fileInput');
+    fi.files=e.dataTransfer.files;
     onFile(fi);
   });
 }
@@ -836,85 +574,88 @@ function showPage(id){
   document.getElementById(id).classList.add('active');
   window.scrollTo(0,0);
 }
-
-function irHome(){
-  showPage('pageHome');
-  carregarLista();
-}
+function irHome(){ showPage('pageHome'); carregarLista(); }
 
 // ═══════════════════════════════════════════════
 // ATIVIDADE
 // ═══════════════════════════════════════════════
-let atualAtiv = null;
-let respostas = {};
-let esqSel = null;
+let atualAtiv    = null;
+let atualAtivIdx = null;
+let questoesAtivas = [];
+let respostas    = {};
+let esqSel       = null;
+let modoRevisao  = false;
+
+function shuffle(arr){ const a=[...arr]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 function abrirAtividade(idx){
-  atualAtiv = atividades[idx];
-  respostas = {};
-  esqSel = null;
+  atualAtiv    = atividades[idx];
+  atualAtivIdx = idx;
+  respostas    = {};
+  esqSel       = null;
+  modoRevisao  = false;
+  questoesAtivas = shuffle(atualAtiv.questoes||[]);
+  document.getElementById('ativTitulo').textContent=(atualAtiv.icone||'')+' '+(atualAtiv.titulo||'Atividade');
+  document.getElementById('ativDesc').textContent=atualAtiv.descricao||'';
+  renderQuestoes();
+  showPage('pageAtiv');
+}
 
-  document.getElementById('ativTitulo').textContent = (atualAtiv.icone||'') + ' ' + (atualAtiv.titulo||'Atividade');
-  document.getElementById('ativDesc').textContent = atualAtiv.descricao||'';
-
+function iniciarRevisao(){
+  const erros=questoesAtivas.filter((_,i)=>respostas[i]===false);
+  if(!erros.length) return;
+  respostas={};
+  esqSel=null;
+  modoRevisao=true;
+  questoesAtivas=erros;
+  document.getElementById('ativTitulo').textContent='🔁 Revisando Erros';
+  document.getElementById('ativDesc').textContent=`${erros.length} questão${erros.length>1?'es':''} para revisar`;
   renderQuestoes();
   showPage('pageAtiv');
 }
 
 function renderQuestoes(){
-  const wrap = document.getElementById('questoesWrap');
-  const qs = atualAtiv.questoes||[];
-  const total = qs.length;
-
-  atualizarProgresso(0, total);
-
-  let html = '';
+  const wrap=document.getElementById('questoesWrap');
+  const qs=questoesAtivas;
+  const total=qs.length;
+  atualizarProgresso(0,total);
+  let html='';
   qs.forEach((q,i)=>{
-    html += `<div class="q-wrapper${i===0?' on':''}" id="qw${i}" data-idx="${i}">`;
-    html += `<div class="q-card">`;
-    html += `<div class="q-meta">Questão ${i+1} de ${total} <span class="q-type">${q.tipo.replace(/_/g,' ')}</span></div>`;
-    html += `<div class="q-text">${esc(q.enunciado)}</div>`;
-
-    if(q.tipo==='multipla_escolha'){
-      html += renderMC(q,i);
-    } else if(q.tipo==='verdadeiro_falso'){
-      html += renderVF(q,i);
-    } else if(q.tipo==='ligar_colunas'){
-      html += renderLC(q,i);
-    }
-
-    html += `<div class="feedback" id="fb${i}"><strong id="fbt${i}"></strong><span class="exp" id="fbx${i}"></span></div>`;
-    html += `</div>`;
-
-    // Nav
-    html += `<div class="q-nav">`;
-    html += i>0 ? `<button class="btn btn-ghost" onclick="navQ(${i},${i-1})">← Anterior</button>` : `<span></span>`;
-    html += `<span class="center" id="qninfo${i}"></span>`;
-    html += `<button class="btn btn-primary" id="qnbtn${i}" onclick="confirmar(${i},'${q.tipo}',${total})">Confirmar</button>`;
-    html += `</div>`;
-    html += `</div>`;
+    html+=`<div class="q-wrapper${i===0?' on':''}" id="qw${i}" data-idx="${i}">`;
+    html+=`<div class="q-card">`;
+    html+=`<div class="q-meta">Questão ${i+1} de ${total} <span class="q-type">${q.tipo.replace(/_/g,' ')}</span></div>`;
+    html+=`<div class="q-text">${esc(q.enunciado)}</div>`;
+    if(q.tipo==='multipla_escolha') html+=renderMC(q,i);
+    else if(q.tipo==='verdadeiro_falso') html+=renderVF(q,i);
+    else if(q.tipo==='ligar_colunas') html+=renderLC(q,i);
+    html+=`<div class="feedback" id="fb${i}"><strong id="fbt${i}"></strong><span class="exp" id="fbx${i}"></span></div>`;
+    html+=`</div>`;
+    html+=`<div class="q-nav">`;
+    html+=i>0?`<button class="btn btn-ghost" onclick="navQ(${i},${i-1})">← Anterior</button>`:`<span></span>`;
+    html+=`<span class="center" id="qninfo${i}"></span>`;
+    html+=`<button class="btn btn-primary" id="qnbtn${i}" onclick="confirmar(${i},'${q.tipo}',${total})">Confirmar</button>`;
+    html+=`</div></div>`;
   });
-
-  // Resultado
-  html += `<div class="q-wrapper" id="qwResultado"><div class="resultado" id="resultadoCard"></div></div>`;
-  wrap.innerHTML = html;
+  html+=`<div class="q-wrapper" id="qwResultado"><div class="resultado" id="resultadoCard"></div></div>`;
+  wrap.innerHTML=html;
 }
 
 function renderMC(q,i){
-  const letras = ['A','B','C','D','E','F'];
-  let h = `<div class="opts" data-correta="${esc(String(q.resposta))}">`;
-  (q.opcoes||[]).forEach((op,oi)=>{
-    h += `<label class="opt" onclick="selOpt(this)">
+  const letras=['A','B','C','D','E','F'];
+  const opcoes=shuffle(q.opcoes||[]);
+  let h=`<div class="opts" data-correta="${esc(String(q.resposta))}">`;
+  opcoes.forEach((op,oi)=>{
+    h+=`<label class="opt" onclick="selOpt(this)">
       <input type="radio" name="q${i}" value="${esc(op)}">
       <span class="opt-l">${letras[oi]}</span>
       <span class="opt-txt">${esc(op)}</span>
     </label>`;
   });
-  return h + `</div>`;
+  return h+`</div>`;
 }
 
 function renderVF(q,i){
-  const corr = (q.resposta===true||q.resposta==='true') ? 'true' : 'false';
+  const corr=(q.resposta===true||q.resposta==='true')?'true':'false';
   return `<div class="vf" data-correta="${corr}">
     <button class="vf-btn" onclick="selVF(this,'true')">✅ Verdadeiro</button>
     <button class="vf-btn" onclick="selVF(this,'false')">❌ Falso</button>
@@ -922,32 +663,32 @@ function renderVF(q,i){
 }
 
 function renderLC(q,i){
-  const pares = q.pares||[];
-  const esqs  = pares.map(p=>p.esquerda);
-  const dirs  = [...pares.map(p=>p.direita)].sort(()=>Math.random()-.5);
-  let h = `<div class="ligar-grid" data-pares='${JSON.stringify(pares)}'>`;
-  h += `<div><div class="ligar-col-hdr">Coluna A</div>`;
+  const pares=q.pares||[];
+  const esqs=pares.map(p=>p.esquerda);
+  const dirs=shuffle(pares.map(p=>p.direita));
+  let h=`<div class="ligar-grid" data-pares='${JSON.stringify(pares)}'>`;
+  h+=`<div><div class="ligar-col-hdr">Coluna A</div>`;
   esqs.forEach(e=>{ h+=`<div class="ligar-item ligar-esq" data-val="${esc(e)}" onclick="selLigar(this,'esq',${i})">${esc(e)}</div>`; });
-  h += `</div><div><div class="ligar-col-hdr">Coluna B</div>`;
+  h+=`</div><div><div class="ligar-col-hdr">Coluna B</div>`;
   dirs.forEach(d=>{ h+=`<div class="ligar-item ligar-dir" data-val="${esc(d)}" onclick="selLigar(this,'dir',${i})">${esc(d)}</div>`; });
-  h += `</div><div class="pares-feitos" id="pf${i}"></div></div>`;
+  h+=`</div><div class="pares-feitos" id="pf${i}"></div></div>`;
   return h;
 }
 
 // ── Interações ────────────────────────────────
 function selOpt(lbl){
-  const w = lbl.closest('.q-wrapper');
+  const w=lbl.closest('.q-wrapper');
   if(respostas[w.dataset.idx]!==undefined) return;
   w.querySelectorAll('.opt').forEach(o=>o.classList.remove('sel'));
   lbl.classList.add('sel');
 }
 
 function selVF(btn,val){
-  const w = btn.closest('.q-wrapper');
+  const w=btn.closest('.q-wrapper');
   if(respostas[w.dataset.idx]!==undefined) return;
   w.querySelectorAll('.vf-btn').forEach(b=>b.classList.remove('sel'));
   btn.classList.add('sel');
-  btn.dataset.sel = val;
+  btn.dataset.sel=val;
 }
 
 function selLigar(el,lado,idx){
@@ -955,148 +696,179 @@ function selLigar(el,lado,idx){
   if(lado==='esq'){
     document.querySelectorAll(`#qw${idx} .ligar-esq`).forEach(e=>e.classList.remove('sel'));
     el.classList.add('sel');
-    esqSel = el;
+    esqSel=el;
   } else {
     if(!esqSel) return;
-    const ev = esqSel.dataset.val;
-    const dv = el.dataset.val;
+    const ev=esqSel.dataset.val, dv=el.dataset.val;
     esqSel.classList.add('ligado'); esqSel.classList.remove('sel');
     el.classList.add('ligado');
-    esqSel = null;
-
-    const pf = document.getElementById(`pf${idx}`);
-    const par = document.createElement('div');
+    esqSel=null;
+    const pf=document.getElementById(`pf${idx}`);
+    const par=document.createElement('div');
     par.className='par'; par.dataset.esq=ev; par.dataset.dir=dv;
-    par.innerHTML=`<span>${esc(ev)}</span><span class="arrow">→</span><span>${esc(dv)}</span>
-      <button class="rm" onclick="rmPar(this,${idx})" title="Remover">✕</button>`;
+    par.innerHTML=`<span>${esc(ev)}</span><span class="arrow">→</span><span>${esc(dv)}</span><button class="rm" onclick="rmPar(this,${idx})" title="Remover">✕</button>`;
     pf.appendChild(par);
   }
 }
 
 function rmPar(btn,idx){
-  const par = btn.closest('.par');
-  const w = document.getElementById(`qw${idx}`);
+  const par=btn.closest('.par');
+  const w=document.getElementById(`qw${idx}`);
   w.querySelectorAll('.ligar-esq').forEach(e=>{ if(e.dataset.val===par.dataset.esq) e.classList.remove('ligado','sel'); });
   w.querySelectorAll('.ligar-dir').forEach(e=>{ if(e.dataset.val===par.dataset.dir) e.classList.remove('ligado','sel'); });
   par.remove();
 }
 
 // ── Confirmar ─────────────────────────────────
-function confirmar(idx, tipo, total){
-  const w   = document.getElementById(`qw${idx}`);
-  const fb  = document.getElementById(`fb${idx}`);
-  const fbt = document.getElementById(`fbt${idx}`);
-  const fbx = document.getElementById(`fbx${idx}`);
-  const btn = document.getElementById(`qnbtn${idx}`);
-  const explicacao = (atualAtiv.questoes[idx] && atualAtiv.questoes[idx].explicacao) || '';
-  let acertou = false;
+function confirmar(idx,tipo,total){
+  const w=document.getElementById(`qw${idx}`);
+  const fb=document.getElementById(`fb${idx}`);
+  const fbt=document.getElementById(`fbt${idx}`);
+  const fbx=document.getElementById(`fbx${idx}`);
+  const btn=document.getElementById(`qnbtn${idx}`);
+  const explicacao=(questoesAtivas[idx]&&questoesAtivas[idx].explicacao)||'';
+  let acertou=false;
 
   if(tipo==='multipla_escolha'){
-    const sel = w.querySelector('.opt.sel');
+    const sel=w.querySelector('.opt.sel');
     if(!sel){ shake(btn); return; }
-    const val = sel.querySelector('input').value;
-    const corr = w.querySelector('.opts').dataset.correta;
-    acertou = val===corr;
+    const val=sel.querySelector('input').value;
+    const corr=w.querySelector('.opts').dataset.correta;
+    acertou=val===corr;
     w.querySelectorAll('.opt').forEach(o=>{
-      const v = o.querySelector('input').value;
+      const v=o.querySelector('input').value;
       if(v===corr) o.classList.add('ok');
       else if(o.classList.contains('sel')&&!acertou) o.classList.add('bad');
       o.classList.add('disabled');
     });
-
   } else if(tipo==='verdadeiro_falso'){
-    const sel = w.querySelector('.vf-btn.sel');
+    const sel=w.querySelector('.vf-btn.sel');
     if(!sel){ shake(btn); return; }
-    const corr = w.querySelector('.vf').dataset.correta;
-    acertou = sel.dataset.sel===corr;
+    const corr=w.querySelector('.vf').dataset.correta;
+    acertou=sel.dataset.sel===corr;
     w.querySelectorAll('.vf-btn').forEach(b=>{
       if(b.dataset.sel===corr) b.classList.add('ok');
       else if(b.classList.contains('sel')&&!acertou) b.classList.add('bad');
       b.classList.add('disabled');
     });
-
   } else if(tipo==='ligar_colunas'){
-    const pares = JSON.parse(w.querySelector('.ligar-grid').dataset.pares);
-    const conexoes = w.querySelectorAll('.par');
+    const pares=JSON.parse(w.querySelector('.ligar-grid').dataset.pares);
+    const conexoes=w.querySelectorAll('.par');
     if(conexoes.length<pares.length){ shake(btn); return; }
     let certos=0;
     conexoes.forEach(c=>{
-      const par = pares.find(p=>p.esquerda===c.dataset.esq);
-      const ok = par && par.direita===c.dataset.dir;
+      const par=pares.find(p=>p.esquerda===c.dataset.esq);
+      const ok=par&&par.direita===c.dataset.dir;
       if(ok) certos++;
       w.querySelectorAll('.ligar-esq').forEach(e=>{ if(e.dataset.val===c.dataset.esq) e.classList.add(ok?'ok':'bad'); });
       w.querySelectorAll('.ligar-dir').forEach(e=>{ if(e.dataset.val===c.dataset.dir) e.classList.add(ok?'ok':'bad'); });
     });
-    acertou = certos===pares.length;
+    acertou=certos===pares.length;
     w.querySelectorAll('.rm').forEach(b=>b.style.display='none');
     w.querySelectorAll('.ligar-esq,.ligar-dir').forEach(e=>e.style.pointerEvents='none');
   }
 
-  respostas[idx] = acertou;
-  atualizarProgresso(Object.keys(respostas).length, total);
-
-  fb.className = 'feedback '+(acertou?'ok':'bad');
-  fbt.textContent = acertou ? '✅ Correto!' : '❌ Incorreto!';
-  fbx.textContent = explicacao;
-
+  respostas[idx]=acertou;
+  atualizarProgresso(Object.keys(respostas).length,total);
+  fb.className='feedback '+(acertou?'ok':'bad');
+  fbt.textContent=acertou?'✅ Correto!':'❌ Incorreto!';
+  fbx.textContent=explicacao;
   btn.style.display='none';
 
-  const next = document.createElement('button');
-  next.className = 'btn '+(acertou?'btn-green':'btn-primary');
-  next.textContent = (idx+1>=total) ? 'Ver Resultado →' : 'Próxima →';
-  next.onclick = ()=>navQ(idx,idx+1);
+  const next=document.createElement('button');
+  next.className='btn '+(acertou?'btn-green':'btn-primary');
+  next.textContent=(idx+1>=total)?'Ver Resultado →':'Próxima →';
+  next.onclick=()=>navQ(idx,idx+1);
   w.querySelector('.q-nav').appendChild(next);
 }
 
 function navQ(atual,dest){
   document.querySelectorAll('.q-wrapper').forEach(w=>w.classList.remove('on'));
-  const alvo = dest>=atualAtiv.questoes.length
-    ? document.getElementById('qwResultado')
-    : document.getElementById(`qw${dest}`);
+  const alvo=dest>=questoesAtivas.length
+    ?document.getElementById('qwResultado')
+    :document.getElementById(`qw${dest}`);
   if(alvo){ alvo.classList.add('on'); alvo.scrollIntoView({behavior:'smooth',block:'start'}); }
-  if(dest>=atualAtiv.questoes.length) mostrarResultado();
+  if(dest>=questoesAtivas.length) mostrarResultado();
 }
 
 function atualizarProgresso(resp,total){
-  const pct = total>0 ? Math.round((resp/total)*100) : 0;
-  document.getElementById('progFill').style.width = pct+'%';
-  document.getElementById('progLabel').textContent = `${resp} / ${total} respondidas`;
-  document.getElementById('progPct').textContent = pct+'%';
+  const pct=total>0?Math.round((resp/total)*100):0;
+  document.getElementById('progFill').style.width=pct+'%';
+  document.getElementById('progLabel').textContent=`${resp} / ${total} respondidas`;
+  document.getElementById('progPct').textContent=pct+'%';
 }
 
 function mostrarResultado(){
-  const total   = atualAtiv.questoes.length;
-  const acertos = Object.values(respostas).filter(Boolean).length;
-  const pct     = Math.round((acertos/total)*100);
+  const total=questoesAtivas.length;
+  const acertos=Object.values(respostas).filter(Boolean).length;
+  const pct=Math.round((acertos/total)*100);
   atualizarProgresso(total,total);
+
+  if(!modoRevisao) salvarHistorico(atualAtiv.id,pct,acertos,total);
+  if(pct>=90) lancarConfetti();
 
   let emoji='😢',titulo='Continue Praticando!',msg='Não desanime — revise o conteúdo e tente novamente!';
   if(pct>=90){emoji='🏆';titulo='Incrível! Quase perfeito!';msg='Você domina esse conteúdo. Manda bem demais!';}
   else if(pct>=70){emoji='🎉';titulo='Muito bem!';msg='Boa performance! Revise os erros para arrasar ainda mais.';}
   else if(pct>=50){emoji='😊';titulo='Bom progresso!';msg='Você está no caminho certo. Continue estudando!';}
 
+  const temErros=Object.values(respostas).some(v=>v===false);
+
   let gab='<div class="gabarito"><div class="gab-title">📋 Gabarito</div>';
-  atualAtiv.questoes.forEach((q,i)=>{
-    const ok = respostas[i];
-    const txt = q.enunciado.length>80 ? q.enunciado.substring(0,80)+'…' : q.enunciado;
+  questoesAtivas.forEach((q,i)=>{
+    const ok=respostas[i];
+    const txt=q.enunciado.length>80?q.enunciado.substring(0,80)+'…':q.enunciado;
     gab+=`<div class="gab-item"><span class="gab-icon">${ok?'✅':'❌'}</span><span><strong>Q${i+1}.</strong> ${esc(txt)}</span></div>`;
   });
   gab+='</div>';
 
-  document.getElementById('resultadoCard').innerHTML = `
+  document.getElementById('resultadoCard').innerHTML=`
     <div class="res-emoji">${emoji}</div>
     <div class="res-score">${pct}%</div>
     <div class="res-detalhe">${acertos} de ${total} questões corretas</div>
     <div class="res-titulo">${titulo}</div>
     <div class="res-msg">${msg}</div>
     <div class="res-acoes">
-      <button class="btn btn-primary" onclick="location.reload()">🔄 Refazer</button>
+      <button class="btn btn-primary" onclick="abrirAtividade(${atualAtivIdx})">🔄 Refazer</button>
+      ${temErros?`<button class="btn btn-ghost" onclick="iniciarRevisao()">🔁 Revisar Erros</button>`:''}
       <button class="btn btn-ghost" onclick="irHome()">← Início</button>
     </div>
     ${gab}`;
 }
 
-// ── Utils ────────────────────────────────────
+// ── Confetti ──────────────────────────────────
+function lancarConfetti(){
+  const canvas=document.createElement('canvas');
+  canvas.style.cssText='position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9998';
+  document.body.appendChild(canvas);
+  const ctx=canvas.getContext('2d');
+  canvas.width=window.innerWidth; canvas.height=window.innerHeight;
+  const cores=['#c084fc','#e879f9','#4ade80','#fbbf24','#60a5fa','#f87171','#fb923c'];
+  const pts=Array.from({length:130},()=>({
+    x:Math.random()*canvas.width, y:Math.random()*-canvas.height,
+    r:Math.random()*7+3, d:Math.random()*100+30,
+    c:cores[Math.floor(Math.random()*cores.length)],
+    tilt:Math.random()*10-5, ts:Math.random()*.1+.04
+  }));
+  let angle=0,frame=0;
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    angle+=.01;
+    pts.forEach(p=>{
+      p.y+=(Math.cos(angle+p.d)+2)*1.8;
+      p.x+=Math.sin(angle)*.8;
+      p.tilt+=p.ts;
+      ctx.beginPath(); ctx.fillStyle=p.c;
+      ctx.ellipse(p.x,p.y,p.r,p.r*.45,p.tilt,0,Math.PI*2);
+      ctx.fill();
+    });
+    frame++;
+    if(frame<200) requestAnimationFrame(draw); else canvas.remove();
+  }
+  draw();
+}
+
+// ── Utils ─────────────────────────────────────
 function esc(s){ if(!s) return ''; return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function shake(el){ el.classList.remove('shake'); void el.offsetWidth; el.classList.add('shake'); setTimeout(()=>el.classList.remove('shake'),300); }
 
@@ -1106,9 +878,19 @@ function shake(el){ el.classList.remove('shake'); void el.offsetWidth; el.classL
 atualizarStatusHeader();
 carregarLista();
 
-// Fechar modal clicando fora
-document.getElementById('modalConfig').addEventListener('click',function(e){
-  if(e.target===this) fecharModal();
+document.getElementById('modalConfig').addEventListener('click',function(e){ if(e.target===this) fecharModal(); });
+
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Enter') return;
+  if(!document.getElementById('pageAtiv').classList.contains('active')) return;
+  const on=document.querySelector('.q-wrapper.on');
+  if(!on) return;
+  const nav=on.querySelector('.q-nav');
+  if(!nav) return;
+  const dinamico=[...nav.querySelectorAll('.btn')].find(b=>!b.id&&!b.classList.contains('btn-ghost'));
+  if(dinamico){ dinamico.click(); return; }
+  const conf=nav.querySelector('.btn-primary[id^="qnbtn"]');
+  if(conf&&conf.style.display!=='none') conf.click();
 });
 </script>
 </body>
