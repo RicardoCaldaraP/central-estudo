@@ -452,20 +452,6 @@ footer span{color:var(--p)}
       <p>Importe conjuntos de atividades em JSON e estude com correção automática em qualquer dispositivo.</p>
     </div>
 
-    <!-- Config GitHub -->
-    <div class="config-card" id="configInline" style="display:none">
-      <h3>⚙️ Configurar GitHub</h3>
-      <p>Para salvar e sincronizar seus JSONs entre dispositivos, configure seu repositório do GitHub.</p>
-      <input class="inp inp-full" id="cfgOwner" placeholder="Seu usuário do GitHub (ex: joaosilva)">
-      <input class="inp inp-full" id="cfgRepo"  placeholder="Nome do repositório (ex: central-estudo)">
-      <input class="inp inp-full" id="cfgToken" type="password" placeholder="Token de acesso (ghp_...)">
-      <div style="display:flex;gap:8px;justify-content:flex-end">
-        <button class="btn btn-ghost btn-sm" onclick="fecharConfigInline()">Cancelar</button>
-        <button class="btn btn-primary btn-sm" onclick="salvarConfig()">Salvar</button>
-      </div>
-      <div id="cfgMsg"></div>
-    </div>
-
     <!-- Upload -->
     <div class="upload-card" id="uploadCard">
       <h3>📤 Importar Atividades (.json)</h3>
@@ -616,7 +602,7 @@ async function baixarArquivo(path){
   });
   if(!r.ok) throw new Error('Erro ao baixar arquivo');
   const data = await r.json();
-  return JSON.parse(atob(data.content.replace(/\n/g,'')));
+  return JSON.parse(decodeURIComponent(escape(atob(data.content.replace(/\n/g,'')))));
 }
 
 async function uploadArquivo(nome, conteudo){
