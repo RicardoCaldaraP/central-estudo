@@ -1,6 +1,6 @@
 {
-  "id": "comportamento-consumidor-unidade-total-3",
-  "titulo": "Atividades de Comportamento do Consumidor-3",
+  "id": "comportamento-consumidor-unidade-total-4",
+  "titulo": "Atividades de Comportamento do Consumidor-4",
   "descricao": "Conjunto de exercícios sobre fundamentos da sociedade de consumo, abordagens científicas, teorias psicológicas e processos de decisão.",
   "disciplina": "Comportamento do Consumidor",
   "criado_em": "2026-05-13",
@@ -26,26 +26,6 @@
       "enunciado": "O consumo é definido apenas como o ato mecânico de comprar um produto.",
       "resposta": false,
       "explicacao": "O consumo é, na verdade, um processo sociocultural complexo de apropriação e uso."
-    },
-    {
-      "id": "q003",
-      "tipo": "ligar_colunas",
-      "enunciado": "Ligue os termos críticos às suas definições correspondentes:",
-      "pares": [
-        {
-          "esquerda": "Consumismo",
-          "direita": "Compra desenfreada associada a uma 'doença' social."
-        },
-        {
-          "esquerda": "ignora",
-          "direita": "ignora2"
-        },
-        {
-          "esquerda": "Consumerismo",
-          "direita": "Movimento ético de consciência e proteção ao consumidor."
-        }
-      ],
-      "explicacao": "O consumismo foca no excesso irracional, enquanto o consumerismo foca na ética e direitos."
     },
     {
       "id": "q004",
