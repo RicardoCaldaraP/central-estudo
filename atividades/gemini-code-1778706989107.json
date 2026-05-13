@@ -1,0 +1,391 @@
+{
+  "id": "comportamento-consumidor-unidade-total",
+  "titulo": "Atividades de Comportamento do Consumidor",
+  "descricao": "Conjunto de exercícios sobre fundamentos da sociedade de consumo, abordagens científicas, teorias psicológicas e processos de decisão.",
+  "disciplina": "Comportamento do Consumidor",
+  "criado_em": "2026-05-13",
+  "cor": "#E67E22",
+  "icone": "🛒",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a característica central da 'Sociedade de Consumo' segundo o material? [cite: 584, 585]",
+      "opcoes": [
+        "O foco exclusivo na funcionalidade dos produtos.",
+        "O consumo como eixo central da vida e da construção da identidade. [cite: 584]",
+        "A eliminação da escala social através das compras.",
+        "O fim do uso de objetos como signos de comunicação."
+      ],
+      "resposta": "O consumo como eixo central da vida e da construção da identidade. [cite: 584]",
+      "explicacao": "Nesta sociedade, o consumo define quem a pessoa é e qual sua posição social[cite: 585]."
+    },
+    {
+      "id": "q002",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O consumo é definido apenas como o ato mecânico de comprar um produto. [cite: 583]",
+      "resposta": false,
+      "explicacao": "O consumo é, na verdade, um processo sociocultural complexo de apropriação e uso[cite: 583]."
+    },
+    {
+      "id": "q003",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue os termos críticos às suas definições correspondentes[cite: 589, 591]:",
+      "pares": [
+        {
+          "esquerda": "Consumismo",
+          "direita": "Compra desenfreada associada a uma 'doença' social[cite: 589]."
+        },
+        {
+          "esquerda": "Consumerismo",
+          "direita": "Movimento ético de consciência e proteção ao consumidor[cite: 591]."
+        }
+      ],
+      "explicacao": "O consumismo foca no excesso irracional, enquanto o consumerismo foca na ética e direitos[cite: 589, 591]."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "Na fase da Hipermodernidade, qual é o principal motor do consumo? [cite: 597]",
+      "opcoes": [
+        "Apenas a competição social por status.",
+        "A necessidade básica de sobrevivência biológica.",
+        "O prazer individual imediato e emocional. [cite: 597]",
+        "O início da produção de massa em larga escala."
+      ],
+      "resposta": "O prazer individual imediato e emocional. [cite: 597]",
+      "explicacao": "O hiperconsumo é marcado pelo hedonismo e pela busca de satisfação emocional imediata[cite: 597]."
+    },
+    {
+      "id": "q005",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como o Positivismo aborda o comportamento do consumidor no marketing? [cite: 600, 602]",
+      "opcoes": [
+        "Através da análise de conflitos de consciência.",
+        "Observando, medindo e repetindo fatos científicos observáveis. [cite: 600]",
+        "Buscando a essência heróica por trás das compras.",
+        "Considerando o comportamento totalmente imprevisível."
+      ],
+      "resposta": "Observando, medindo e repetindo fatos científicos observáveis. [cite: 600]",
+      "explicacao": "O positivismo foca em dados mensuráveis, como a distância de um produto na gôndola influenciando a compra[cite: 602]."
+    },
+    {
+      "id": "q006",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O Estruturalismo sugere que todo consumo moderno é, no fundo, uma busca por 'distinção heróica'. [cite: 606]",
+      "resposta": true,
+      "explicacao": "Esta abordagem busca a essência por trás das variações superficiais das escolhas de consumo[cite: 605, 606]."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que afirma a 'Lei de Engel' sobre o comportamento em tempos de crise financeira? [cite: 614]",
+      "opcoes": [
+        "O consumidor corta itens básicos e mantém os supérfluos.",
+        "O consumidor mantém o consumo de itens básicos e corta os supérfluos. [cite: 614]",
+        "A satisfação aumenta conforme a renda diminui.",
+        "Não há alteração no comportamento de compra quando a renda cai."
+      ],
+      "resposta": "O consumidor mantém o consumo de itens básicos e corta os supérfluos. [cite: 614]",
+      "explicacao": "Itens básicos como comida são preservados, enquanto gastos extras são os primeiros a serem cortados[cite: 614]."
+    },
+    {
+      "id": "q008",
+      "tipo": "ligar_colunas",
+      "enunciado": "Relacione as instâncias da psique de Freud às suas funções no consumo[cite: 617, 618, 619]:",
+      "pares": [
+        {
+          "esquerda": "Id",
+          "direita": "Busca do prazer imediato e impulsivo[cite: 617]."
+        },
+        {
+          "esquerda": "Superego",
+          "direita": "Representa a moral, as regras e proibições[cite: 618]."
+        },
+        {
+          "esquerda": "Ego",
+          "direita": "Mediador racional entre desejos e realidade[cite: 619]."
+        }
+      ],
+      "explicacao": "O consumo resulta do conflito e mediação entre essas três instâncias psíquicas[cite: 616]."
+    },
+    {
+      "id": "q009",
+      "tipo": "multipla_escolha",
+      "enunciado": "De acordo com a Hierarquia de Maslow, qual necessidade é buscada após a satisfação das necessidades sociais? [cite: 621]",
+      "opcoes": [
+        "Fisiológicas.",
+        "Segurança.",
+        "Estima (status). [cite: 621]",
+        "Pertencimento."
+      ],
+      "resposta": "Estima (status). [cite: 621]",
+      "explicacao": "A pirâmide segue a ordem: Fisiológicas, Segurança, Sociais, Estima e Autorrealização[cite: 621]."
+    },
+    {
+      "id": "q010",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "No Behaviorismo de Skinner, os 'estímulos reforçadores' são incentivos que ocorrem antes da compra. [cite: 625, 626]",
+      "resposta": false,
+      "explicacao": "Estímulos eliciadores ocorrem antes; os reforçadores ocorrem após a compra para garantir a fidelidade[cite: 625, 626]."
+    },
+    {
+      "id": "q011",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual variável é classificada como 'Psicográfica' na tipologia do consumidor? [cite: 630, 632]",
+      "opcoes": [
+        "Idade e sexo.",
+        "Ocupação profissional.",
+        "Introvertido vs. Extrovertido. [cite: 632]",
+        "Classe social."
+      ],
+      "resposta": "Introvertido vs. Extrovertido. [cite: 632]",
+      "explicacao": "Variáveis psicográficas focam na personalidade e nos processos cognitivos e emotivos[cite: 630]."
+    },
+    {
+      "id": "q012",
+      "tipo": "ligar_colunas",
+      "enunciado": "Associe as fases do Ciclo de Vida do Produto aos tipos de consumidores[cite: 635, 636, 637]:",
+      "pares": [
+        {
+          "esquerda": "Inovadores",
+          "direita": "Compram o produto logo no lançamento[cite: 635]."
+        },
+        {
+          "esquerda": "Seguidores",
+          "direita": "Esperam que outros experimentem antes de comprar[cite: 636]."
+        },
+        {
+          "esquerda": "Acomodados",
+          "direita": "Compram apenas no declínio ou em promoções[cite: 637]."
+        }
+      ],
+      "explicacao": "Cada grupo reage ao tempo de mercado e ao risco da inovação de forma distinta[cite: 634]."
+    },
+    {
+      "id": "q013",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual papel da família no marketing foca na segurança emocional e laços afetivos? [cite: 643]",
+      "opcoes": [
+        "Função Biológica.",
+        "Função Psicológica. [cite: 643]",
+        "Função Sociológica.",
+        "Função Econômica."
+      ],
+      "resposta": "Função Psicológica. [cite: 643]",
+      "explicacao": "A função psicológica provê segurança emocional, impactando o consumo de produtos que reforçam laços[cite: 643]."
+    },
+    {
+      "id": "q014",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A entrada da mulher no mercado de trabalho não alterou a decisão de compra de carros na família. [cite: 648]",
+      "resposta": false,
+      "explicacao": "Essa mudança social alterou profundamente quem decide a compra de itens como carros e cursos[cite: 648]."
+    },
+    {
+      "id": "q015",
+      "tipo": "multipla_escolha",
+      "enunciado": "O modelo de decisão de Nicosia foca principalmente em qual relação? [cite: 652]",
+      "opcoes": [
+        "A aprendizagem por hábito do consumidor.",
+        "A relação entre a empresa (propaganda) e o consumidor. [cite: 652]",
+        "A expectativa futura de vida do indivíduo.",
+        "Apenas no feedback pós-compra."
+      ],
+      "resposta": "A relação entre a empresa (propaganda) e o consumidor. [cite: 652]",
+      "explicacao": "Nicosia analisa como o input da propaganda gera atitude e ação de compra[cite: 653]."
+    },
+    {
+      "id": "q016",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que caracteriza o modelo de Howard-Sheth? [cite: 654]",
+      "opcoes": [
+        "O foco na propaganda em massa.",
+        "A busca por alternativas e julgamento.",
+        "A aprendizagem que torna a compra um hábito automático. [cite: 654]",
+        "A negociação baseada no tempo limite."
+      ],
+      "resposta": "A aprendizagem que torna a compra um hábito automático. [cite: 654]",
+      "explicacao": "Com a repetição, o consumidor aprende e o processo de decisão simplifica-se[cite: 654]."
+    },
+    {
+      "id": "q017",
+      "tipo": "ligar_colunas",
+      "enunciado": "Relacione os pilares da negociação segundo o modelo de Cohen[cite: 659, 660, 662]:",
+      "pares": [
+        {
+          "esquerda": "Poder",
+          "direita": "Capacidade de controle (dinheiro ou persistência)[cite: 659]."
+        },
+        {
+          "esquerda": "Informação",
+          "direita": "Conhecimento sobre o produto que domina a negociação[cite: 660]."
+        },
+        {
+          "esquerda": "Tempo",
+          "direita": "Fator onde concessões ocorrem perto do prazo limite[cite: 662]."
+        }
+      ],
+      "explicacao": "Estes três pilares determinam o sucesso e o equilíbrio em uma negociação de compra[cite: 657]."
+    },
+    {
+      "id": "q018",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual conceito explica o desconforto mental após uma compra que não atingiu as expectativas? [cite: 666]",
+      "opcoes": [
+        "Representação Social.",
+        "Hedonismo.",
+        "Dissonância Cognitiva. [cite: 666]",
+        "Utilidade Marginal."
+      ],
+      "resposta": "Dissonância Cognitiva. [cite: 666]",
+      "explicacao": "A dissonância gera um conflito interno que o consumidor tenta resolver justificando a escolha[cite: 666, 667]."
+    },
+    {
+      "id": "q019",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Moscovici, o consumidor julga se o consumo é aceitável baseando-se no grupo social. [cite: 663]",
+      "resposta": true,
+      "explicacao": "As representações sociais funcionam como filtros que permitem ou impedem certos comportamentos[cite: 663, 665]."
+    },
+    {
+      "id": "q020",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a definição de 'Consumo Simbólico'? [cite: 586]",
+      "opcoes": [
+        "Comprar apenas para satisfazer a fome.",
+        "Comprar objetos pelo que eles comunicam aos grupos de referência. [cite: 586]",
+        "Adquirir bens apenas pelo seu valor de uso.",
+        "O ato de comprar itens exclusivamente em liquidação."
+      ],
+      "resposta": "Comprar objetos pelo que eles comunicam aos grupos de referência. [cite: 586]",
+      "explicacao": "Os objetos são vistos como 'signos' que transmitem mensagens sociais[cite: 586]."
+    },
+    {
+      "id": "q021",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A Utilidade Marginal defende que a satisfação aumenta infinitamente quanto mais você consome um bem. [cite: 612]",
+      "resposta": false,
+      "explicacao": "Pelo contrário, a satisfação diminui conforme se consome mais unidades do mesmo bem[cite: 612]."
+    },
+    {
+      "id": "q022",
+      "tipo": "multipla_escolha",
+      "enunciado": "A abordagem dialética vê o comportamento como fruto de quê? [cite: 604]",
+      "opcoes": [
+        "Apenas estímulos externos de propaganda.",
+        "Conflito entre condições objetivas e subjetivas. [cite: 604]",
+        "Processamento mental linear e sistêmico.",
+        "Observação pura de fatos repetitivos."
+      ],
+      "resposta": "Conflito entre condições objetivas e subjetivas. [cite: 604]",
+      "explicacao": "Baseia-se na constante tensão entre fatos externos e a consciência individual[cite: 604]."
+    },
+    {
+      "id": "q023",
+      "tipo": "ligar_colunas",
+      "enunciado": "Associe a fase histórica à sua característica de consumo[cite: 594, 595, 597]:",
+      "pares": [
+        {
+          "esquerda": "Modernidade",
+          "direita": "Início da produção de massa e métodos comerciais[cite: 594]."
+        },
+        {
+          "esquerda": "Pós-Modernidade",
+          "direita": "Democratização e lógica da sedução/hedonismo[cite: 595]."
+        },
+        {
+          "esquerda": "Hipermodernidade",
+          "direita": "Fase atual do Hiperconsumo emocional individual[cite: 597]."
+        }
+      ],
+      "explicacao": "A evolução da sociedade alterou os motivos pelos quais consumimos ao longo das décadas[cite: 592]."
+    },
+    {
+      "id": "q024",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual componente da Visão Sistêmica representa o processamento mental? [cite: 607]",
+      "opcoes": [
+        "Input.",
+        "Conversão. [cite: 607]",
+        "Output.",
+        "Feedback."
+      ],
+      "resposta": "Conversão. [cite: 607]",
+      "explicacao": "A conversão é o momento em que os estímulos são processados mentalmente antes da compra[cite: 607]."
+    },
+    {
+      "id": "q025",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Na Perspectiva Econômica, o consumidor é visto como um ser racional que busca minimizar custos. [cite: 611, 613]",
+      "resposta": true,
+      "explicacao": "O foco é na maximização do prazer e na eficiência do gasto financeiro[cite: 613]."
+    },
+    {
+      "id": "q026",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como o consumidor lida com a dissonância cognitiva através da 'Distorção'? [cite: 668]",
+      "opcoes": [
+        "Atacando quem criticou a compra.",
+        "Buscando grupos que validem a escolha.",
+        "Lembrando apenas dos pontos positivos do item. [cite: 668]",
+        "Devolvendo o produto imediatamente."
+      ],
+      "resposta": "Lembrando apenas dos pontos positivos do item. [cite: 668]",
+      "explicacao": "A distorção permite que o indivíduo foque no que é bom para reduzir o desconforto[cite: 668]."
+    },
+    {
+      "id": "q027",
+      "tipo": "ligar_colunas",
+      "enunciado": "Relacione os papéis da família ao foco de investimento em marketing[cite: 642, 644, 646]:",
+      "pares": [
+        {
+          "esquerda": "Função Biológica",
+          "direita": "Foco em seguros e hospitais[cite: 642]."
+        },
+        {
+          "esquerda": "Função Sociológica",
+          "direita": "Foco em ensino de ética e convivência[cite: 644]."
+        },
+        {
+          "esquerda": "Função Econômica",
+          "direita": "Foco em investimento no futuro (poupança)[cite: 646]."
+        }
+      ],
+      "explicacao": "As necessidades familiares orientam diferentes segmentos de produtos e serviços[cite: 641]."
+    },
+    {
+      "id": "q028",
+      "tipo": "multipla_escolha",
+      "enunciado": "O modelo de Engel foca no início do processo em qual fator? [cite: 655]",
+      "opcoes": [
+        "No condicionamento Skinneriano.",
+        "Nas expectativas futuras ('o que quero para minha vida'). [cite: 655]",
+        "Apenas no preço do produto.",
+        "Na relação direta com a propaganda."
+      ],
+      "resposta": "Nas expectativas futuras ('o que quero para minha vida'). [cite: 655]",
+      "explicacao": "O processo começa com a consciência de planos de vida que levam à busca por posse[cite: 655]."
+    },
+    {
+      "id": "q029",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A Fenomenologia defende que o comportamento humano é totalmente previsível através de fórmulas matemáticas. [cite: 609]",
+      "resposta": false,
+      "explicacao": "Pelo contrário, ela defende que o comportamento é imprevisível e deve ser entendido por diversos horizontes[cite: 609]."
+    },
+    {
+      "id": "q030",
+      "tipo": "multipla_escolha",
+      "enunciado": "A dualidade do indivíduo no consumo ocorre entre quais dois desejos? [cite: 587]",
+      "opcoes": [
+        "Fome e sede.",
+        "Poder e Informação.",
+        "Pertencimento e Diferenciação. [cite: 587]",
+        "Racionalidade e Dissonância."
+      ],
+      "resposta": "Pertencimento e Diferenciação. [cite: 587]",
+      "explicacao": "O consumidor quer ser aceito por um grupo, mas também quer se destacar individualmente[cite: 587]."
+    }
+  ]
+}
