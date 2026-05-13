@@ -1,6 +1,6 @@
 {
-  "id": "comportamento-consumidor-unidade-total-2",
-  "titulo": "Atividades de Comportamento do Consumidor-2",
+  "id": "comportamento-consumidor-unidade-total-3",
+  "titulo": "Atividades de Comportamento do Consumidor-3",
   "descricao": "Conjunto de exercícios sobre fundamentos da sociedade de consumo, abordagens científicas, teorias psicológicas e processos de decisão.",
   "disciplina": "Comportamento do Consumidor",
   "criado_em": "2026-05-13",
@@ -35,6 +35,10 @@
         {
           "esquerda": "Consumismo",
           "direita": "Compra desenfreada associada a uma 'doença' social."
+        },
+        {
+          "esquerda": "ignora",
+          "direita": "ignora2"
         },
         {
           "esquerda": "Consumerismo",
