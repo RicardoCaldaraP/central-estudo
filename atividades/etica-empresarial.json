@@ -1,0 +1,770 @@
+{
+  "id": "etica-empresarial-completo",
+  "titulo": "Ética Empresarial — Completo (Aulas 2 a 16)",
+  "descricao": "60 questões cobrindo todos os temas: fundamentos da ética, racionalidade, modelos de homem, ética institucional, RSE, ética brasileira, governança, reputação, governamentalidade, gênero, diversidade, sustentabilidade e ESG.",
+  "disciplina": "Ética Empresarial",
+  "criado_em": "2026-05-23",
+  "cor": "#10b981",
+  "icone": "⚖️",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a definição mais precisa de ética segundo o conteúdo das aulas?",
+      "opcoes": [
+        "Um conjunto de leis criadas pelo Estado para regular o comportamento",
+        "A ciência da conduta humana que analisa ações a partir de critérios de certo e errado",
+        "Um código de normas impostas pelas empresas aos funcionários",
+        "A prática religiosa de seguir preceitos morais"
+      ],
+      "resposta": "A ciência da conduta humana que analisa ações a partir de critérios de certo e errado",
+      "explicacao": "A ética é definida como a ciência da conduta humana, analisando como os indivíduos se comportam em relação a si mesmos e aos outros, avaliando essas ações a partir de critérios de certo e errado."
+    },
+    {
+      "id": "q002",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual a diferença correta entre conduta, comportamento e atitude?",
+      "opcoes": [
+        "Conduta é interna; comportamento é observável; atitude é imposta externamente",
+        "Conduta é a ação observável; comportamento são padrões constantes; atitude é a disposição interna que antecede a ação",
+        "Os três termos são sinônimos usados de forma intercambiável na ética",
+        "Atitude é mensurável; conduta é subjetiva; comportamento é aleatório"
+      ],
+      "resposta": "Conduta é a ação observável; comportamento são padrões constantes; atitude é a disposição interna que antecede a ação",
+      "explicacao": "Conduta refere-se às ações concretas e observáveis; comportamento diz respeito a padrões relativamente constantes; e atitude é a disposição interna — intenção ou motivação — que antecede a ação."
+    },
+    {
+      "id": "q003",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O aspecto descritivo da ética define como as pessoas DEVEM agir, estabelecendo padrões ideais de comportamento.",
+      "resposta": false,
+      "explicacao": "Falso. É o aspecto NORMATIVO que define como as pessoas devem agir. O aspecto descritivo busca entender como as pessoas REALMENTE se comportam, analisando fatores psicológicos, sociais e culturais."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "O princípio central de Confúcio para a ética pode ser resumido em:",
+      "opcoes": [
+        "Busca da felicidade individual acima de tudo",
+        "Maximização do bem-estar para o maior número de pessoas",
+        "Não faças aos outros aquilo que não queres que te façam",
+        "A razão deve sempre controlar as emoções"
+      ],
+      "resposta": "Não faças aos outros aquilo que não queres que te façam",
+      "explicacao": "Confúcio defende que a ética deve ser orientada pelo respeito ao outro e pela harmonia nas relações sociais. Seu princípio central é: 'Não faças aos outros aquilo que não queres que te façam.'"
+    },
+    {
+      "id": "q005",
+      "tipo": "multipla_escolha",
+      "enunciado": "Para Aristóteles, como a virtude é desenvolvida?",
+      "opcoes": [
+        "A virtude é inata — nascemos virtuosos ou não",
+        "A virtude é desenvolvida pelo hábito e pela prática constante de ações",
+        "A virtude é imposta pela sociedade por meio de leis",
+        "A virtude depende exclusivamente do equilíbrio emocional do indivíduo"
+      ],
+      "resposta": "A virtude é desenvolvida pelo hábito e pela prática constante de ações",
+      "explicacao": "Para Aristóteles, ninguém nasce virtuoso — a virtude é desenvolvida pelo hábito. As ações moldam o caráter, e a razão deve guiar o comportamento. O indivíduo se torna justo praticando ações justas."
+    },
+    {
+      "id": "q006",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada filósofo ao seu conceito central na ética:",
+      "pares": [
+        {
+          "esquerda": "Confúcio",
+          "direita": "Harmonia social e reciprocidade entre as pessoas"
+        },
+        {
+          "esquerda": "Aristóteles",
+          "direita": "Felicidade (eudaimonia) alcançada pela prática das virtudes"
+        },
+        {
+          "esquerda": "Paracelso",
+          "direita": "Equilíbrio emocional e eliminação de sentimentos negativos"
+        },
+        {
+          "esquerda": "Hobbes",
+          "direita": "Necessidade de poder regulador diante do conflito humano"
+        }
+      ],
+      "explicacao": "Cada filósofo contribuiu com uma perspectiva distinta: Confúcio pela harmonia social, Aristóteles pela ética das virtudes, Paracelso pelo equilíbrio emocional, e Hobbes pela visão pessimista da natureza humana que exige controle."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença fundamental entre Utilitarismo e a ética de Kant, frequentemente cobrada em provas?",
+      "opcoes": [
+        "Utilitarismo foca na intenção; Kant foca no resultado",
+        "Utilitarismo foca no resultado; Kant foca na intenção",
+        "Ambos focam no resultado, mas divergem sobre quem é beneficiado",
+        "Kant aceita qualquer ação se o resultado for positivo para a maioria"
+      ],
+      "resposta": "Utilitarismo foca no resultado; Kant foca na intenção",
+      "explicacao": "Ponto clássico de prova: o Utilitarismo avalia a ética pela consequência (resultado), buscando o maior bem para o maior número. Kant afirma que uma ação só é moral se for feita por dever — a intenção importa, não o resultado."
+    },
+    {
+      "id": "q008",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo Descartes, agir eticamente exige controlar impulsos emocionais por meio da razão.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Descartes analisa as paixões da alma e afirma que as emoções influenciam o comportamento, mas a razão deve controlá-las. O autodomínio é a base da ética cartesiana."
+    },
+    {
+      "id": "q009",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O assédio moral no trabalho é responsabilidade exclusiva do agressor, sem qualquer implicação para a empresa.",
+      "resposta": false,
+      "explicacao": "Falso. A empresa também é responsável, pois não garante um ambiente seguro. A cultura organizacional influencia diretamente a conduta. O assédio se relaciona com falta de autocontrole (Descartes) e presença de emoções negativas (Paracelso)."
+    },
+    {
+      "id": "q010",
+      "tipo": "multipla_escolha",
+      "enunciado": "Segundo Guerreiro Ramos, qual é o grande problema da teoria organizacional moderna?",
+      "opcoes": [
+        "Excesso de foco em ética e pouca atenção à eficiência",
+        "Redução do conceito de racionalidade a cálculo e eficiência, ignorando aspectos éticos e humanos",
+        "Falta de padronização dos processos produtivos nas empresas",
+        "Ausência de hierarquias claras dentro das organizações"
+      ],
+      "resposta": "Redução do conceito de racionalidade a cálculo e eficiência, ignorando aspectos éticos e humanos",
+      "explicacao": "Guerreiro Ramos argumenta que a teoria organizacional dominante é limitada e ingênua, pois reduziu a racionalidade a um sentido limitado focado apenas em cálculo e eficiência, ignorando aspectos éticos e humanos — podendo ter um 'impacto desfigurador sobre a vida humana associada'."
+    },
+    {
+      "id": "q011",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada tipo de racionalidade (Weber) à sua pergunta central:",
+      "pares": [
+        {
+          "esquerda": "Racionalidade Instrumental",
+          "direita": "Isso funciona? (foco em eficiência e resultados)"
+        },
+        {
+          "esquerda": "Racionalidade Substantiva",
+          "direita": "Isso é correto? (foco em valores éticos)"
+        },
+        {
+          "esquerda": "Teoria Formal",
+          "direita": "Como fazer? (define procedimentos técnicos)"
+        },
+        {
+          "esquerda": "Teoria Substantiva",
+          "direita": "Por que fazer? (questiona fins e valores)"
+        }
+      ],
+      "explicacao": "Weber formalizou a distinção entre racionalidade instrumental (meios e fins, eficiência) e substantiva (valores e princípios éticos). Guerreiro Ramos estendeu isso para teoria formal (como fazer?) e substantiva (por que fazer?)."
+    },
+    {
+      "id": "q012",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para a Escola de Frankfurt (Horkheimer e Adorno), a razão moderna foi reduzida a um instrumento de dominação que substituiu o pensamento crítico pela lógica técnica.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Horkheimer e Adorno aprofundam a crítica afirmando que a razão foi reduzida a instrumento de dominação, o pensamento crítico foi substituído por lógica técnica, e o indivíduo perde autonomia e capacidade de questionamento."
+    },
+    {
+      "id": "q013",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual a diferença central entre 'Trabalho' e 'Ocupação' segundo a Aula 4?",
+      "opcoes": [
+        "Trabalho é mais valorizado financeiramente; ocupação é voluntária",
+        "Trabalho é imposto externamente e voltado à sobrevivência; ocupação é escolhida e relacionada à realização pessoal",
+        "Os dois termos são sinônimos na teoria organizacional contemporânea",
+        "Trabalho gera felicidade; ocupação é alienante"
+      ],
+      "resposta": "Trabalho é imposto externamente e voltado à sobrevivência; ocupação é escolhida e relacionada à realização pessoal",
+      "explicacao": "Trabalho é imposto externamente, voltado à sobrevivência e pode ser alienante. Ocupação é escolhida pelo indivíduo, relacionada à realização pessoal e tem sentido e propósito — distinção central da Aula 4."
+    },
+    {
+      "id": "q014",
+      "tipo": "multipla_escolha",
+      "enunciado": "O Homem Parentético, conceito de Guerreiro Ramos, é aquele que:",
+      "opcoes": [
+        "Segue as normas organizacionais sem questionamento para garantir produtividade",
+        "Valoriza relações sociais e busca pertencimento dentro da organização",
+        "Tem capacidade de questionar normas e valores, mantendo autonomia psicológica mesmo sob pressão",
+        "Aceita recompensas financeiras como única motivação para o trabalho"
+      ],
+      "resposta": "Tem capacidade de questionar normas e valores, mantendo autonomia psicológica mesmo sob pressão",
+      "explicacao": "O Homem Parentético 'coloca entre parênteses' crenças automáticas para analisá-las criticamente. Tem capacidade de questionar normas, busca sentido no trabalho, possui autonomia psicológica e independência em relação às pressões organizacionais — é o trabalhador capaz de agir eticamente mesmo sob pressão."
+    },
+    {
+      "id": "q015",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada modelo de homem nas organizações à sua característica principal:",
+      "pares": [
+        {
+          "esquerda": "Homem Operacional",
+          "direita": "Trabalhador visto como recurso produtivo, motivado por recompensas financeiras"
+        },
+        {
+          "esquerda": "Homem Reativo",
+          "direita": "Valoriza relações sociais, busca pertencimento, mas ainda se adapta ao sistema"
+        },
+        {
+          "esquerda": "Homem Parentético",
+          "direita": "Questiona normas, possui autonomia psicológica e consciência crítica"
+        },
+        {
+          "esquerda": "Racionalidade Noética",
+          "direita": "Capacidade de julgamento próprio e resistência à lógica instrumental"
+        }
+      ],
+      "explicacao": "Os três modelos representam uma evolução: Operacional (eficiência pura), Reativo (humanização superficial) e Parentético (consciência crítica real). A racionalidade noética é a forma ética de racionalidade associada ao homem parentético."
+    },
+    {
+      "id": "q016",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O Homem Reativo representa uma evolução real e completa do Homem Operacional, pois garante verdadeira autonomia ao trabalhador.",
+      "resposta": false,
+      "explicacao": "Falso. O Homem Reativo reconhece aspectos humanos como relações sociais e clima organizacional, mas o indivíduo ainda se adapta ao sistema e não há verdadeira autonomia. Há humanização superficial, mas o controle organizacional permanece."
+    },
+    {
+      "id": "q017",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual a diferença correta entre costume, moral e ética segundo a Aula 6?",
+      "opcoes": [
+        "Costume orienta a ação; moral descreve a realidade; ética impõe normas jurídicas",
+        "Costume explica como as pessoas agem; moral define como devem agir; ética questiona por que devem agir assim",
+        "Os três conceitos são equivalentes e tratam do mesmo fenômeno social",
+        "Moral é mais abrangente que ética; costume é apenas folclore sem valor normativo"
+      ],
+      "resposta": "Costume explica como as pessoas agem; moral define como devem agir; ética questiona por que devem agir assim",
+      "explicacao": "Os três formam uma hierarquia: o costume explica como as pessoas agem (práticas repetidas), a moral define como devem agir (normas e valores), e a ética questiona por que devem agir assim (reflexão crítica sobre a moral)."
+    },
+    {
+      "id": "q018",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Os códigos de ética organizacionais funcionam apenas como declarações simbólicas de valores e não têm função prática na gestão.",
+      "resposta": false,
+      "explicacao": "Falso. Os códigos de ética funcionam como instrumentos de gestão com três funções práticas: delimitar comportamentos aceitáveis, orientar decisões em situações ambíguas e definir consequências. Quando vagos, enfraquecem a autoridade normativa."
+    },
+    {
+      "id": "q019",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o papel da liderança na ética institucional segundo a Aula 6?",
+      "opcoes": [
+        "A liderança apenas redige e distribui os códigos de ética formais",
+        "A liderança serve como referência prática e mecanismo de legitimação — seus comportamentos mostram se as normas devem ser levadas a sério",
+        "A liderança é responsável apenas por punir desvios éticos quando ocorrem",
+        "A liderança não interfere na ética organizacional, pois esta depende apenas das normas escritas"
+      ],
+      "resposta": "A liderança serve como referência prática e mecanismo de legitimação — seus comportamentos mostram se as normas devem ser levadas a sério",
+      "explicacao": "A liderança atua em dois níveis: como referência prática (seus comportamentos servem de modelo) e como mecanismo de legitimação (suas ações mostram se as normas devem ser levadas a sério). Se o líder ignora normas, cria efeito cascata de desvios."
+    },
+    {
+      "id": "q020",
+      "tipo": "multipla_escolha",
+      "enunciado": "O compliance atua em três dimensões. Qual das alternativas as descreve corretamente?",
+      "opcoes": [
+        "Punição, vigilância e denúncia",
+        "Prevenção, monitoramento e correção",
+        "Planejamento, execução e avaliação",
+        "Treinamento, auditoria e demissão"
+      ],
+      "resposta": "Prevenção, monitoramento e correção",
+      "explicacao": "O compliance atua em três dimensões: prevenção (criação de políticas, treinamentos e orientações), monitoramento (auditorias, controles internos e acompanhamento de condutas) e correção (investigação e aplicação de sanções)."
+    },
+    {
+      "id": "q021",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A 'ética de fachada' ocorre quando há alinhamento perfeito entre o discurso e a prática organizacional.",
+      "resposta": false,
+      "explicacao": "Falso. A 'ética de fachada' ocorre exatamente quando há DESCOMPASSO entre o que a organização declara e o que ela realmente pratica. Quanto maior essa distância, maior o risco de deslegitimação."
+    },
+    {
+      "id": "q022",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quando há conflito entre estrutura formal (normas, códigos) e estrutura informal (cultura real) de uma organização, qual prevalece?",
+      "opcoes": [
+        "A estrutura formal, pois as normas escritas têm força jurídica",
+        "A estrutura informal, pois as pessoas seguem incentivos reais e não apenas regras formais",
+        "Ambas se equilibram automaticamente sem conflito real",
+        "Depende exclusivamente do líder, que escolhe qual seguir"
+      ],
+      "resposta": "A estrutura informal, pois as pessoas seguem incentivos reais e não apenas regras formais",
+      "explicacao": "Quando há conflito entre estrutura formal e informal, a cultura prevalece — as pessoas seguem incentivos reais e não apenas regras formais. Exemplo clássico: empresa proíbe corrupção, mas recompensa resultados obtidos 'a qualquer custo'."
+    },
+    {
+      "id": "q023",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a visão de Milton Friedman sobre a responsabilidade social das empresas?",
+      "opcoes": [
+        "As empresas devem priorizar ações sociais e ambientais acima do lucro",
+        "A principal responsabilidade da empresa é gerar lucro; ações sociais só se justificam se contribuírem ao desempenho econômico",
+        "As empresas devem equilibrar igualmente interesses econômicos e sociais",
+        "A responsabilidade social é obrigação legal acima da obrigação econômica"
+      ],
+      "resposta": "A principal responsabilidade da empresa é gerar lucro; ações sociais só se justificam se contribuírem ao desempenho econômico",
+      "explicacao": "A visão clássica de Friedman defende que a principal responsabilidade da empresa é gerar lucro, o gestor atua como agente dos acionistas, e ações sociais só são justificáveis se contribuírem para o desempenho econômico — baseada na racionalidade instrumental."
+    },
+    {
+      "id": "q024",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A teoria dos stakeholders defende que as decisões empresariais devem considerar apenas os interesses dos acionistas.",
+      "resposta": false,
+      "explicacao": "Falso. A teoria dos stakeholders amplia o papel da empresa para considerar os interesses de diversos grupos: funcionários, clientes, fornecedores, comunidade e governo — não apenas acionistas. A empresa passa a ser entendida como instituição social."
+    },
+    {
+      "id": "q025",
+      "tipo": "multipla_escolha",
+      "enunciado": "O conceito de 'licença social para operar' significa que:",
+      "opcoes": [
+        "A empresa precisa de licença ambiental emitida pelo governo para funcionar",
+        "A empresa precisa de aprovação dos acionistas para abrir novas unidades",
+        "Além das obrigações legais, a empresa precisa atender expectativas sociais — um contrato implícito com a sociedade",
+        "A empresa deve obter certificação ISO para operar no mercado internacional"
+      ],
+      "resposta": "Além das obrigações legais, a empresa precisa atender expectativas sociais — um contrato implícito com a sociedade",
+      "explicacao": "O conceito vai além da legalidade: existe um conjunto de expectativas sociais (contrato implícito) que exige que a empresa aja eticamente, respeite a sociedade e contribua positivamente para o ambiente em que atua. Quando violado, gera perda de legitimidade."
+    },
+    {
+      "id": "q026",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada abordagem de RSE à sua lógica central:",
+      "pares": [
+        {
+          "esquerda": "RSE Normativa",
+          "direita": "Agir eticamente por obrigação moral, independente de retorno econômico"
+        },
+        {
+          "esquerda": "RSE Instrumental",
+          "direita": "Responsabilidade social como estratégia para melhorar imagem e competitividade"
+        },
+        {
+          "esquerda": "Visão clássica (Friedman)",
+          "direita": "Foco exclusivo no lucro; RSE só se justifica se for economicamente viável"
+        },
+        {
+          "esquerda": "Visão socioeconômica",
+          "direita": "Empresa como instituição social que equilibra múltiplos interesses"
+        }
+      ],
+      "explicacao": "As abordagens de RSE divergem em sua motivação: normativa (obrigação moral), instrumental (estratégia de mercado), clássica (lucro como fim) e socioeconômica (empresa como ator social responsável)."
+    },
+    {
+      "id": "q027",
+      "tipo": "multipla_escolha",
+      "enunciado": "O 'jeitinho brasileiro' está associado a qual característica da ética brasileira?",
+      "opcoes": [
+        "Moral da integridade — cumprimento rigoroso de regras",
+        "Normalização do oportunismo — adaptação informal às regras formais com aceitação social",
+        "Formalismo — leis bem aplicadas que regulam o comportamento",
+        "Meritocracia — valorização do esforço individual acima das relações pessoais"
+      ],
+      "resposta": "Normalização do oportunismo — adaptação informal às regras formais com aceitação social",
+      "explicacao": "O 'jeitinho' reflete a adaptação informal às regras formais, com características de flexibilização de normas, busca de soluções pessoais e aceitação social. O problema é que reduz a percepção de erro e torna desvios socialmente aceitáveis."
+    },
+    {
+      "id": "q028",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O formalismo (ou 'esquizonomia') na ética brasileira significa que as leis existem e são efetivamente aplicadas de forma consistente.",
+      "resposta": false,
+      "explicacao": "Falso. O formalismo caracteriza-se exatamente pela existência de leis e regras que NÃO são efetivamente aplicadas. As regras existem, mas não orientam o comportamento real — há dissociação entre norma e prática."
+    },
+    {
+      "id": "q029",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são os quatro princípios centrais da governança corporativa?",
+      "opcoes": [
+        "Lucro, crescimento, inovação e competitividade",
+        "Transparência, equidade, accountability e responsabilidade",
+        "Controle, punição, hierarquia e obediência",
+        "Planejamento, execução, monitoramento e revisão"
+      ],
+      "resposta": "Transparência, equidade, accountability e responsabilidade",
+      "explicacao": "A governança corporativa baseia-se em quatro princípios: transparência, equidade, accountability e responsabilidade. Sua função é reduzir abusos de poder, aumentar confiança e melhorar a qualidade da gestão."
+    },
+    {
+      "id": "q030",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Os indicadores de desempenho (métricas) sempre refletem com precisão a realidade organizacional.",
+      "resposta": false,
+      "explicacao": "Falso. Os indicadores nem sempre refletem a realidade, pois podem ser manipulados, selecionar apenas dados favoráveis e ocultar problemas — criando uma falsa sensação de controle e eficiência. Para serem eficazes, devem ser verificáveis, auditáveis e transparentes."
+    },
+    {
+      "id": "q031",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o ponto-chave sobre reputação corporativa destacado para provas?",
+      "opcoes": [
+        "Reputação é o que a empresa diz sobre si mesma em campanhas de marketing",
+        "Reputação pode ser construída rapidamente com investimento em publicidade",
+        "Reputação não é o que a empresa diz sobre si, mas o que os outros acreditam sobre ela",
+        "Reputação depende exclusivamente do desempenho financeiro da empresa"
+      ],
+      "resposta": "Reputação não é o que a empresa diz sobre si, mas o que os outros acreditam sobre ela",
+      "explicacao": "Ponto-chave para prova: reputação não é aquilo que a empresa diz sobre si, mas aquilo que os outros acreditam sobre ela. É construída lentamente a partir das percepções acumuladas dos stakeholders ao longo do tempo, mas pode ser destruída rapidamente."
+    },
+    {
+      "id": "q032",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada stakeholder à expectativa que possui em relação à empresa:",
+      "pares": [
+        {
+          "esquerda": "Clientes",
+          "direita": "Integridade nos produtos e serviços oferecidos"
+        },
+        {
+          "esquerda": "Investidores",
+          "direita": "Transparência na gestão e nas informações financeiras"
+        },
+        {
+          "esquerda": "Colaboradores",
+          "direita": "Confiança no ambiente de trabalho"
+        },
+        {
+          "esquerda": "Comunidade",
+          "direita": "Responsabilidade social e impacto positivo"
+        }
+      ],
+      "explicacao": "Cada stakeholder possui expectativas específicas: clientes esperam integridade, investidores transparência, fornecedores idoneidade, colaboradores confiança, comunidade responsabilidade social e mídia credibilidade."
+    },
+    {
+      "id": "q033",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são os três tipos de risco à reputação identificados na Aula 10?",
+      "opcoes": [
+        "Risco financeiro, risco de mercado e risco de imagem",
+        "Risco operacional, risco de irregularidade e risco de pessoal",
+        "Risco legal, risco ambiental e risco de comunicação",
+        "Risco estratégico, risco tático e risco operacional"
+      ],
+      "resposta": "Risco operacional, risco de irregularidade e risco de pessoal",
+      "explicacao": "Os três tipos são: risco operacional (falhas internas, erros de processo), risco de irregularidade (fraude, corrupção, desvios éticos) e risco de pessoal (fatores humanos como ego, ambição excessiva e abuso de poder)."
+    },
+    {
+      "id": "q034",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A concentração de poder em uma única pessoa dentro de um processo organizacional aumenta o risco de fraude.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Quando uma única pessoa controla várias etapas do processo, aumenta-se o risco de fraude. Por isso as organizações precisam segregar funções, criar mecanismos de checagem, realizar auditorias periódicas e estimular denúncias."
+    },
+    {
+      "id": "q035",
+      "tipo": "multipla_escolha",
+      "enunciado": "O conceito de 'governamentalidade' de Foucault combina dois termos. Qual é o mais adequado para defini-lo?",
+      "opcoes": [
+        "Governo + mentalidade: influenciar a maneira como as pessoas pensam, agem e se percebem",
+        "Governança + moralidade: conjunto de leis que regulam o comportamento público",
+        "Governo + racionalidade: sistema de planejamento estratégico do Estado",
+        "Gestão + mentalidade: conjunto de técnicas de motivação organizacional"
+      ],
+      "resposta": "Governo + mentalidade: influenciar a maneira como as pessoas pensam, agem e se percebem",
+      "explicacao": "Governamentalidade combina governo + mentalidade. Não significa apenas governar pessoas politicamente, mas influenciar a maneira como elas pensam, agem e se percebem. O poder age produzindo comportamentos, criando subjetividades e definindo o que é 'normal'."
+    },
+    {
+      "id": "q036",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo Foucault, o poder moderno funciona principalmente pela coerção direta e pela força física.",
+      "resposta": false,
+      "explicacao": "Falso. Ponto-chave: o poder moderno funciona mais pela INTERNALIZAÇÃO das normas do que pela coerção direta. A empresa cria metas, indicadores e cultura de performance — e o próprio trabalhador passa a se autocontrolar."
+    },
+    {
+      "id": "q037",
+      "tipo": "multipla_escolha",
+      "enunciado": "A governamentalidade neoliberal transforma o indivíduo em quê, segundo Foucault?",
+      "opcoes": [
+        "Cidadão político consciente de seus direitos coletivos",
+        "Capital humano — uma espécie de empresa de si mesmo que deve se otimizar continuamente",
+        "Funcionário passivo que segue normas sem questionamento",
+        "Consumidor que persegue apenas interesses materiais imediatos"
+      ],
+      "resposta": "Capital humano — uma espécie de empresa de si mesmo que deve se otimizar continuamente",
+      "explicacao": "No neoliberalismo, o indivíduo passa a ser visto como capital humano — uma empresa de si mesmo. A lógica é fazer o indivíduo querer se otimizar continuamente: investir em si, aumentar produtividade, maximizar desempenho. O sujeito torna-se responsável pelo próprio sucesso e fracasso."
+    },
+    {
+      "id": "q038",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada forma histórica de governamentalidade (Foucault) à sua característica central:",
+      "pares": [
+        {
+          "esquerda": "Governamentalidade Pastoral",
+          "direita": "Cuidado do rebanho como forma de poder — orientação moral e vigilância da consciência"
+        },
+        {
+          "esquerda": "Razão de Estado",
+          "direita": "Fortalecimento do Estado por meio de conhecimento detalhado da sociedade"
+        },
+        {
+          "esquerda": "Governamentalidade Liberal",
+          "direita": "Mercado como produtor de verdade; Estado limita intervenção"
+        },
+        {
+          "esquerda": "Governamentalidade Neoliberal",
+          "direita": "Mercado organiza toda a vida social; indivíduo como empresa de si mesmo"
+        }
+      ],
+      "explicacao": "Foucault descreve a evolução histórica das formas de poder: da governamentalidade pastoral (cuidado religioso) à razão de Estado (conhecimento populacional), ao liberalismo (mercado) e ao neoliberalismo (autogestão do sujeito)."
+    },
+    {
+      "id": "q039",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A interpretação crítica da Aula 11 afirma que o neoliberalismo transforma autonomia em mecanismo de autovigilância.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O neoliberalismo transforma autonomia em autovigilância — o indivíduo não é obrigado diretamente, mas internaliza a lógica de otimização contínua. O poder organizacional moderno é mais psicológico do que coercitivo."
+    },
+    {
+      "id": "q040",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que significa 'teto de vidro' no contexto das desigualdades de gênero?",
+      "opcoes": [
+        "Uma política de transparência que permite visualizar os salários de todos os funcionários",
+        "Barreiras invisíveis que impedem mulheres de chegar aos cargos mais altos, apesar da qualificação",
+        "Um modelo de gestão que promove igualdade de oportunidades entre gêneros",
+        "A diferença salarial visível e documentada entre homens e mulheres"
+      ],
+      "resposta": "Barreiras invisíveis que impedem mulheres de chegar aos cargos mais altos, apesar da qualificação",
+      "explicacao": "O 'teto de vidro' é uma metáfora para barreiras invisíveis que impedem mulheres de chegar aos cargos mais altos. Essas barreiras não aparecem formalmente, funcionam de maneira indireta e dificultam o crescimento profissional feminino."
+    },
+    {
+      "id": "q041",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "As características agênticas (agressividade, independência, domínio) são frequentemente associadas à liderança tradicional nas organizações.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. As características agênticas — associadas aos homens — são agressividade, independência, domínio e competitividade, e são frequentemente associadas à liderança tradicional, enquanto características comunais (cuidado, empatia) são vistas como menos valorizadas em cargos de chefia."
+    },
+    {
+      "id": "q042",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que é 'liderança andrógina' segundo a Aula 12?",
+      "opcoes": [
+        "Liderança exclusivamente exercida por mulheres em organizações",
+        "Integração equilibrada de características masculinas e femininas, adaptando comportamento ao contexto",
+        "Negação de qualquer diferença de gênero no ambiente de trabalho",
+        "Modelo de liderança baseado apenas em características femininas"
+      ],
+      "resposta": "Integração equilibrada de características masculinas e femininas, adaptando comportamento ao contexto",
+      "explicacao": "A liderança andrógina é a integração equilibrada de características masculinas e femininas. Um líder andrógino consegue focar em resultados quando necessário, demonstrar empatia e cuidado, e adaptar o comportamento conforme a situação — aumentando eficácia e inclusão."
+    },
+    {
+      "id": "q043",
+      "tipo": "multipla_escolha",
+      "enunciado": "A 'sobrecarga moral' sofrida por mulheres nas organizações refere-se ao fato de que:",
+      "opcoes": [
+        "Mulheres assumem mais responsabilidades éticas que homens nas empresas",
+        "Se adotam postura firme são criticadas; se mantêm feminilidade são desvalorizadas profissionalmente",
+        "Mulheres são mais cobradas por compliance do que homens",
+        "Mulheres enfrentam mais sanções legais por desvios éticos"
+      ],
+      "resposta": "Se adotam postura firme são criticadas; se mantêm feminilidade são desvalorizadas profissionalmente",
+      "explicacao": "A sobrecarga moral é uma dupla penalização: se a mulher adota postura firme (masculinização), é criticada; se mantém feminilidade, é desvalorizada profissionalmente. Isso gera desgaste emocional, insegurança e limitação de escolhas."
+    },
+    {
+      "id": "q044",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A interseccionalidade afirma que raça, gênero e classe social operam de forma isolada e independente na produção de desigualdades.",
+      "resposta": false,
+      "explicacao": "Falso. A interseccionalidade afirma exatamente o contrário: as desigualdades sociais não operam separadamente — raça, gênero e classe se cruzam e se reforçam mutuamente. Políticas genéricas de diversidade tendem a ser insuficientes porque ignoram essas formas combinadas de discriminação."
+    },
+    {
+      "id": "q045",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que é 'transversalidade' no contexto da gestão da diversidade?",
+      "opcoes": [
+        "Criar um departamento específico de diversidade separado das outras áreas",
+        "Incorporar diversidade em todas as áreas organizacionais, não apenas em programas isolados de RH",
+        "Contratar consultores externos para avaliar a diversidade da empresa",
+        "Publicar relatórios anuais sobre a composição do quadro de funcionários"
+      ],
+      "resposta": "Incorporar diversidade em todas as áreas organizacionais, não apenas em programas isolados de RH",
+      "explicacao": "A transversalidade significa que diversidade precisa atravessar toda a estrutura institucional: recrutamento, promoção, critérios de avaliação, remuneração, cultura, liderança e tomada de decisão. Não basta criar um 'comitê de diversidade' se os processos continuam reproduzindo desigualdades."
+    },
+    {
+      "id": "q046",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada conceito da Aula 13 à sua definição correta:",
+      "pares": [
+        {
+          "esquerda": "Interseccionalidade",
+          "direita": "Desigualdades de raça, gênero e classe que se cruzam e se reforçam mutuamente"
+        },
+        {
+          "esquerda": "Transversalidade",
+          "direita": "Diversidade incorporada em todas as áreas organizacionais"
+        },
+        {
+          "esquerda": "Decolonialidade",
+          "direita": "Crítica às hierarquias invisíveis que perpetuam colonialidade do poder, saber e ser"
+        },
+        {
+          "esquerda": "Despolitização da diversidade",
+          "direita": "Quando a inclusão vira marketing e o problema estrutural desaparece"
+        }
+      ],
+      "explicacao": "Esses quatro conceitos formam o arcabouço teórico da Aula 13: interseccionalidade (cruzamento de opressões), transversalidade (diversidade sistêmica), decolonialidade (crítica às hierarquias coloniais) e despolitização (esvaziamento da pauta)."
+    },
+    {
+      "id": "q047",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O Encontro de Saberes propõe que as comunidades tradicionais (indígenas, quilombolas) permaneçam como objetos de pesquisa, sem participar da produção de conhecimento universitário.",
+      "resposta": false,
+      "explicacao": "Falso. O Encontro de Saberes rompe exatamente com essa relação: propõe integrar mestres tradicionais como docentes universitários, passando de objeto de pesquisa a sujeito do conhecimento. O ensino torna-se pluriepistêmico."
+    },
+    {
+      "id": "q048",
+      "tipo": "multipla_escolha",
+      "enunciado": "O 'princípio da preferência' na inclusão docente universitária (Aula 14) defende que:",
+      "opcoes": [
+        "Apenas candidatos com maior pontuação devem ser selecionados, independente de origem",
+        "Candidatos negros ou indígenas devem ter preferência em determinadas condições, reconhecendo pontos de partida historicamente desiguais",
+        "Todas as vagas de docente devem ser reservadas exclusivamente para grupos minorizados",
+        "O mérito acadêmico deve ser o único critério válido em qualquer processo seletivo"
+      ],
+      "resposta": "Candidatos negros ou indígenas devem ter preferência em determinadas condições, reconhecendo pontos de partida historicamente desiguais",
+      "explicacao": "A ideia não é ignorar mérito, mas reconhecer que pontos de partida historicamente desiguais produzem desigualdades persistentes. Ponto importante para prova: tratar todos de maneira idêntica em contextos estruturalmente desiguais tende a reproduzir desigualdades."
+    },
+    {
+      "id": "q049",
+      "tipo": "multipla_escolha",
+      "enunciado": "O Triple Bottom Line (tripé da sustentabilidade) é composto por quais três dimensões?",
+      "opcoes": [
+        "Econômica, financeira e contábil",
+        "Social, ambiental e tecnológica",
+        "Econômica, social e ambiental",
+        "Governança, compliance e transparência"
+      ],
+      "resposta": "Econômica, social e ambiental",
+      "explicacao": "O Triple Bottom Line equilibra três dimensões: econômica (lucro sustentável, viabilidade financeira, geração de emprego), social (direitos humanos, diversidade, stakeholders) e ambiental (redução de resíduos, menor emissão de poluentes, uso racional de recursos)."
+    },
+    {
+      "id": "q050",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A logística reversa tem como objetivo devolver resíduos ao ciclo produtivo, gerando ganhos simultâneos ambientais, econômicos e sociais.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A logística reversa objetiva devolver resíduos ao ciclo produtivo (reciclagem de plástico, reaproveitamento de papelão, retorno de embalagens), produzindo ganhos simultâneos nas três dimensões. A sustentabilidade deixa de ser gasto e passa a funcionar como eficiência econômica inteligente."
+    },
+    {
+      "id": "q051",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada certificação ambiental ao que ela avalia:",
+      "pares": [
+        {
+          "esquerda": "ISO 14000",
+          "direita": "Sistema técnico de gestão ambiental com foco em redução de impactos e melhoria contínua"
+        },
+        {
+          "esquerda": "LEED",
+          "direita": "Avalia construções sustentáveis — eficiência energética e uso racional de recursos"
+        },
+        {
+          "esquerda": "Rótulo Ecológico ABNT",
+          "direita": "Avalia o ciclo de vida do produto e seu impacto ambiental reduzido"
+        },
+        {
+          "esquerda": "ISE da B3",
+          "direita": "Índice que avalia empresas em dimensões econômica, ambiental, social e de governança"
+        }
+      ],
+      "explicacao": "Cada certificação tem escopo específico: ISO 14000 para gestão ambiental geral, LEED para construções, Rótulo Ecológico ABNT para produtos, e ISE da B3 para avaliação integrada das empresas listadas em bolsa."
+    },
+    {
+      "id": "q052",
+      "tipo": "multipla_escolha",
+      "enunciado": "O compliance ambiental no Brasil tem como referência principal qual legislação?",
+      "opcoes": [
+        "Código Florestal Brasileiro (Lei 12.651/2012)",
+        "Política Nacional de Resíduos Sólidos (Lei 12.305/2010)",
+        "Lei de Crimes Ambientais (Lei 9.605/1998)",
+        "Política Nacional do Meio Ambiente (Lei 6.938/1981)"
+      ],
+      "resposta": "Política Nacional de Resíduos Sólidos (Lei 12.305/2010)",
+      "explicacao": "No contexto da sustentabilidade empresarial, a Política Nacional de Resíduos Sólidos (Lei 12.305/2010) é destacada como referência, pois estabelece responsabilidades sobre descarte e reaproveitamento, base do compliance ambiental."
+    },
+    {
+      "id": "q053",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que significa ESG?",
+      "opcoes": [
+        "Estratégia, Sustentabilidade e Governança",
+        "Environmental (Ambiental), Social e Governance (Governança)",
+        "Eficiência, Sustentabilidade e Gestão",
+        "Ética, Social e Governança"
+      ],
+      "resposta": "Environmental (Ambiental), Social e Governance (Governança)",
+      "explicacao": "ESG significa Environmental (Ambiental — emissões, resíduos, energia), Social (diversidade, relações de trabalho, direitos humanos) e Governance (Governança — transparência, ética, compliance). Transforma sustentabilidade em critério mensurável de avaliação empresarial."
+    },
+    {
+      "id": "q054",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O greenwashing ocorre quando uma organização exagera, manipula ou omite informações para construir uma imagem ambiental positiva sem real comprometimento.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O greenwashing é quando a organização parece sustentável, mas não é. Ocorre por publicidade enganosa, linguagem vaga ('eco-friendly', 'verde' sem comprovação), omissão de impactos e dados seletivos — divulgando apenas indicadores positivos."
+    },
+    {
+      "id": "q055",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que relatórios corporativos de sustentabilidade, por si sós, não garantem a veracidade das práticas ESG?",
+      "opcoes": [
+        "Porque são documentos muito extensos e difíceis de ler",
+        "Porque há assimetria de informação: a empresa possui mais informação sobre sua prática do que consumidores e investidores, criando espaço para manipulação",
+        "Porque as normas contábeis não permitem incluir dados ambientais nos relatórios",
+        "Porque os investidores não leem os relatórios de sustentabilidade"
+      ],
+      "resposta": "Porque há assimetria de informação: a empresa possui mais informação sobre sua prática do que consumidores e investidores, criando espaço para manipulação",
+      "explicacao": "O problema da confiança é a assimetria de informação: a organização possui mais informação sobre sua prática do que consumidores, investidores e sociedade. Isso cria espaço para manipulação narrativa — a empresa pode parecer mais sustentável do que realmente é."
+    },
+    {
+      "id": "q056",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo a Aula 9, o principal dilema do compliance é que seguir regras pode limitar ganhos no curto prazo, mas ignorá-las pode gerar riscos maiores no longo prazo.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Esse é o dilema central do compliance: seguir regras pode limitar ganhos no curto prazo, mas ignorar regras pode gerar riscos no longo prazo. O compliance revela a tensão entre eficiência econômica e ética organizacional."
+    },
+    {
+      "id": "q057",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a consequência crítica da governamentalidade neoliberal sobre os problemas estruturais da sociedade?",
+      "opcoes": [
+        "Os problemas estruturais são reconhecidos e tratados coletivamente pelo Estado",
+        "Problemas estruturais são individualizados — desemprego vira culpa individual, fracasso vira falta de esforço",
+        "O neoliberalismo elimina os problemas estruturais pela eficiência do mercado",
+        "O Estado amplia sua intervenção para resolver desigualdades estruturais"
+      ],
+      "resposta": "Problemas estruturais são individualizados — desemprego vira culpa individual, fracasso vira falta de esforço",
+      "explicacao": "A consequência crítica do neoliberalismo é a individualização: desemprego vira culpa individual, fracasso vira falta de esforço. Problemas estruturais (econômicos, sociais) são tratados como falhas pessoais do indivíduo que não se otimizou suficientemente."
+    },
+    {
+      "id": "q058",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada conceito das aulas finais ao seu tema central:",
+      "pares": [
+        {
+          "esquerda": "Cotas epistêmicas",
+          "direita": "Inclusão de formas distintas de produzir saber, não apenas de pessoas"
+        },
+        {
+          "esquerda": "Despolitização da diversidade",
+          "direita": "Quando a pauta vira marketing e a injustiça estrutural desaparece do debate"
+        },
+        {
+          "esquerda": "Greenwashing",
+          "direita": "Manipulação da imagem ambiental sem comprometimento real com a sustentabilidade"
+        },
+        {
+          "esquerda": "Dupla moral organizacional",
+          "direita": "Ética usada como ferramenta de imagem, não como princípio orientador real"
+        }
+      ],
+      "explicacao": "Esses conceitos críticos atravessam diferentes aulas: cotas epistêmicas (Aula 14), despolitização da diversidade (Aula 13), greenwashing (Aula 16) e dupla moral (Aula 7) — todos apontam para a distância entre discurso e prática."
+    },
+    {
+      "id": "q059",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo a Aula 10, a reputação de uma empresa pode ser protegida apenas por meio de boas estratégias de marketing e comunicação.",
+      "resposta": false,
+      "explicacao": "Falso. A ideia central é que reputação é protegida por governança e controle, não apenas por marketing. A reputação depende de coerência entre discurso e prática, de mecanismos éticos internos e de compliance — não de comunicação superficial."
+    },
+    {
+      "id": "q060",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual afirmação sintetiza melhor a relação entre ética, compliance, ESG e reputação discutida ao longo de todas as aulas?",
+      "opcoes": [
+        "São áreas separadas e independentes dentro de uma organização",
+        "Ética e reputação são suficientes; compliance e ESG são apenas burocracia",
+        "A ética só se torna efetiva quando internalizada e incorporada ao comportamento cotidiano — compliance, ESG e reputação dependem dessa internalização",
+        "O lucro é o único indicador que consolida todos esses elementos de forma prática"
+      ],
+      "resposta": "A ética só se torna efetiva quando internalizada e incorporada ao comportamento cotidiano — compliance, ESG e reputação dependem dessa internalização",
+      "explicacao": "Conclusão central de todas as aulas: a ética só se torna efetiva quando internalizada e incorporada ao comportamento cotidiano, não apenas formalizada. Compliance sem cultura vira burocracia, ESG sem prática vira greenwashing, e reputação sem integridade se fragiliza."
+    }
+  ]
+}
