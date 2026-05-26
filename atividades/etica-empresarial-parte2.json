@@ -1,0 +1,771 @@
+{
+  "id": "etica-empresarial-parte2",
+  "titulo": "Ética Empresarial — Parte 2 (Aulas 2 a 16)",
+  "descricao": "60 novas questões cobrindo todos os temas: fundamentos da ética, racionalidade, modelos de homem, ética institucional, RSE, ética brasileira, governança, reputação, governamentalidade, gênero, diversidade, sustentabilidade e ESG.",
+  "disciplina": "Ética Empresarial",
+  "criado_em": "2026-05-23",
+  "cor": "#f59e0b",
+  "icone": "📜",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "A ética está diretamente ligada à ideia de virtude. Como a virtude é entendida nas aulas?",
+      "opcoes": [
+        "Como um dom natural que alguns possuem e outros não",
+        "Como a prática constante do bem, que contribui para a felicidade individual e coletiva",
+        "Como o cumprimento de normas jurídicas estabelecidas pelo Estado",
+        "Como a ausência de conflitos interpessoais no ambiente de trabalho"
+      ],
+      "resposta": "Como a prática constante do bem, que contribui para a felicidade individual e coletiva",
+      "explicacao": "A ética está diretamente ligada à ideia de virtude, entendida como a prática constante do bem. Agir eticamente não é um ato isolado, mas um padrão de comportamento que contribui para a felicidade individual e coletiva."
+    },
+    {
+      "id": "q002",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A ética se concentra principalmente na atitude do indivíduo, pois ela é mensurável e avaliável socialmente.",
+      "resposta": false,
+      "explicacao": "Falso. A ética se concentra principalmente na CONDUTA, pois ela é mensurável e avaliável socialmente. A atitude é importante porque explica a origem da ação, mas não é o foco central da avaliação ética."
+    },
+    {
+      "id": "q003",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a interpretação central da ética segundo Confúcio?",
+      "opcoes": [
+        "A ética surge do cumprimento de leis impostas pelo Estado soberano",
+        "A ética surge da convivência social e da empatia entre as pessoas",
+        "A ética é resultado da disciplina emocional individual",
+        "A ética depende exclusivamente da razão que controla as paixões"
+      ],
+      "resposta": "A ética surge da convivência social e da empatia entre as pessoas",
+      "explicacao": "Para Confúcio, a ética surge da convivência social e da empatia. Ele defende que a família é a base da sociedade, o Estado deve servir ao povo, e a conduta moral está ligada ao respeito e à reciprocidade."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "Paracelso defende que a ética depende principalmente de quê?",
+      "opcoes": [
+        "Do cumprimento de regras religiosas e dogmas morais",
+        "Da maximização do bem-estar coletivo por meio de decisões racionais",
+        "Do estado mental e da disciplina emocional do indivíduo",
+        "Da harmonia entre as leis do Estado e os costumes da sociedade"
+      ],
+      "resposta": "Do estado mental e da disciplina emocional do indivíduo",
+      "explicacao": "Paracelso traz uma visão prática e psicológica da ética, destacando a importância do equilíbrio emocional. Defende eliminar sentimentos negativos (ódio, vingança, pessimismo), praticar o bem sempre que possível e desenvolver força interior e autocontrole."
+    },
+    {
+      "id": "q005",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Hobbes, a natureza humana é fundamentalmente cooperativa, dispensando a necessidade de um poder regulador externo.",
+      "resposta": false,
+      "explicacao": "Falso. Hobbes tem uma visão pessimista da natureza humana. Para ele, os indivíduos são movidos por interesses próprios, há competição, desconfiança e busca por poder — sem regras, a convivência seria caótica. Por isso é necessário um poder regulador."
+    },
+    {
+      "id": "q006",
+      "tipo": "multipla_escolha",
+      "enunciado": "Aplicando a ética de Hobbes ao contexto empresarial, qual seria sua conclusão?",
+      "opcoes": [
+        "As empresas não precisam de normas porque os funcionários são naturalmente éticos",
+        "Nas empresas, normas e hierarquia são essenciais para controlar comportamentos",
+        "O mercado livre regula naturalmente o comportamento ético das empresas",
+        "A ética corporativa deve depender exclusivamente da consciência individual de cada funcionário"
+      ],
+      "resposta": "Nas empresas, normas e hierarquia são essenciais para controlar comportamentos",
+      "explicacao": "A aplicação de Hobbes ao contexto empresarial é direta: assim como o Estado precisa de um poder regulador para conter o conflito humano, nas empresas normas e hierarquia são essenciais para controlar comportamentos e evitar o caos."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "Segundo a perspectiva contemporânea da ética apresentada nas aulas, a conduta é influenciada por quais fatores externos?",
+      "opcoes": [
+        "Apenas pela educação formal recebida na infância",
+        "Exclusivamente pela estrutura genética e temperamento do indivíduo",
+        "Cultura, contexto social, interesses econômicos e pressão organizacional",
+        "Somente pelas leis e regulamentos do país onde a pessoa vive"
+      ],
+      "resposta": "Cultura, contexto social, interesses econômicos e pressão organizacional",
+      "explicacao": "A perspectiva contemporânea da ética considera que a conduta é influenciada por diversos fatores externos: cultura, contexto social, interesses econômicos e pressão organizacional. O principal desafio é conciliar interesses individuais, organizacionais e sociais."
+    },
+    {
+      "id": "q008",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "No período clássico (Aristóteles), a razão tinha caráter ético e normativo, servindo para distinguir o bem do mal.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. No período clássico aristotélico, a razão tinha caráter ético e normativo, servia para distinguir o bem do mal e estava ligada à vida moral e política. Foi a modernidade (Hobbes e outros) que transformou a razão em cálculo utilitário, perdendo seu caráter ético."
+    },
+    {
+      "id": "q009",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual foi a transformação histórica do conceito de razão da Antiguidade para a Modernidade?",
+      "opcoes": [
+        "A razão passou de instrumento técnico para ferramenta ética",
+        "A razão passou de caráter ético e normativo para cálculo utilitário focado em eficiência",
+        "A razão passou de individual para coletiva, valorizando o bem comum",
+        "A razão passou de religiosa para científica, mantendo seu valor moral"
+      ],
+      "resposta": "A razão passou de caráter ético e normativo para cálculo utilitário focado em eficiência",
+      "explicacao": "A modernidade transformou a razão em instrumento técnico, afastando-a da ética. Na Antiguidade, a razão servia para distinguir o bem do mal. Na Modernidade (Hobbes e outros), passou a ser vista como cálculo utilitário focado em prever consequências e maximizar resultados."
+    },
+    {
+      "id": "q010",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada período histórico à sua concepção de razão:",
+      "pares": [
+        {
+          "esquerda": "Período Clássico (Aristóteles)",
+          "direita": "Razão com caráter ético, normativo e ligada à vida moral e política"
+        },
+        {
+          "esquerda": "Período Moderno (Hobbes)",
+          "direita": "Razão como cálculo utilitário focado em prever consequências"
+        },
+        {
+          "esquerda": "Escola de Frankfurt",
+          "direita": "Razão reduzida a instrumento de dominação que elimina o pensamento crítico"
+        },
+        {
+          "esquerda": "Guerreiro Ramos",
+          "direita": "Crítica à redução do humano ao econômico pela racionalidade instrumental"
+        }
+      ],
+      "explicacao": "A transformação histórica da razão é central na Aula 4: do caráter ético aristotélico ao cálculo moderno, passando pela crítica frankfurtiana e a denúncia de Guerreiro Ramos sobre o impacto desfigurador da racionalidade instrumental."
+    },
+    {
+      "id": "q011",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Guerreiro Ramos, o sucesso prático da racionalidade instrumental demonstra que ela é teoricamente adequada para orientar as organizações.",
+      "resposta": false,
+      "explicacao": "Falso. Guerreiro Ramos argumenta que o sucesso prático da racionalidade instrumental NÃO significa que ela seja teoricamente adequada. Pelo contrário, ela pode ter um 'impacto desfigurador sobre a vida humana associada', tratando o ser humano apenas como agente econômico."
+    },
+    {
+      "id": "q012",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual dos quatro 'pontos cegos' da teoria organizacional identificados por Guerreiro Ramos se refere à comunicação?",
+      "opcoes": [
+        "Redução do humano ao econômico, ignorando dimensões psicológicas",
+        "Visão limitada de organização, confundindo empresa com toda forma de organização humana",
+        "Redução da comunicação — vista apenas como transmissão de informação, ignorando símbolos e significados",
+        "Visão mecanicista do trabalho, tratado como obrigação sem considerar realização pessoal"
+      ],
+      "resposta": "Redução da comunicação — vista apenas como transmissão de informação, ignorando símbolos e significados",
+      "explicacao": "O terceiro ponto cego é a redução da comunicação: a teoria organizacional dominante trata a comunicação apenas como transmissão de informação, ignorando símbolos e significados. Os quatro pontos cegos são: redução do humano ao econômico, visão limitada de organização, redução da comunicação e visão mecanicista do trabalho."
+    },
+    {
+      "id": "q013",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a característica central que diferencia o Homem Operacional dos outros modelos?",
+      "opcoes": [
+        "Busca por sentido e propósito no trabalho",
+        "Valorização das relações sociais e do clima organizacional",
+        "Trabalhador visto como recurso produtivo, motivado por recompensas financeiras e com atuação padronizada",
+        "Capacidade de questionar normas e valores organizacionais"
+      ],
+      "resposta": "Trabalhador visto como recurso produtivo, motivado por recompensas financeiras e com atuação padronizada",
+      "explicacao": "O Homem Operacional surge com a administração científica: trabalhador visto como recurso produtivo, foco na eficiência e produtividade, motivação baseada em recompensas financeiras e atuação padronizada e controlada — tratado como uma 'máquina'."
+    },
+    {
+      "id": "q014",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A racionalidade noética, associada ao Homem Parentético, é uma forma de racionalidade que se opõe à lógica instrumental.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A racionalidade noética consiste na capacidade de julgamento próprio, reflexão sobre o que é justo e resistência à racionalidade puramente funcional. É uma forma de racionalidade ética que se opõe à lógica instrumental — foco em valores, não em resultados."
+    },
+    {
+      "id": "q015",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o conflito central nas organizações contemporâneas descrito na Aula 5?",
+      "opcoes": [
+        "Conflito entre eficiência produtiva e inovação tecnológica",
+        "Conflito entre racionalidade funcional (instrumental) com foco em resultados e racionalidade noética (ética) com foco em valores",
+        "Conflito entre interesses dos acionistas e dos gestores",
+        "Conflito entre demandas do mercado consumidor e capacidade produtiva"
+      ],
+      "resposta": "Conflito entre racionalidade funcional (instrumental) com foco em resultados e racionalidade noética (ética) com foco em valores",
+      "explicacao": "O conflito central nas organizações atuais é entre racionalidade funcional (instrumental) — foco em resultados — e racionalidade noética (ética) — foco em valores. Esse é o dilema do trabalhador contemporâneo, especialmente do Homem Parentético."
+    },
+    {
+      "id": "q016",
+      "tipo": "multipla_escolha",
+      "enunciado": "Os trabalhadores atuais, segundo os desafios contemporâneos da Aula 5, buscam principalmente:",
+      "opcoes": [
+        "Apenas salário elevado e estabilidade no emprego",
+        "Propósito, autonomia e equilíbrio, com menor valorização de recompensas futuras e maior foco no presente",
+        "Reconhecimento por hierarquia e promoções baseadas em tempo de empresa",
+        "Controle total sobre seus processos sem qualquer supervisão organizacional"
+      ],
+      "resposta": "Propósito, autonomia e equilíbrio, com menor valorização de recompensas futuras e maior foco no presente",
+      "explicacao": "Os trabalhadores atuais não buscam apenas salário — querem propósito, autonomia e equilíbrio. Há mudança nas motivações: menor valorização de recompensas futuras e maior foco no presente e na qualidade de vida."
+    },
+    {
+      "id": "q017",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada nível dos três conceitos morais (costume, moral, ética) à sua função social:",
+      "pares": [
+        {
+          "esquerda": "Costume",
+          "direita": "Práticas repetidas vistas como normais, muitas vezes sem reflexão crítica"
+        },
+        {
+          "esquerda": "Moral",
+          "direita": "Normas e valores que orientam o julgamento do certo e errado na sociedade"
+        },
+        {
+          "esquerda": "Ética",
+          "direita": "Reflexão crítica sobre a moral, questionando se as normas são justas e coerentes"
+        },
+        {
+          "esquerda": "Institucionalização",
+          "direita": "Transformação de valores abstratos em critérios operacionais de decisão"
+        }
+      ],
+      "explicacao": "Os três níveis são complementares e hierárquicos: costume (como as pessoas agem), moral (como devem agir), ética (por que devem agir assim). A institucionalização é o processo que transforma esses valores em prática organizacional concreta."
+    },
+    {
+      "id": "q018",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo a Aula 6, em sociedades modernas e complexas, indivíduos diferentes interpretam o que é 'certo' de formas distintas — o que justifica a necessidade de mecanismos formais de ética nas organizações.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Em sociedades modernas há diversidade de valores, interesses e visões de mundo, gerando o problema de diferentes interpretações do 'certo'. Para reduzir esse problema, as organizações criam mecanismos formais: códigos de ética, políticas internas e normas de conduta."
+    },
+    {
+      "id": "q019",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o efeito de um código de ética vago ou genérico dentro de uma organização?",
+      "opcoes": [
+        "Aumenta a flexibilidade ética e permite adaptação criativa às situações",
+        "Dificulta a aplicação prática, permite múltiplas interpretações e enfraquece a autoridade normativa",
+        "Motiva os funcionários por não ser restritivo e impositivo",
+        "Garante que cada funcionário tome suas próprias decisões éticas de forma autônoma"
+      ],
+      "resposta": "Dificulta a aplicação prática, permite múltiplas interpretações e enfraquece a autoridade normativa",
+      "explicacao": "Quando os códigos de ética são vagos ou genéricos, dificultam a aplicação prática, permitem múltiplas interpretações e enfraquecem a autoridade normativa. Quanto maior a clareza e aplicabilidade das normas, maior a capacidade da organização de transformar valores em prática."
+    },
+    {
+      "id": "q020",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que o compliance eficaz vai além do simples controle burocrático?",
+      "opcoes": [
+        "Porque substitui completamente a necessidade de códigos de ética escritos",
+        "Porque elimina a necessidade de liderança ética dentro das organizações",
+        "Porque funciona como mecanismo de alinhamento entre valores e prática organizacional, integrando-se à cultura",
+        "Porque garante automaticamente que todos os funcionários agem eticamente"
+      ],
+      "resposta": "Porque funciona como mecanismo de alinhamento entre valores e prática organizacional, integrando-se à cultura",
+      "explicacao": "Compliance eficaz não é apenas controle — é um mecanismo de alinhamento entre valores e prática organizacional. Se for apenas formal, vira burocracia. Se for integrado à cultura, fortalece a ética. A diferença está na internalização dos valores."
+    },
+    {
+      "id": "q021",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A 'dupla moral organizacional' ocorre quando a empresa usa a ética mais como ferramenta de imagem do que como princípio orientador real, gerando perda de credibilidade.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A dupla moral organizacional caracteriza-se pela discrepância entre discurso e prática: empresas defendem valores como ética e sustentabilidade, mas adotam comportamentos diferentes na prática. Isso gera perda de credibilidade, desconfiança dos stakeholders e fragilidade da reputação."
+    },
+    {
+      "id": "q022",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são as principais limitações da visão clássica de Friedman sobre responsabilidade social empresarial?",
+      "opcoes": [
+        "Foca excessivamente no bem-estar dos funcionários e ignora os acionistas",
+        "Ignora impactos sociais e ambientais, desconsidera desigualdades geradas e reduz a empresa a agente exclusivamente financeiro",
+        "Exige que as empresas gastem excessivamente em programas sociais",
+        "Confunde responsabilidade legal com responsabilidade moral das organizações"
+      ],
+      "resposta": "Ignora impactos sociais e ambientais, desconsidera desigualdades geradas e reduz a empresa a agente exclusivamente financeiro",
+      "explicacao": "A visão clássica de Friedman apresenta três limitações: ignora impactos sociais e ambientais, desconsidera desigualdades geradas pela atividade econômica e reduz a empresa a agente exclusivamente financeiro. Em contextos contemporâneos, essa visão torna-se insuficiente."
+    },
+    {
+      "id": "q023",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quando o 'contrato implícito' entre empresa e sociedade é quebrado, quais são as consequências?",
+      "opcoes": [
+        "A empresa recebe multas e sanções governamentais obrigatórias",
+        "Há perda de legitimidade e a empresa pode sofrer boicotes ou sanções sociais",
+        "Os acionistas são diretamente responsabilizados pelos danos causados",
+        "O governo intervém diretamente para reestruturar a gestão da empresa"
+      ],
+      "resposta": "Há perda de legitimidade e a empresa pode sofrer boicotes ou sanções sociais",
+      "explicacao": "Quando o contrato implícito é quebrado, há perda de legitimidade e a empresa pode sofrer boicotes ou sanções sociais. A empresa precisa de uma 'licença social para operar', que vai além da legalidade — é uma expectativa social de comportamento ético."
+    },
+    {
+      "id": "q024",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada característica à ética brasileira correspondente (Aula 8):",
+      "pares": [
+        {
+          "esquerda": "Moral da integridade",
+          "direita": "Baseada no cumprimento de regras e princípios formais"
+        },
+        {
+          "esquerda": "Moral do oportunismo",
+          "direita": "Baseada na busca de vantagens pessoais em situações específicas"
+        },
+        {
+          "esquerda": "Formalismo (esquizonomia)",
+          "direita": "Existência de leis e regras que não são efetivamente aplicadas na prática"
+        },
+        {
+          "esquerda": "Personalismo",
+          "direita": "Decisões tomadas com base em vínculos pessoais — favoritismo e clientelismo"
+        }
+      ],
+      "explicacao": "A ética brasileira é marcada pela coexistência de dois sistemas morais (integridade e oportunismo), pelo formalismo (normas sem aplicação real) e pelo personalismo (relações pessoais acima de critérios técnicos) — que geram inconsistência comportamental."
+    },
+    {
+      "id": "q025",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "As relações de dependência e personalismo na sociedade brasileira tendem a promover meritocracia e igualdade de oportunidades.",
+      "resposta": false,
+      "explicacao": "Falso. Ao contrário, essas relações baseadas em vínculos pessoais (favoritismo, clientelismo, paternalismo) produzem baixa meritocracia, decisões ineficientes e desigualdade de oportunidades — comprometendo eficiência, inovação e competitividade."
+    },
+    {
+      "id": "q026",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que a normalização do oportunismo ('jeitinho') é problemática para as organizações?",
+      "opcoes": [
+        "Porque aumenta a criatividade e a inovação dentro das empresas",
+        "Porque reduz a percepção de erro e torna desvios socialmente aceitáveis, enfraquecendo as normas",
+        "Porque cria conflitos diretos com as leis trabalhistas vigentes",
+        "Porque dificulta a comunicação entre diferentes departamentos"
+      ],
+      "resposta": "Porque reduz a percepção de erro e torna desvios socialmente aceitáveis, enfraquecendo as normas",
+      "explicacao": "A normalização do oportunismo é problemática porque reduz a percepção de erro e torna desvios socialmente aceitáveis. Isso enfraquece progressivamente as normas organizacionais e cria um ambiente onde comportamentos antiéticos passam a ser tolerados."
+    },
+    {
+      "id": "q027",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a função principal da governança corporativa dentro das organizações?",
+      "opcoes": [
+        "Maximizar o lucro dos acionistas no curto prazo",
+        "Garantir o equilíbrio entre diferentes interesses, reduzindo abusos de poder e aumentando confiança",
+        "Substituir a necessidade de compliance e códigos de ética",
+        "Controlar exclusivamente as operações financeiras da empresa"
+      ],
+      "resposta": "Garantir o equilíbrio entre diferentes interesses, reduzindo abusos de poder e aumentando confiança",
+      "explicacao": "A governança corporativa surge como conjunto de mecanismos para garantir o equilíbrio entre diferentes interesses, baseando-se em transparência, equidade, accountability e responsabilidade. Sua função é reduzir abusos de poder, aumentar confiança e melhorar a qualidade da gestão."
+    },
+    {
+      "id": "q028",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O compliance operacionaliza a governança corporativa, garantindo que a organização siga normas e leis por meio de prevenção, monitoramento e correção.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. O compliance operacionaliza a governança: prevenção (políticas, treinamentos), monitoramento (auditorias, controles internos) e correção (investigação e sanções). Seu objetivo é assegurar integridade e reduzir riscos legais e reputacionais."
+    },
+    {
+      "id": "q029",
+      "tipo": "multipla_escolha",
+      "enunciado": "Para que os indicadores de desempenho sejam eticamente confiáveis, eles devem ser:",
+      "opcoes": [
+        "Flexíveis, subjetivos e adaptados a cada situação específica",
+        "Verificáveis, auditáveis e transparentes",
+        "Definidos exclusivamente pela alta gestão sem participação de auditores externos",
+        "Focados apenas em resultados financeiros para garantir objetividade"
+      ],
+      "resposta": "Verificáveis, auditáveis e transparentes",
+      "explicacao": "Para que indicadores de desempenho sejam eficazes e eticamente confiáveis, devem ser verificáveis, auditáveis e transparentes. Só assim conseguem orientar decisões de forma ética e consistente, evitando a falsa sensação de controle e eficiência."
+    },
+    {
+      "id": "q030",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença entre reputação e propaganda corporativa?",
+      "opcoes": [
+        "A propaganda é mais duradoura; a reputação pode mudar rapidamente",
+        "A propaganda é criada pela empresa; a reputação é construída lentamente pelas percepções acumuladas dos stakeholders",
+        "São sinônimos — ambas dependem de comunicação eficaz da empresa",
+        "A propaganda depende de investimento; a reputação é gratuita e automática"
+      ],
+      "resposta": "A propaganda é criada pela empresa; a reputação é construída lentamente pelas percepções acumuladas dos stakeholders",
+      "explicacao": "Diferente da propaganda, a reputação não é criada rapidamente. Ela é construída lentamente a partir das percepções acumuladas dos stakeholders ao longo do tempo e pode ser destruída rapidamente. Reputação não é o que a empresa diz sobre si, mas o que os outros acreditam sobre ela."
+    },
+    {
+      "id": "q031",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada mecanismo de proteção reputacional à sua função:",
+      "pares": [
+        {
+          "esquerda": "Códigos de conduta",
+          "direita": "Definem expectativas de comportamento dentro da organização"
+        },
+        {
+          "esquerda": "Auditorias",
+          "direita": "Verificam cumprimento das normas e identificam desvios"
+        },
+        {
+          "esquerda": "Sanções",
+          "direita": "Punem desvios e sinalizam que as regras são levadas a sério"
+        },
+        {
+          "esquerda": "Controles preventivos",
+          "direita": "Reduzem vulnerabilidades antes que as crises aconteçam"
+        }
+      ],
+      "explicacao": "Para proteger reputação, a empresa precisa de mecanismos formais complementares: códigos de conduta (expectativas), auditorias (verificação), sanções (punição de desvios) e controles preventivos (antecipação de riscos). A reputação é protegida por governança e controle, não apenas por marketing."
+    },
+    {
+      "id": "q032",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Fraudes organizacionais têm efeitos limitados ao âmbito financeiro, sem impactar significativamente a reputação ou a legitimidade da empresa.",
+      "resposta": false,
+      "explicacao": "Falso. Fraudes têm efeitos que vão muito além da perda financeira: a confiança é reduzida, investidores perdem segurança, clientes questionam a credibilidade, a mídia amplia o impacto negativo. As consequências incluem queda do valor de mercado, perda de legitimidade e danos irreversíveis à marca."
+    },
+    {
+      "id": "q033",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como a reputação se relaciona com ações de responsabilidade social segundo a Aula 10?",
+      "opcoes": [
+        "Ações de RSE sempre fortalecem a reputação independentemente de como são realizadas",
+        "Ações sociais fortalecem a reputação quando geram benefícios reais; se forem apenas marketing, geram efeito contrário",
+        "A responsabilidade social não tem impacto direto na reputação corporativa",
+        "A reputação depende apenas de ações ambientais, não de ações sociais"
+      ],
+      "resposta": "Ações sociais fortalecem a reputação quando geram benefícios reais; se forem apenas marketing, geram efeito contrário",
+      "explicacao": "A responsabilidade social precisa ser genuína. Ações sociais fortalecem a reputação quando geram benefícios reais (capacitação, inovação, proteção ambiental, apoio comunitário). Se for apenas marketing, gera efeito contrário — reforçando a percepção de 'ética de fachada'."
+    },
+    {
+      "id": "q034",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual dos três sentidos de governamentalidade de Foucault descreve a transição do 'Estado de justiça medieval' para o 'Estado administrativo moderno'?",
+      "opcoes": [
+        "Primeiro sentido: conjunto de técnicas de governo para administrar populações",
+        "Segundo sentido: predomínio da lógica do governo das condutas",
+        "Terceiro sentido: governamentalização do Estado — uso de estatísticas, economia e planejamento",
+        "Sentido pastoral: cuidado do rebanho como forma de exercício do poder"
+      ],
+      "resposta": "Terceiro sentido: governamentalização do Estado — uso de estatísticas, economia e planejamento",
+      "explicacao": "O terceiro sentido da governamentalidade descreve a governamentalização do Estado: a passagem do Estado de justiça medieval (autoridade jurídica) para o Estado administrativo moderno (gestão da população), que usa estatísticas, economia, planejamento e controle populacional."
+    },
+    {
+      "id": "q035",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Na governamentalidade pastoral, o cuidado exercido pelo 'pastor' é neutro e não envolve formas de controle ou vigilância.",
+      "resposta": false,
+      "explicacao": "Falso. O cuidado pastoral não é neutro — ele envolve orientação moral, vigilância e direção da consciência. O objetivo é a 'salvação' do indivíduo, mas o poder pastoral atua não apenas no comportamento externo, mas também nos pensamentos e na identidade da pessoa."
+    },
+    {
+      "id": "q036",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como a governamentalidade pastoral se manifesta nas organizações contemporâneas?",
+      "opcoes": [
+        "Por meio de demissões e punições para controlar o comportamento dos funcionários",
+        "Por meio de programas de bem-estar, coaching, incentivo psicológico e cultura organizacional forte, que também funcionam como mecanismo de controle",
+        "Por meio de regulamentos rígidos e hierarquia vertical inflexível",
+        "Por meio de recompensas financeiras exclusivamente baseadas em produtividade"
+      ],
+      "resposta": "Por meio de programas de bem-estar, coaching, incentivo psicológico e cultura organizacional forte, que também funcionam como mecanismo de controle",
+      "explicacao": "A governamentalidade pastoral aparece nas organizações que assumem o discurso de 'cuidamos de você' por meio de programas de bem-estar, coaching, incentivo psicológico e cultura organizacional forte. Mas existe uma ambiguidade — o cuidado também pode funcionar como mecanismo de controle."
+    },
+    {
+      "id": "q037",
+      "tipo": "multipla_escolha",
+      "enunciado": "A Escola de Chicago (neoliberal) propõe aplicar lógica econômica a toda vida humana. Qual é o resultado dessa perspectiva sobre o indivíduo?",
+      "opcoes": [
+        "O indivíduo é liberado de qualquer pressão produtiva e pode viver autenticamente",
+        "O indivíduo passa a ser visto como capital humano — empresa de si mesmo — responsável pelo próprio sucesso e fracasso",
+        "O Estado assume maior responsabilidade pelo bem-estar individual",
+        "O mercado redistribui riqueza automaticamente, eliminando desigualdades"
+      ],
+      "resposta": "O indivíduo passa a ser visto como capital humano — empresa de si mesmo — responsável pelo próprio sucesso e fracasso",
+      "explicacao": "A Escola de Chicago propõe interpretar economicamente tudo: educação, relacionamentos, escolhas pessoais e carreira. O indivíduo passa a ser visto como capital humano — uma espécie de empresa de si mesmo — tornando-se responsável pelo próprio sucesso e fracasso."
+    },
+    {
+      "id": "q038",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A divisão sexual do trabalho é um fenômeno histórico que não tem mais influência nas escolhas profissionais e expectativas de carreira contemporâneas.",
+      "resposta": false,
+      "explicacao": "Falso. A divisão sexual do trabalho — que associa historicamente homens ao papel de provedores e mulheres ao cuidado — ainda influencia escolhas profissionais, expectativas de carreira, formas de liderança e oportunidades dentro das empresas. As desigualdades persistem porque são estruturais."
+    },
+    {
+      "id": "q039",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que os estereótipos de gênero são problemáticos nos processos de seleção e promoção organizacional?",
+      "opcoes": [
+        "Porque facilitam a padronização dos critérios de avaliação",
+        "Porque funcionam como 'atalhos mentais' que tornam decisões parciais e influenciam contratações e promoções de forma inconsciente",
+        "Porque aumentam a eficiência dos processos seletivos ao reduzir o número de candidatos",
+        "Porque eliminam conflitos de interesse entre gestores e funcionários"
+      ],
+      "resposta": "Porque funcionam como 'atalhos mentais' que tornam decisões parciais e influenciam contratações e promoções de forma inconsciente",
+      "explicacao": "Os estereótipos funcionam como 'atalhos mentais': gestores podem avaliar homens e mulheres de forma diferente, decisões deixam de ser totalmente objetivas e vieses influenciam contratações e promoções. Esses preconceitos muitas vezes acontecem de forma inconsciente."
+    },
+    {
+      "id": "q040",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada estratégia de inclusão de gênero ao seu objetivo principal:",
+      "pares": [
+        {
+          "esquerda": "Definir metas de diversidade",
+          "direita": "Tornar a inclusão mensurável e com responsabilização executiva"
+        },
+        {
+          "esquerda": "Revisar processos de promoção",
+          "direita": "Eliminar critérios subjetivos que reproduzem desigualdades invisíveis"
+        },
+        {
+          "esquerda": "Treinamentos contra vieses",
+          "direita": "Tornar conscientes os preconceitos implícitos dos gestores"
+        },
+        {
+          "esquerda": "Monitoramento constante",
+          "direita": "Garantir continuidade e evitar que a inclusão vire discurso"
+        }
+      ],
+      "explicacao": "Cada estratégia atua em uma dimensão diferente do problema: metas (mensurabilidade), revisão de processos (eliminação de critérios subjetivos), treinamentos (conscientização de vieses) e monitoramento (sustentabilidade das mudanças)."
+    },
+    {
+      "id": "q041",
+      "tipo": "multipla_escolha",
+      "enunciado": "A teoria da identidade do papel sexual (Aula 12) afirma que:",
+      "opcoes": [
+        "O sexo biológico determina completamente as características de liderança de uma pessoa",
+        "O importante não é o sexo biológico, mas o repertório de características da pessoa — qualquer indivíduo pode apresentar traços masculinos e femininos",
+        "Mulheres devem adotar características masculinas para ser eficazes como líderes",
+        "Homens são naturalmente mais aptos à liderança por características biológicas"
+      ],
+      "resposta": "O importante não é o sexo biológico, mas o repertório de características da pessoa — qualquer indivíduo pode apresentar traços masculinos e femininos",
+      "explicacao": "A teoria rompe com a ideia de que liderança pertence naturalmente aos homens. O importante não é o sexo biológico, mas o repertório de características: qualquer indivíduo pode apresentar traços considerados masculinos e femininos, e comportamentos devem se adaptar ao contexto."
+    },
+    {
+      "id": "q042",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A decolonialidade denuncia três permanências: colonialidade do poder, do saber e do ser.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A decolonialidade denuncia: colonialidade do poder (hierarquias sociais que favorecem certos grupos), colonialidade do saber (alguns conhecimentos considerados mais legítimos que outros) e colonialidade do ser (certos grupos historicamente menos reconhecidos ou valorizados)."
+    },
+    {
+      "id": "q043",
+      "tipo": "multipla_escolha",
+      "enunciado": "O principal problema da gestão da diversidade nas organizações, segundo a Aula 13, é:",
+      "opcoes": [
+        "A falta de candidatos qualificados de grupos minorizados no mercado",
+        "O excesso de regulamentação governamental que dificulta as contratações",
+        "A contradição entre discurso inclusivo e cotidiano organizacional que continua reproduzindo desigualdades — recruta-se diversidade, mas não se promove diversidade",
+        "A resistência dos sindicatos às políticas de cotas nas empresas"
+      ],
+      "resposta": "A contradição entre discurso inclusivo e cotidiano organizacional que continua reproduzindo desigualdades — recruta-se diversidade, mas não se promove diversidade",
+      "explicacao": "O principal problema é a contradição: muitas organizações têm campanhas de inclusão, discursos fortes e políticas formais, mas o cotidiano continua reproduzindo desigualdades. A empresa recruta diversidade, mas não promove diversidade — há entrada de grupos marginalizados, mas pouca ascensão para posições estratégicas."
+    },
+    {
+      "id": "q044",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é o risco identificado na Aula 13 quando as empresas transformam diversidade em estratégia de marketing?",
+      "opcoes": [
+        "As empresas perdem competitividade por gastar demais com programas sociais",
+        "Ocorre a despolitização da diversidade — o problema estrutural desaparece e sobra apenas discurso corporativo",
+        "Os funcionários ficam confusos com mensagens contraditórias sobre diversidade",
+        "O governo aumenta as exigências regulatórias para empresas com políticas de diversidade"
+      ],
+      "resposta": "Ocorre a despolitização da diversidade — o problema estrutural desaparece e sobra apenas discurso corporativo",
+      "explicacao": "O risco é a despolitização da diversidade: quando a pauta vira publicidade, a inclusão serve apenas para reputação e a justiça social perde centralidade. O problema estrutural desaparece e sobra apenas discurso corporativo vazio."
+    },
+    {
+      "id": "q045",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo a Aula 14, garantir o ingresso de estudantes de grupos minorizados na universidade é suficiente para resolver o problema das desigualdades no ensino superior.",
+      "resposta": false,
+      "explicacao": "Falso. O ingresso é apenas o primeiro passo. A aula argumenta que a universidade pode ampliar o acesso, mas ainda reproduzir desigualdades internamente — nos colegiados, nos cargos de decisão e na sub-representação docente. É necessário garantir permanência qualificada e transformação curricular."
+    },
+    {
+      "id": "q046",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que a 'busca ativa' é necessária na inclusão docente universitária?",
+      "opcoes": [
+        "Porque há excesso de candidatos e é necessário filtrar os mais qualificados",
+        "Porque grupos historicamente excluídos enfrentam redes acadêmicas limitadas e menor circulação institucional, tornando insuficiente apenas abrir vagas e esperar",
+        "Porque as leis exigem que as universidades contratem apenas candidatos indicados por grupos minorizados",
+        "Porque o processo seletivo tradicional já é suficientemente inclusivo se for bem aplicado"
+      ],
+      "resposta": "Porque grupos historicamente excluídos enfrentam redes acadêmicas limitadas e menor circulação institucional, tornando insuficiente apenas abrir vagas e esperar",
+      "explicacao": "A busca ativa é necessária porque muitos grupos historicamente excluídos enfrentam redes acadêmicas limitadas, menos acesso a oportunidades e menor circulação institucional. Não basta abrir vagas — a universidade precisa identificar pesquisadores negros e indígenas, incentivar candidaturas e ampliar oportunidades."
+    },
+    {
+      "id": "q047",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada tipo de ação afirmativa universitária (Aula 14) à sua dimensão de atuação:",
+      "pares": [
+        {
+          "esquerda": "Cotas étnico-raciais",
+          "direita": "Ampliação da representatividade no acesso ao ensino superior"
+        },
+        {
+          "esquerda": "Cotas epistêmicas",
+          "direita": "Inclusão de conhecimentos historicamente marginalizados no currículo"
+        },
+        {
+          "esquerda": "Busca ativa",
+          "direita": "Identificação e atração institucional de candidatos negros e indígenas à docência"
+        },
+        {
+          "esquerda": "Permanência estudantil",
+          "direita": "Bolsas e apoio psicopedagógico para garantir conclusão do curso"
+        }
+      ],
+      "explicacao": "As ações afirmativas precisam atuar em múltiplas dimensões: acesso (cotas étnico-raciais), conhecimento (cotas epistêmicas), docência (busca ativa) e continuidade (permanência). A inclusão precisa ocorrer tanto no acesso quanto na produção de conhecimento."
+    },
+    {
+      "id": "q048",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A descolonização curricular propõe abandonar completamente os conhecimentos de tradição europeia nas universidades.",
+      "resposta": false,
+      "explicacao": "Falso. A descolonização curricular não significa abandonar conhecimentos europeus, mas ampliar repertórios e reconhecer pluralidade epistemológica. Propõe incorporar epistemologias não eurocêntricas em disciplinas, concursos e pesquisas — ao lado, e não no lugar, do conhecimento científico acadêmico."
+    },
+    {
+      "id": "q049",
+      "tipo": "multipla_escolha",
+      "enunciado": "O Índice de Sustentabilidade Empresarial (ISE) da B3 avalia as empresas considerando quais dimensões?",
+      "opcoes": [
+        "Apenas o lucro líquido e o retorno para os acionistas",
+        "Dimensão econômica, ambiental, social, governança corporativa e resposta às mudanças climáticas",
+        "Somente o cumprimento de normas ambientais legais",
+        "Inovação, tecnologia, eficiência operacional e participação de mercado"
+      ],
+      "resposta": "Dimensão econômica, ambiental, social, governança corporativa e resposta às mudanças climáticas",
+      "explicacao": "O ISE da B3 mede desempenho organizacional considerando cinco dimensões: econômica, ambiental, social, governança corporativa e resposta às mudanças climáticas. O desempenho empresarial não pode ser medido apenas pelo lucro — também é necessário avaliar riscos e responsabilidade."
+    },
+    {
+      "id": "q050",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença entre sustentabilidade e ESG?",
+      "opcoes": [
+        "São sinônimos e podem ser usados de forma totalmente intercambiável",
+        "Sustentabilidade enfatiza o equilíbrio entre economia, sociedade e meio ambiente; ESG transforma essa preocupação em critérios mais objetivos e mensuráveis de avaliação",
+        "ESG é mais antigo que sustentabilidade e foi desenvolvido primeiro pelo setor financeiro",
+        "Sustentabilidade é obrigatória por lei; ESG é voluntário e sem consequências práticas"
+      ],
+      "resposta": "Sustentabilidade enfatiza o equilíbrio entre economia, sociedade e meio ambiente; ESG transforma essa preocupação em critérios mais objetivos e mensuráveis de avaliação",
+      "explicacao": "Enquanto a sustentabilidade enfatizava o equilíbrio entre as três dimensões (Triple Bottom Line), o ESG transforma essa preocupação em critérios mais objetivos de avaliação organizacional. ESG não basta declarar compromisso — é necessário demonstrar evidências mensuráveis."
+    },
+    {
+      "id": "q051",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Os selos e certificações ambientais (ISO 14000, LEED, Rótulo Ecológico) ajudam a reduzir a assimetria de informação entre empresa e consumidor.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Os selos reduzem assimetria de informação: o consumidor consegue distinguir empresas realmente sustentáveis de simples discurso ambiental. Empresas certificadas costumam obter maior visibilidade, facilidade de exportação, preferência do consumidor e diferenciação competitiva."
+    },
+    {
+      "id": "q052",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são os limites das auditorias externas para verificação de relatórios ESG?",
+      "opcoes": [
+        "Auditorias são sempre 100% confiáveis e eliminam completamente o greenwashing",
+        "Auditorias são contratadas pelas próprias empresas avaliadas, nem tudo é auditado, e indicadores sociais e ambientais são difíceis de medir — aumentando risco de erro ou viés",
+        "Auditorias só funcionam para aspectos financeiros, não para ESG",
+        "As auditorias externas são proibidas por conflito de interesses com as empresas"
+      ],
+      "resposta": "Auditorias são contratadas pelas próprias empresas avaliadas, nem tudo é auditado, e indicadores sociais e ambientais são difíceis de medir — aumentando risco de erro ou viés",
+      "explicacao": "Três limites das auditorias: são frequentemente contratadas pelas próprias empresas avaliadas (incentivos problemáticos), nem tudo é auditado (verificam apenas partes do processo), e indicadores sociais e ambientais são difíceis de medir — fragmentados, incompletos e interpretativos."
+    },
+    {
+      "id": "q053",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada dimensão do ESG ao seu exemplo concreto:",
+      "pares": [
+        {
+          "esquerda": "Environmental (Ambiental)",
+          "direita": "Redução de emissões de carbono e gestão de resíduos industriais"
+        },
+        {
+          "esquerda": "Social",
+          "direita": "Políticas de diversidade, condições de trabalho e impacto comunitário"
+        },
+        {
+          "esquerda": "Governance (Governança)",
+          "direita": "Transparência nos relatórios e mecanismos de controle contra corrupção"
+        },
+        {
+          "esquerda": "Greenwashing",
+          "direita": "Usar rótulo 'eco-friendly' sem comprovação concreta de práticas sustentáveis"
+        }
+      ],
+      "explicacao": "O ESG estrutura a avaliação em três dimensões concretas: ambiental (impacto no meio ambiente), social (impacto nas pessoas) e governança (qualidade da gestão e transparência). O greenwashing é a distorção dessas dimensões para fins de imagem sem comprometimento real."
+    },
+    {
+      "id": "q054",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como a sustentabilidade pode se tornar uma vantagem competitiva real para as empresas?",
+      "opcoes": [
+        "Apenas por meio de campanhas de marketing ambiental bem elaboradas",
+        "Exclusivamente pelo cumprimento das normas legais ambientais mínimas",
+        "Por meio de práticas como logística reversa e eficiência no uso de recursos, que reduzem custos, fortalecem reputação e abrem novos mercados",
+        "Contratando consultores externos para elaborar relatórios de sustentabilidade"
+      ],
+      "resposta": "Por meio de práticas como logística reversa e eficiência no uso de recursos, que reduzem custos, fortalecem reputação e abrem novos mercados",
+      "explicacao": "Sustentabilidade pode gerar vantagem competitiva real: redução de desperdícios, redução de custos operacionais, fortalecimento reputacional, acesso a novos mercados e inovação. A logística reversa exemplifica como sustentabilidade deixa de ser gasto e vira eficiência econômica inteligente."
+    },
+    {
+      "id": "q055",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo as aulas, a implementação efetiva da sustentabilidade exige apenas boas intenções e comprometimento dos líderes, sem necessidade de mecanismos formais.",
+      "resposta": false,
+      "explicacao": "Falso. A implementação da sustentabilidade exige: identificar valores organizacionais reais, mapear riscos, criar controles formais, treinar continuamente funcionários e monitorar resultados. Sem mecanismos formais, as práticas sustentáveis podem virar apenas discurso."
+    },
+    {
+      "id": "q056",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que caracteriza a 'transavaliação do social na modernidade' descrita por Guerreiro Ramos na Aula 4?",
+      "opcoes": [
+        "A política tornou-se mais importante que a economia na organização social",
+        "O mercado passou a ser o centro, e a lógica econômica domina todas as áreas, enquanto a política foi reduzida à gestão da economia",
+        "O ser humano recuperou seu papel de animal político conforme descrito por Aristóteles",
+        "A ética passou a ser determinada pelo sucesso econômico individual"
+      ],
+      "resposta": "O mercado passou a ser o centro, e a lógica econômica domina todas as áreas, enquanto a política foi reduzida à gestão da economia",
+      "explicacao": "Na Modernidade, ocorreu uma transavaliação: antes (Aristóteles), a política era central e a economia era secundária. Na Modernidade, o mercado se tornou o centro, a lógica econômica passou a dominar todas as áreas e a política foi reduzida à gestão da economia."
+    },
+    {
+      "id": "q057",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a conclusão central sobre como transformar discurso ético em prática real nas organizações (Aula 10)?",
+      "opcoes": [
+        "Basta publicar um código de ética bem escrito para transformar a cultura organizacional",
+        "É necessário negociar normas com colaboradores, definir responsabilidades claras, monitorar comportamentos e premiar boas práticas",
+        "A transformação ética ocorre automaticamente com o crescimento e maturidade da empresa",
+        "Apenas a alta gestão precisa ser ética; os demais funcionários seguirão naturalmente"
+      ],
+      "resposta": "É necessário negociar normas com colaboradores, definir responsabilidades claras, monitorar comportamentos e premiar boas práticas",
+      "explicacao": "Para transformar discurso em prática, é necessário: negociar normas com colaboradores, definir responsabilidades claras, monitorar comportamentos e premiar boas práticas. Não basta escrever valores em um documento — é necessário traduzir fala em ação; sem isso, a ética vira apenas discurso simbólico."
+    },
+    {
+      "id": "q058",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O poder organizacional moderno, segundo Foucault aplicado ao contexto das empresas, é mais psicológico do que coercitivo.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. As empresas usam metas, rankings, cultura de performance e feedback contínuo sem precisar de coerção direta. O funcionário internaliza a lógica organizacional e passa a autocontrolar comportamento e produtividade — o poder é psicológico, não físico."
+    },
+    {
+      "id": "q059",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a integração necessária entre áreas organizacionais para proteger a reputação corporativa?",
+      "opcoes": [
+        "Apenas marketing e comunicação precisam estar alinhados",
+        "Somente compliance e jurídico precisam trabalhar juntos",
+        "Marketing, comunicação, relações públicas e compliance precisam estar integrados — mensagens incoerentes geram perda de credibilidade",
+        "A reputação é responsabilidade exclusiva do CEO, independente das demais áreas"
+      ],
+      "resposta": "Marketing, comunicação, relações públicas e compliance precisam estar integrados — mensagens incoerentes geram perda de credibilidade",
+      "explicacao": "A reputação não depende apenas de um setor. É necessário integrar marketing, comunicação, relações públicas e compliance, pois mensagens incoerentes geram perda de credibilidade e ruído institucional. Quanto maior a integração, maior a capacidade de resposta diante de crises."
+    },
+    {
+      "id": "q060",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada tema a seu conceito mais representativo das aulas:",
+      "pares": [
+        {
+          "esquerda": "Aula 4 — Racionalidade",
+          "direita": "A racionalidade instrumental pergunta 'isso funciona?'; a substantiva pergunta 'isso é correto?'"
+        },
+        {
+          "esquerda": "Aula 8 — Ética Brasileira",
+          "direita": "Coexistência de moral da integridade e moral do oportunismo gerando inconsistência comportamental"
+        },
+        {
+          "esquerda": "Aula 11 — Foucault",
+          "direita": "O poder moderno funciona pela internalização das normas, não pela coerção direta"
+        },
+        {
+          "esquerda": "Aula 16 — ESG",
+          "direita": "Greenwashing: organização que parece sustentável mas manipula informações para construir imagem positiva"
+        }
+      ],
+      "explicacao": "Síntese das aulas centrais: racionalidade (instrumental x substantiva), ética brasileira (dupla moral), governamentalidade (poder psicológico) e ESG (greenwashing como principal problema contemporâneo). Esses conceitos se conectam pela tensão permanente entre discurso e prática."
+    }
+  ]
+}
