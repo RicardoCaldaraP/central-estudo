@@ -1,0 +1,778 @@
+{
+  "id": "direitos-humanos-001",
+  "titulo": "Direitos Humanos — Fundamentos Filosóficos e Históricos",
+  "descricao": "60 questões cobrindo: surgimento da filosofia, antropocentrismo, lei natural, Iluminismo, filósofos (Sócrates, Platão, Aristóteles, Hobbes, Locke, Rousseau, Foucault), Sistema Westfaliano, DUDH, DADDH, ONU, OEA, TPI e biopolítica.",
+  "disciplina": "Direitos Humanos",
+  "criado_em": "2026-05-26",
+  "cor": "#3b82f6",
+  "icone": "🌍",
+  "questoes": [
+    {
+      "id": "q001",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a importância do surgimento da filosofia grega para os direitos humanos?",
+      "opcoes": [
+        "Criou leis escritas que garantiam direitos a todos os cidadãos gregos",
+        "Ajudou a criar a ideia de que o homem possui racionalidade, autonomia e capacidade de pensar por si mesmo",
+        "Estabeleceu um sistema de governo democrático com igualdade plena",
+        "Substituiu completamente os mitos por leis científicas comprovadas"
+      ],
+      "resposta": "Ajudou a criar a ideia de que o homem possui racionalidade, autonomia e capacidade de pensar por si mesmo",
+      "explicacao": "O surgimento da filosofia grega é fundamental para os direitos humanos porque ajudou a criar a ideia de que o homem possui racionalidade, autonomia e capacidade de pensar por si mesmo — bases necessárias para que os direitos humanos pudessem existir."
+    },
+    {
+      "id": "q002",
+      "tipo": "multipla_escolha",
+      "enunciado": "Antes do surgimento da filosofia, como os gregos explicavam fenômenos como chuva, guerra, doenças e morte?",
+      "opcoes": [
+        "Por meio de observação científica e raciocínio lógico",
+        "Por meio de leis escritas pelos governantes",
+        "Por meio de mitos e histórias sobre ações divinas",
+        "Por meio de assembleias populares que debatiam as causas naturais"
+      ],
+      "resposta": "Por meio de mitos e histórias sobre ações divinas",
+      "explicacao": "Antes da filosofia, os gregos explicavam tudo — chuva, guerra, seca, doenças e morte — por meio dos mitos. As principais referências eram os poemas de Homero (Ilíada e Odisseia), que mostravam heróis, deuses e destinos definidos por forças sobrenaturais."
+    },
+    {
+      "id": "q003",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O verdadeiro significado filosófico da frase 'tudo é água', de Tales de Mileto, está na água como elemento em si, e não no método racional usado para explicar o universo.",
+      "resposta": false,
+      "explicacao": "Falso. O mais importante em Tales não é a água em si, mas o fato de ele tentar explicar o mundo racionalmente — buscando uma causa natural e abandonando parcialmente as explicações míticas. Pela primeira vez, alguém tentou compreender o universo usando observação e raciocínio."
+    },
+    {
+      "id": "q004",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que significa 'arché' no contexto da filosofia pré-socrática?",
+      "opcoes": [
+        "O conjunto de leis escritas pelos primeiros governantes gregos",
+        "O método de debate usado pelos filósofos para chegar à verdade",
+        "O princípio originário e elemento fundamental de todas as coisas",
+        "A crença nos deuses como origem do universo"
+      ],
+      "resposta": "O princípio originário e elemento fundamental de todas as coisas",
+      "explicacao": "Arché significa princípio originário e elemento fundamental de tudo. Cada filósofo pré-socrático defendia um elemento como arché: Tales → água, Heráclito → fogo, Anaxímenes → ar. O importante era o método racional usado para encontrá-la."
+    },
+    {
+      "id": "q005",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que é Ontologia e qual sua importância para os direitos humanos?",
+      "opcoes": [
+        "É o estudo das leis naturais; importante porque criou os primeiros códigos jurídicos",
+        "É o estudo do 'ser', que busca compreender a natureza humana e será base da dignidade do ser humano",
+        "É o estudo da política; importante porque organizou os primeiros governos democráticos",
+        "É o estudo dos mitos; importante porque preservou a cultura grega para gerações futuras"
+      ],
+      "resposta": "É o estudo do 'ser', que busca compreender a natureza humana e será base da dignidade do ser humano",
+      "explicacao": "Ontologia é o estudo do 'ser' — busca compreender quem somos, o que significa existir, qual é a natureza humana e como o homem se relaciona com o mundo. É importante porque futuramente os direitos humanos serão construídos em torno da ideia de dignidade do ser humano."
+    },
+    {
+      "id": "q006",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada filósofo pré-socrático ao elemento que defendia como arché:",
+      "pares": [
+        {
+          "esquerda": "Tales de Mileto",
+          "direita": "Água — elemento originário de todas as coisas"
+        },
+        {
+          "esquerda": "Heráclito",
+          "direita": "Fogo — representa a transformação constante do mundo"
+        },
+        {
+          "esquerda": "Anaxímenes",
+          "direita": "Ar — princípio fundamental da natureza"
+        },
+        {
+          "esquerda": "Filósofos pré-socráticos em geral",
+          "direita": "Buscavam explicação racional para a origem do universo"
+        }
+      ],
+      "explicacao": "Cada filósofo pré-socrático defendia um elemento como princípio originário (arché). O importante não era o elemento escolhido, mas o método racional usado — rompendo parcialmente com as explicações míticas."
+    },
+    {
+      "id": "q007",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que é Antropocentrismo?",
+      "opcoes": [
+        "A visão de mundo em que os deuses são o centro de todas as reflexões filosóficas",
+        "A crença de que a natureza determina completamente o destino humano",
+        "A visão de mundo centrada no ser humano, valorizando sua razão e autonomia",
+        "O movimento filosófico que defende o retorno aos valores religiosos medievais"
+      ],
+      "resposta": "A visão de mundo centrada no ser humano, valorizando sua razão e autonomia",
+      "explicacao": "Antropocentrismo significa visão de mundo centrada no ser humano. Antes, os deuses eram o centro e tudo dependia da vontade divina. Com o antropocentrismo, o homem passa a ser valorizado, a razão humana ganha importância e surge a ideia de autonomia."
+    },
+    {
+      "id": "q008",
+      "tipo": "multipla_escolha",
+      "enunciado": "Como a história de Édipo, na tragédia 'Édipo Rei', simboliza o antropocentrismo?",
+      "opcoes": [
+        "Édipo aceita passivamente seu destino imposto pelos deuses, mostrando a superioridade divina",
+        "Édipo resolve o enigma da Esfinge usando inteligência e racionalidade, simbolizando a vitória da razão humana",
+        "Édipo fracassa diante da Esfinge, demonstrando os limites da razão humana",
+        "Édipo consulta o oráculo para encontrar respostas, confirmando a dependência humana dos deuses"
+      ],
+      "resposta": "Édipo resolve o enigma da Esfinge usando inteligência e racionalidade, simbolizando a vitória da razão humana",
+      "explicacao": "A Esfinge fazia um enigma mortal. Édipo consegue resolvê-lo usando inteligência e racionalidade — isso simboliza a vitória da razão humana, a valorização da inteligência e a capacidade humana de enfrentar desafios. O homem deixa de aceitar tudo passivamente."
+    },
+    {
+      "id": "q009",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "O antropocentrismo contribuiu diretamente para os direitos humanos ao defender que o homem possui valor próprio, dignidade e merece liberdade.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. Os direitos humanos dependem da ideia de que o homem possui valor próprio, dignidade e merece liberdade. O antropocentrismo ajuda a construir essa visão — sem a valorização do ser humano, não existiria cidadania, liberdade individual e direitos fundamentais."
+    },
+    {
+      "id": "q010",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que é a Lei Natural no contexto do Cristianismo medieval?",
+      "opcoes": [
+        "Um conjunto de leis científicas descobertas por filósofos gregos sobre o funcionamento da natureza",
+        "A ideia de que existe uma ordem criada por Deus que vale para todos os seres humanos com princípios universais de justiça",
+        "As leis escritas pelos reis medievais baseadas nos costumes locais",
+        "O conjunto de normas da Igreja Católica que regulavam a vida dos fiéis"
+      ],
+      "resposta": "A ideia de que existe uma ordem criada por Deus que vale para todos os seres humanos com princípios universais de justiça",
+      "explicacao": "A lei natural é a ideia de que existe uma ordem criada por Deus que vale para todos os seres humanos e que existem princípios universais de justiça. Ou seja, acima das leis humanas existiria uma lei divina — conceito fundamental para os direitos humanos."
+    },
+    {
+      "id": "q011",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são as duas ideias fundamentais que o Cristianismo ajudou a desenvolver e que influenciaram os direitos humanos?",
+      "opcoes": [
+        "Hierarquia e obediência — todos devem obedecer à autoridade religiosa",
+        "Igualdade e Universalidade — todos são iguais perante Deus e a mensagem cristã é para toda a humanidade",
+        "Soberania e Territorialidade — cada povo tem seu próprio Deus e suas próprias leis",
+        "Monarquia e Nobreza — os reis governam por vontade divina e merecem respeito absoluto"
+      ],
+      "resposta": "Igualdade e Universalidade — todos são iguais perante Deus e a mensagem cristã é para toda a humanidade",
+      "explicacao": "O Cristianismo desenvolveu duas ideias fundamentais: Igualdade (todos seriam iguais perante Deus — mesmo reis, nobres e pobres possuíam alma) e Universalidade (a mensagem cristã era destinada a toda a humanidade, ajudando a criar a ideia de direitos universais e dignidade universal)."
+    },
+    {
+      "id": "q012",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada pensador cristão medieval à sua posição sobre razão e fé:",
+      "pares": [
+        {
+          "esquerda": "Santo Agostinho",
+          "direita": "Superioridade da fé — Deus é a fonte da verdade e a razão humana é limitada"
+        },
+        {
+          "esquerda": "São Tomás de Aquino",
+          "direita": "Fé e razão podem coexistir — uniu cristianismo com filosofia de Aristóteles"
+        },
+        {
+          "esquerda": "Lei Natural (cristã)",
+          "direita": "Acima das leis humanas existe uma lei divina com princípios universais"
+        },
+        {
+          "esquerda": "Influência nos direitos humanos",
+          "direita": "Dignidade humana, valor universal da pessoa e igualdade moral"
+        }
+      ],
+      "explicacao": "Agostinho priorizava a fé sobre a razão; Tomás de Aquino tentou harmonizá-las usando Aristóteles. Ambos contribuíram para a noção de dignidade humana e direito natural que influenciou os direitos humanos modernos."
+    },
+    {
+      "id": "q013",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "São Tomás de Aquino defendia que fé e razão são incompatíveis e que o cristão deve rejeitar a filosofia grega.",
+      "resposta": false,
+      "explicacao": "Falso. São Tomás de Aquino tentou exatamente unir fé cristã, filosofia de Aristóteles e racionalidade. Ele defendia que a razão humana pode compreender parte da verdade, mas que Deus continua sendo a origem da justiça — fé e razão coexistem."
+    },
+    {
+      "id": "q014",
+      "tipo": "multipla_escolha",
+      "enunciado": "O Iluminismo foi um movimento intelectual dos séculos XVII e XVIII. Quais eram suas principais críticas?",
+      "opcoes": [
+        "Criticava a democracia, a igualdade e os direitos individuais",
+        "Criticava o absolutismo, a intolerância religiosa e os privilégios da nobreza",
+        "Criticava a ciência e defendia o retorno às explicações religiosas",
+        "Criticava a separação entre Igreja e Estado, defendendo a teocracia"
+      ],
+      "resposta": "Criticava o absolutismo, a intolerância religiosa e os privilégios da nobreza",
+      "explicacao": "Os iluministas acreditavam que a razão poderia melhorar a sociedade, a ciência traria progresso e o poder absoluto deveria ser limitado. Por isso criticavam o absolutismo, a intolerância religiosa e os privilégios da nobreza."
+    },
+    {
+      "id": "q015",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são as três principais ideias iluministas que influenciaram diretamente os direitos humanos?",
+      "opcoes": [
+        "Monarquia, hierarquia e tradição",
+        "Liberdade, igualdade e direitos naturais",
+        "Obediência, ordem e estabilidade",
+        "Fé, esperança e caridade"
+      ],
+      "resposta": "Liberdade, igualdade e direitos naturais",
+      "explicacao": "As três principais ideias iluministas são: Liberdade (o indivíduo deve possuir liberdade política e econômica), Igualdade (todos devem ser iguais perante a lei) e Direitos naturais (existem direitos que pertencem ao homem simplesmente por ele ser humano)."
+    },
+    {
+      "id": "q016",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a frase mais famosa de Sócrates e o que ela significa?",
+      "opcoes": [
+        "'O homem é um animal político' — o ser humano precisa viver em sociedade",
+        "'Ninguém entra no mesmo rio duas vezes' — o mundo está sempre em transformação",
+        "'Conhece-te a ti mesmo' — o ser humano deve questionar suas ações, refletir sobre suas escolhas e buscar consciência moral",
+        "'O homem é o lobo do homem' — sem governo, os humanos se destruiriam"
+      ],
+      "resposta": "'Conhece-te a ti mesmo' — o ser humano deve questionar suas ações, refletir sobre suas escolhas e buscar consciência moral",
+      "explicacao": "A frase mais famosa de Sócrates é 'Conhece-te a ti mesmo'. Ela significa que o ser humano deve questionar suas ações, refletir sobre suas escolhas e buscar consciência moral — base do autoconhecimento e da reflexão ética."
+    },
+    {
+      "id": "q017",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Sócrates, as pessoas praticam o mal conscientemente e por isso são responsáveis moralmente por suas más ações.",
+      "resposta": false,
+      "explicacao": "Falso. Para Sócrates, ninguém pratica o mal conscientemente — o erro acontece por ignorância. Quanto maior o conhecimento, maior a possibilidade de agir eticamente. O mal seria resultado da falta de conhecimento do bem."
+    },
+    {
+      "id": "q018",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que foi o método socrático e como ele se relaciona com os direitos humanos?",
+      "opcoes": [
+        "Um método de memorização de leis que ensinava os cidadãos a obedecer ao Estado",
+        "Um método baseado em perguntas e debates que levava as pessoas à reflexão, valorizando razão, liberdade de pensamento e autonomia",
+        "Um método de treinamento militar para defender a cidade de Atenas",
+        "Um método científico de observação da natureza para descobrir seus princípios"
+      ],
+      "resposta": "Um método baseado em perguntas e debates que levava as pessoas à reflexão, valorizando razão, liberdade de pensamento e autonomia",
+      "explicacao": "O método socrático utilizava perguntas e debates para levar as pessoas à reflexão — Sócrates fazia perguntas até a pessoa perceber contradições em seu próprio pensamento. Sua importância para os direitos humanos está na valorização da razão humana, liberdade de pensamento, reflexão ética e autonomia individual."
+    },
+    {
+      "id": "q019",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais são os dois mundos que Platão acreditava existir?",
+      "opcoes": [
+        "Mundo Divino (perfeito, criado por Deus) e Mundo Humano (imperfeito, criado pelos homens)",
+        "Mundo Sensível (material, imperfeito, mutável) e Mundo das Ideias (perfeito, eterno, com a verdade absoluta)",
+        "Mundo Antigo (baseado nos mitos) e Mundo Novo (baseado na razão filosófica)",
+        "Mundo Público (da política e da cidadania) e Mundo Privado (da família e da vida pessoal)"
+      ],
+      "resposta": "Mundo Sensível (material, imperfeito, mutável) e Mundo das Ideias (perfeito, eterno, com a verdade absoluta)",
+      "explicacao": "Platão acreditava em dois mundos: o Mundo Sensível (material, imperfeito, onde tudo muda constantemente e os sentidos podem enganar) e o Mundo das Ideias (perfeito e eterno, onde existem as ideias perfeitas de justiça, bem e a verdade absoluta). O conhecimento verdadeiro vem da razão, não dos sentidos."
+    },
+    {
+      "id": "q020",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Para Platão, a sociedade ideal deveria ser governada pelos mais ricos, pois eles teriam recursos para gerir o Estado de forma eficiente.",
+      "resposta": false,
+      "explicacao": "Falso. Platão acreditava que a sociedade deveria ser governada pelos mais sábios — os chamados filósofos-reis. Ele defendia isso porque acreditava que a maioria das pessoas age movida por interesses e emoções, enquanto os filósofos buscam a verdade e o bem comum."
+    },
+    {
+      "id": "q021",
+      "tipo": "multipla_escolha",
+      "enunciado": "Para Platão, o que significa justiça?",
+      "opcoes": [
+        "A aplicação rigorosa das leis escritas pelo Estado, sem exceções",
+        "A igualdade absoluta entre todos os membros da sociedade, independente da função",
+        "Harmonia — cada pessoa exercendo corretamente sua função social para o equilíbrio da cidade",
+        "A soberania popular, onde o povo decide coletivamente as leis da cidade"
+      ],
+      "resposta": "Harmonia — cada pessoa exercendo corretamente sua função social para o equilíbrio da cidade",
+      "explicacao": "Para Platão, justiça significa harmonia. Cada pessoa deveria exercer corretamente sua função social. A sociedade funcionaria de maneira equilibrada quando: governantes governassem com sabedoria, soldados protegessem a cidade e trabalhadores produzissem."
+    },
+    {
+      "id": "q022",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que Aristóteles quis dizer com a afirmação 'o homem é um animal político'?",
+      "opcoes": [
+        "Que o ser humano é naturalmente agressivo e competitivo como os animais",
+        "Que o ser humano precisa viver em sociedade, participar da vida política e depende da convivência social para seu pleno desenvolvimento",
+        "Que os políticos são os seres mais importantes dentro da sociedade",
+        "Que o homem deve obedecer às leis do Estado como um animal obedece ao seu dono"
+      ],
+      "resposta": "Que o ser humano precisa viver em sociedade, participar da vida política e depende da convivência social para seu pleno desenvolvimento",
+      "explicacao": "Aristóteles dizia que 'o homem é um animal político', significando que o ser humano precisa viver em sociedade, participa naturalmente da vida política e depende da convivência social. Para ele, fora da sociedade o homem não alcança desenvolvimento pleno."
+    },
+    {
+      "id": "q023",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A Teoria do meio-termo de Aristóteles defende que a virtude está no excesso — quanto mais se praticar uma qualidade, mais virtuoso o indivíduo se torna.",
+      "resposta": false,
+      "explicacao": "Falso. A Teoria do meio-termo defende o contrário: o excesso e a falta são prejudiciais, e a virtude está no equilíbrio. Por exemplo, coragem é o equilíbrio entre covardia (falta) e imprudência (excesso). A felicidade é alcançada através da virtude, moderação e equilíbrio."
+    },
+    {
+      "id": "q024",
+      "tipo": "multipla_escolha",
+      "enunciado": "De que forma Aristóteles difere de Platão em sua abordagem filosófica?",
+      "opcoes": [
+        "Aristóteles valorizava o mundo das ideias, enquanto Platão valorizava a experiência concreta",
+        "Aristóteles valorizava a experiência concreta, a observação da realidade e o estudo prático da sociedade, enquanto Platão valorizava o mundo das ideias",
+        "Ambos tinham exatamente a mesma visão filosófica sobre conhecimento e política",
+        "Platão valorizava a ciência empírica; Aristóteles valorizava a metafísica abstrata"
+      ],
+      "resposta": "Aristóteles valorizava a experiência concreta, a observação da realidade e o estudo prático da sociedade, enquanto Platão valorizava o mundo das ideias",
+      "explicacao": "Enquanto Platão valorizava o Mundo das Ideias e o conhecimento racional abstrato, Aristóteles valorizava a experiência concreta, a observação da realidade e o estudo prático da sociedade. Aristóteles foi discípulo de Platão, mas desenvolveu ideias muito diferentes do mestre."
+    },
+    {
+      "id": "q025",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada filósofo à sua contribuição principal para os direitos humanos:",
+      "pares": [
+        {
+          "esquerda": "Sócrates",
+          "direita": "Valorização da razão humana, reflexão ética e autonomia individual"
+        },
+        {
+          "esquerda": "Platão",
+          "direita": "Filosofia política, debate sobre justiça e organização racional do Estado"
+        },
+        {
+          "esquerda": "Aristóteles",
+          "direita": "Cidadania moderna, democracia, ética e responsabilidade social"
+        },
+        {
+          "esquerda": "Heráclito",
+          "direita": "A ideia de que tudo está em constante mudança e transformação"
+        }
+      ],
+      "explicacao": "Cada filósofo grego contribuiu de forma distinta: Sócrates com a reflexão ética individual, Platão com a teoria política e da justiça, Aristóteles com a cidadania e a ética social, e Heráclito com a compreensão da mudança constante no mundo."
+    },
+    {
+      "id": "q026",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença fundamental entre as visões de Thomas Hobbes e John Locke sobre a natureza humana?",
+      "opcoes": [
+        "Hobbes era otimista; Locke era pessimista sobre a natureza humana",
+        "Hobbes tinha visão pessimista (homens são competitivos e violentos); Locke tinha visão otimista (indivíduos possuem direitos naturais)",
+        "Ambos tinham a mesma visão pessimista, diferindo apenas na solução proposta",
+        "Hobbes valorizava a razão; Locke valorizava a fé religiosa como base da política"
+      ],
+      "resposta": "Hobbes tinha visão pessimista (homens são competitivos e violentos); Locke tinha visão otimista (indivíduos possuem direitos naturais)",
+      "explicacao": "Hobbes tinha visão pessimista da natureza humana — sem governo, haveria violência e caos (estado de natureza). Locke tinha visão muito mais otimista — os indivíduos possuem direitos naturais (vida, liberdade, propriedade) que existem antes do Estado."
+    },
+    {
+      "id": "q027",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que Hobbes queria dizer com a frase 'O homem é o lobo do homem'?",
+      "opcoes": [
+        "Que os seres humanos são naturalmente caçadores e precisam proteger seu território",
+        "Que sem autoridade e governo, os próprios seres humanos destruiriam uns aos outros em um estado de violência e caos",
+        "Que os homens devem ser governados com brutalidade para manter a ordem social",
+        "Que a natureza humana é bondosa, mas a sociedade transforma as pessoas em lobos"
+      ],
+      "resposta": "Que sem autoridade e governo, os próprios seres humanos destruiriam uns aos outros em um estado de violência e caos",
+      "explicacao": "A frase de Hobbes 'O homem é o lobo do homem' resume sua visão do estado de natureza: sem autoridade, os seres humanos seriam extremamente competitivos, cada pessoa buscaria seus próprios interesses, haveria medo, violência e insegurança — os próprios humanos se destruiriam."
+    },
+    {
+      "id": "q028",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo John Locke, os direitos naturais (vida, liberdade e propriedade) são criados e garantidos pelo governo — sem Estado, esses direitos não existem.",
+      "resposta": false,
+      "explicacao": "Falso. Para Locke, os direitos naturais existem ANTES do Estado — eles já pertencem naturalmente ao indivíduo. O governo existe para PROTEGER esses direitos, não para criá-los. Se o governo violar esses direitos, o povo possui direito de resistência."
+    },
+    {
+      "id": "q029",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais eventos históricos foram diretamente influenciados pelas ideias de John Locke?",
+      "opcoes": [
+        "Revolução Francesa, Comunismo soviético e Guerra Fria",
+        "Revolução Gloriosa, Independência dos Estados Unidos e constitucionalismo moderno",
+        "Unificação da Alemanha, Revolução Industrial e formação da ONU",
+        "Paz de Westfália, Tribunais de Nuremberg e criação da DUDH"
+      ],
+      "resposta": "Revolução Gloriosa, Independência dos Estados Unidos e constitucionalismo moderno",
+      "explicacao": "As ideias de Locke influenciaram fortemente a Revolução Gloriosa (1688), a Independência dos Estados Unidos e o constitucionalismo moderno. Grande parte dos direitos humanos modernos possui influência direta de Locke — especialmente liberdade individual, proteção jurídica, direitos civis e limitação do poder do Estado."
+    },
+    {
+      "id": "q030",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença central entre o contrato social de Hobbes e o de Rousseau?",
+      "opcoes": [
+        "Hobbes defendia soberania popular; Rousseau defendia Estado forte e centralizado",
+        "Hobbes defendia Estado forte para conter a natureza violenta do homem; Rousseau defendia contrato baseado na vontade geral do povo, que nasce bom mas é corrompido pela sociedade",
+        "Ambos defendiam a mesma ideia de contrato social baseado na vontade popular",
+        "Hobbes valorizava a liberdade individual; Rousseau valorizava o autoritarismo estatal"
+      ],
+      "resposta": "Hobbes defendia Estado forte para conter a natureza violenta do homem; Rousseau defendia contrato baseado na vontade geral do povo, que nasce bom mas é corrompido pela sociedade",
+      "explicacao": "Para Hobbes, o contrato social entrega liberdade ao Estado em troca de segurança, pois o homem é violento por natureza. Para Rousseau, o homem nasce bom e é corrompido pela sociedade — o poder político deve pertencer ao povo e as decisões devem buscar a vontade geral e o interesse coletivo."
+    },
+    {
+      "id": "q031",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Rousseau acreditava que a civilização trouxe progresso e reduziu as desigualdades sociais entre os seres humanos.",
+      "resposta": false,
+      "explicacao": "Falso. Rousseau criticava exatamente o contrário — para ele, a civilização havia aumentado injustiças. Ele criticava os privilégios da nobreza, a concentração de riqueza e a desigualdade social. O homem nasce naturalmente bom, mas a sociedade cria desigualdades e corrupção."
+    },
+    {
+      "id": "q032",
+      "tipo": "multipla_escolha",
+      "enunciado": "Quais eventos históricos foram diretamente influenciados pelas ideias de Rousseau?",
+      "opcoes": [
+        "Paz de Westfália, Renascimento e Reforma Protestante",
+        "Revolução Francesa, democracia moderna, igualdade política e cidadania",
+        "Independência dos Estados Unidos, Revolução Gloriosa e liberalismo econômico",
+        "Criação da ONU, DUDH e Tribunal de Nuremberg"
+      ],
+      "resposta": "Revolução Francesa, democracia moderna, igualdade política e cidadania",
+      "explicacao": "As ideias de Rousseau influenciaram profundamente a Revolução Francesa, a democracia moderna, a igualdade política e a cidadania. Quando os direitos humanos defendem igualdade, participação política e soberania popular, há forte influência do pensamento de Rousseau."
+    },
+    {
+      "id": "q033",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que Michel Foucault quis dizer com o conceito de biopolítica?",
+      "opcoes": [
+        "O controle da vida humana pelo poder — Estado e instituições passam a controlar corpos, saúde, comportamento e população",
+        "A defesa da liberdade biológica do indivíduo contra interferências do Estado",
+        "A proteção dos direitos biológicos fundamentais como saúde e integridade física",
+        "O estudo científico das populações humanas para melhorar as condições de vida"
+      ],
+      "resposta": "O controle da vida humana pelo poder — Estado e instituições passam a controlar corpos, saúde, comportamento e população",
+      "explicacao": "Biopolítica, conceito de Foucault, significa controle da vida humana pelo poder. O Estado e as instituições passam a controlar corpos, saúde, sexualidade, comportamento e população. Para Foucault, escolas, hospitais, prisões e governos podem funcionar como mecanismos de controle social."
+    },
+    {
+      "id": "q034",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Segundo Foucault, o poder moderno atua exclusivamente pela violência física e pela coerção direta sobre os indivíduos.",
+      "resposta": false,
+      "explicacao": "Falso. O poder moderno não atua apenas pela violência. Também atua pela vigilância, pelas normas sociais, pelo controle psicológico e pela padronização do comportamento — é um poder mais sutil e sofisticado, exercido através de instituições como escolas, hospitais e prisões."
+    },
+    {
+      "id": "q035",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que foi a Paz de Westfália (1648) e qual sua importância para a história dos direitos humanos?",
+      "opcoes": [
+        "Foi o primeiro tratado de direitos humanos da história, garantindo liberdade religiosa na Europa",
+        "Foi um conjunto de tratados que encerrou conflitos religiosos e fortaleceu o Estado moderno com princípios de soberania, não intervenção e territorialidade",
+        "Foi a declaração que criou a ONU e estabeleceu os primeiros direitos fundamentais internacionais",
+        "Foi o acordo que encerrou a Segunda Guerra Mundial e estabeleceu o Tribunal de Nuremberg"
+      ],
+      "resposta": "Foi um conjunto de tratados que encerrou conflitos religiosos e fortaleceu o Estado moderno com princípios de soberania, não intervenção e territorialidade",
+      "explicacao": "A Paz de Westfália (1648) foi um conjunto de tratados que encerrou conflitos religiosos na Europa e fortaleceu o Estado moderno. Criou os princípios de: Soberania (cada Estado tem autoridade em seu território), Não intervenção (um Estado não deve interferir no outro) e Territorialidade (fronteiras definidas)."
+    },
+    {
+      "id": "q036",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada princípio do Sistema Westfaliano à sua definição:",
+      "pares": [
+        {
+          "esquerda": "Soberania",
+          "direita": "Cada Estado possui autoridade dentro do seu território"
+        },
+        {
+          "esquerda": "Não intervenção",
+          "direita": "Um Estado não deve interferir nos assuntos internos de outro"
+        },
+        {
+          "esquerda": "Territorialidade",
+          "direita": "Cada país possui fronteiras definidas e reconhecidas"
+        },
+        {
+          "esquerda": "Consequência para o indivíduo",
+          "direita": "Com o liberalismo surgem garantias jurídicas, direitos civis e cidadania moderna"
+        }
+      ],
+      "explicacao": "O Sistema Westfaliano estabeleceu três princípios fundamentais que organizaram as relações internacionais por séculos. Com o avanço do liberalismo nesse período, o indivíduo começou a possuir garantias jurídicas, surgiram direitos civis e apareceu a cidadania moderna."
+    },
+    {
+      "id": "q037",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual foi a principal limitação do período westfaliano em relação aos direitos humanos?",
+      "opcoes": [
+        "O Estado westfaliano proibia qualquer forma de comércio entre países, limitando o desenvolvimento",
+        "Apesar dos avanços, muitos direitos eram restritos — mulheres não possuíam igualdade e escravizados não eram considerados cidadãos",
+        "O sistema proibia a criação de organizações internacionais de proteção dos direitos",
+        "Westfália eliminou todos os direitos individuais em favor da soberania estatal"
+      ],
+      "resposta": "Apesar dos avanços, muitos direitos eram restritos — mulheres não possuíam igualdade e escravizados não eram considerados cidadãos",
+      "explicacao": "Apesar do avanço na construção do Estado moderno, o período westfaliano tinha limitações graves: muitos direitos eram restritos, mulheres não possuíam igualdade e escravizados não eram considerados cidadãos. Os direitos ainda eram limitados a uma parcela pequena da população."
+    },
+    {
+      "id": "q038",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A ascensão da burguesia no período westfaliano contribuiu para o fortalecimento do capitalismo, o enfraquecimento do feudalismo e o crescimento do liberalismo.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A burguesia cresceu economicamente e as consequências foram: fortalecimento do capitalismo, enfraquecimento do feudalismo e crescimento do liberalismo — o que contribuiu para o avanço da ideia do indivíduo como sujeito de direitos."
+    },
+    {
+      "id": "q039",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que a Segunda Guerra Mundial foi tão importante para a história dos direitos humanos?",
+      "opcoes": [
+        "Porque mostrou que a guerra pode ser vencida com tecnologia avançada",
+        "Porque o Nazismo mostrou que o próprio Estado podia destruir a dignidade humana, exigindo proteção internacional",
+        "Porque a vitória dos Aliados demonstrou que a democracia era o único sistema político legítimo",
+        "Porque a guerra gerou riqueza que permitiu a criação de organismos internacionais de saúde"
+      ],
+      "resposta": "Porque o Nazismo mostrou que o próprio Estado podia destruir a dignidade humana, exigindo proteção internacional",
+      "explicacao": "A Segunda Guerra Mundial provocou milhões de mortes, genocídios, campos de concentração, torturas e perseguições. O Nazismo mostrou que o próprio Estado podia destruir a dignidade humana — tornando necessária a criação de proteção internacional para os indivíduos."
+    },
+    {
+      "id": "q040",
+      "tipo": "multipla_escolha",
+      "enunciado": "Em que ano foi criada a ONU e quais eram seus principais objetivos?",
+      "opcoes": [
+        "1939 — para coordenar esforços militares contra o Nazismo",
+        "1945 — para manter a paz, evitar novas guerras e proteger os direitos humanos",
+        "1948 — para criar e implementar a Declaração Universal dos Direitos Humanos",
+        "1919 — para reorganizar a Europa após a Primeira Guerra Mundial"
+      ],
+      "resposta": "1945 — para manter a paz, evitar novas guerras e proteger os direitos humanos",
+      "explicacao": "A ONU foi criada em 1945, logo após a Segunda Guerra Mundial. Seus objetivos são: manutenção da paz mundial, prevenção de conflitos internacionais, proteção dos direitos humanos, cooperação econômica e social e promoção da dignidade humana. Substituiu a antiga Liga das Nações."
+    },
+    {
+      "id": "q041",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A DUDH (Declaração Universal dos Direitos Humanos) foi criada em 1945, no mesmo ano em que foi criada a ONU.",
+      "resposta": false,
+      "explicacao": "Falso. A ONU foi criada em 1945, mas a DUDH foi criada em 1948. A Declaração Universal dos Direitos Humanos foi aprovada pela ONU em 1948, como resposta às atrocidades da Segunda Guerra Mundial, afirmando que todos os seres humanos possuem dignidade e direitos fundamentais."
+    },
+    {
+      "id": "q042",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença entre direitos civis e políticos e direitos sociais garantidos pela DUDH?",
+      "opcoes": [
+        "Direitos civis são para cidadãos; direitos sociais são para estrangeiros",
+        "Direitos civis e políticos relacionam-se à liberdade (vida, voto, participação política); direitos sociais relacionam-se à igualdade material (saúde, educação, trabalho, moradia)",
+        "Direitos civis são garantidos pelo Estado; direitos sociais são garantidos por organizações privadas",
+        "Não há diferença — ambos são exatamente a mesma categoria de direitos na DUDH"
+      ],
+      "resposta": "Direitos civis e políticos relacionam-se à liberdade (vida, voto, participação política); direitos sociais relacionam-se à igualdade material (saúde, educação, trabalho, moradia)",
+      "explicacao": "A DUDH garante dois grandes grupos: Direitos civis e políticos (relacionados à liberdade — vida, liberdade, voto, participação política) e Direitos sociais (relacionados à igualdade material — saúde, educação, trabalho, moradia)."
+    },
+    {
+      "id": "q043",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que a DUDH foi importante para a limitação da soberania estatal?",
+      "opcoes": [
+        "Porque criou um exército internacional para combater Estados que violassem direitos",
+        "Porque reconheceu o indivíduo como sujeito de proteção internacional e limitou a ideia de soberania absoluta do Estado",
+        "Porque transformou todos os países em democracias obrigatoriamente",
+        "Porque proibiu que os Estados criassem leis próprias sobre direitos humanos"
+      ],
+      "resposta": "Porque reconheceu o indivíduo como sujeito de proteção internacional e limitou a ideia de soberania absoluta do Estado",
+      "explicacao": "A DUDH foi extremamente importante porque universalizou os direitos humanos, reconheceu o indivíduo como sujeito de proteção internacional e limitou a ideia de soberania absoluta do Estado. Antes, os direitos dependiam apenas do Estado; depois da DUDH, violações passam a ser preocupação internacional."
+    },
+    {
+      "id": "q044",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada instituição internacional à sua função principal:",
+      "pares": [
+        {
+          "esquerda": "ONU",
+          "direita": "Proteção internacional dos direitos humanos e manutenção da paz mundial"
+        },
+        {
+          "esquerda": "OEA",
+          "direita": "Integração regional das Américas e proteção de direitos no continente americano"
+        },
+        {
+          "esquerda": "Corte Interamericana de DH",
+          "direita": "Julga violações de direitos humanos e responsabiliza Estados nas Américas"
+        },
+        {
+          "esquerda": "Tribunal Penal Internacional (TPI)",
+          "direita": "Responsabiliza indivíduos por genocídio, crimes contra a humanidade e crimes de guerra"
+        }
+      ],
+      "explicacao": "Cada instituição tem um papel específico no sistema internacional de proteção: ONU (global, paz e DH), OEA (regional nas Américas), Corte Interamericana (julgamento de violações regionais) e TPI (responsabilização individual por crimes internacionais gravíssimos)."
+    },
+    {
+      "id": "q045",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a diferença principal entre a DUDH e a DADDH?",
+      "opcoes": [
+        "A DUDH é mais antiga que a DADDH; a DADDH foi criada apenas em 1969",
+        "A DUDH tem alcance universal e foco global; a DADDH é regional (Américas), ligada à OEA, e inclui também deveres do indivíduo",
+        "A DADDH é juridicamente obrigatória; a DUDH é apenas declaratória sem força legal",
+        "A DUDH protege apenas direitos civis; a DADDH protege apenas direitos sociais e econômicos"
+      ],
+      "resposta": "A DUDH tem alcance universal e foco global; a DADDH é regional (Américas), ligada à OEA, e inclui também deveres do indivíduo",
+      "explicacao": "A DUDH é universal (alcance mundial, criada pela ONU) e foca em direitos humanos globais. A DADDH é regional (pertence ao sistema interamericano, ligada à OEA, aplicação nas Américas) e inclui tanto direitos quanto deveres do indivíduo perante a sociedade."
+    },
+    {
+      "id": "q046",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A Comissão Interamericana de Direitos Humanos pode encaminhar casos diretamente para a Corte Interamericana de Direitos Humanos.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A Comissão Interamericana de Direitos Humanos recebe denúncias, realiza investigações, publica relatórios e encaminha casos à Corte Interamericana. Assim, o sistema interamericano funciona em dois níveis complementares: a Comissão (investigação e monitoramento) e a Corte (julgamento)."
+    },
+    {
+      "id": "q047",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual foi a importância do Tribunal de Nuremberg para o direito internacional?",
+      "opcoes": [
+        "Criou as bases do sistema westfaliano ao estabelecer a soberania dos Estados europeus",
+        "Responsabilizou criminosos de guerra, reconheceu crimes contra a humanidade e mostrou que ordens superiores não justificam violações",
+        "Estabeleceu pela primeira vez o princípio de não intervenção nos assuntos internos dos Estados",
+        "Julgou os responsáveis pela Primeira Guerra Mundial e fixou as indenizações de guerra"
+      ],
+      "resposta": "Responsabilizou criminosos de guerra, reconheceu crimes contra a humanidade e mostrou que ordens superiores não justificam violações",
+      "explicacao": "O Tribunal de Nuremberg foi criado após a Segunda Guerra Mundial para julgar líderes nazistas. Foi essencial porque responsabilizou criminosos de guerra, reconheceu crimes contra a humanidade, mostrou que ordens superiores não justificam violações e foi fundamental para fortalecer o direito internacional e criar responsabilização individual internacional."
+    },
+    {
+      "id": "q048",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual a diferença entre o Tribunal de Nuremberg e o Tribunal Penal Internacional (TPI)?",
+      "opcoes": [
+        "Nuremberg julgava países; o TPI julga indivíduos",
+        "Nuremberg foi criado especificamente após a 2ª Guerra para julgar nazistas; o TPI é um tribunal permanente que responsabiliza indivíduos por crimes gravíssimos",
+        "Nuremberg era regional; o TPI é exclusivamente americano",
+        "Nuremberg julgava crimes de guerra; o TPI julga apenas crimes econômicos internacionais"
+      ],
+      "resposta": "Nuremberg foi criado especificamente após a 2ª Guerra para julgar nazistas; o TPI é um tribunal permanente que responsabiliza indivíduos por crimes gravíssimos",
+      "explicacao": "O Tribunal de Nuremberg foi criado especificamente após a 2ª Guerra para julgar líderes nazistas — foi temporário e específico. O TPI é um tribunal internacional permanente criado para responsabilizar indivíduos por genocídio, crimes contra a humanidade e crimes de guerra, combatendo a impunidade internacional."
+    },
+    {
+      "id": "q049",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "Antes da Segunda Guerra Mundial, o indivíduo já era considerado sujeito de direito internacional, com proteção garantida por organizações internacionais.",
+      "resposta": false,
+      "explicacao": "Falso. Antigamente, apenas os Estados eram considerados sujeitos internacionais — o indivíduo não possuía proteção internacional. Foi depois das atrocidades do Nazismo que se percebeu a necessidade de proteger o indivíduo internacionalmente, transformando-o em sujeito de direito internacional."
+    },
+    {
+      "id": "q050",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que caracteriza o 'poder disciplinar' na teoria de Foucault?",
+      "opcoes": [
+        "O uso exclusivo da força física e da punição corporal para controlar os indivíduos",
+        "O controle exercido por instituições como escolas, prisões e hospitais que disciplinam os indivíduos de forma sutil",
+        "O poder exercido apenas pelo governo central por meio de leis e decretos",
+        "A disciplina militar imposta pelo Estado em tempos de guerra para organizar a sociedade"
+      ],
+      "resposta": "O controle exercido por instituições como escolas, prisões e hospitais que disciplinam os indivíduos de forma sutil",
+      "explicacao": "O poder disciplinar na teoria de Foucault acontece através de instituições como escolas, prisões, hospitais e quartéis. Essas instituições disciplinam os indivíduos — não apenas pela força, mas pela vigilância, normas sociais, controle psicológico e padronização do comportamento."
+    },
+    {
+      "id": "q051",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada período histórico à sua contribuição para os direitos humanos:",
+      "pares": [
+        {
+          "esquerda": "Grécia Antiga",
+          "direita": "Nasce a razão filosófica e a valorização da autonomia humana"
+        },
+        {
+          "esquerda": "Cristianismo Medieval",
+          "direita": "Surge a ideia de igualdade espiritual, universalidade e lei natural"
+        },
+        {
+          "esquerda": "Iluminismo",
+          "direita": "Fortalece liberdade, igualdade, direitos naturais e cidadania"
+        },
+        {
+          "esquerda": "Pós-Segunda Guerra",
+          "direita": "Os direitos humanos tornam-se internacionais e o indivíduo é sujeito de proteção global"
+        }
+      ],
+      "explicacao": "A evolução histórica dos direitos humanos percorre: razão filosófica grega → igualdade cristã → direitos naturais iluministas → internacionalização pós-guerra. Cada período acrescentou elementos essenciais para a proteção atual da dignidade humana."
+    },
+    {
+      "id": "q052",
+      "tipo": "multipla_escolha",
+      "enunciado": "Por que os direitos humanos continuam necessários mesmo em sociedades democráticas, segundo a perspectiva da biopolítica de Foucault?",
+      "opcoes": [
+        "Porque as democracias sempre violam direitos propositalmente",
+        "Porque mesmo democracias podem controlar excessivamente a população, limitar liberdades e produzir exclusões sociais por meio de vigilância e normas sutis",
+        "Porque os direitos humanos são necessários apenas para combater regimes totalitários, não democracias",
+        "Porque as democracias não possuem mecanismos próprios de proteção dos cidadãos"
+      ],
+      "resposta": "Porque mesmo democracias podem controlar excessivamente a população, limitar liberdades e produzir exclusões sociais por meio de vigilância e normas sutis",
+      "explicacao": "Mesmo em sociedades democráticas podem existir formas sofisticadas de controle. Democracias podem controlar excessivamente a população, limitar liberdades e produzir exclusões sociais. Por isso os direitos humanos continuam necessários para limitar abusos do poder — inclusive os sutis."
+    },
+    {
+      "id": "q053",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A DADDH (Declaração Americana dos Direitos e Deveres do Homem) trata apenas de direitos, sem mencionar deveres dos indivíduos perante a sociedade.",
+      "resposta": false,
+      "explicacao": "Falso. Uma característica distintiva da DADDH é que ela fala não apenas de direitos, mas também dos deveres do indivíduo perante a sociedade — diferenciando-se da DUDH, que foca principalmente nos direitos. Isso reflete a concepção interamericana de que direitos e deveres são complementares."
+    },
+    {
+      "id": "q054",
+      "tipo": "multipla_escolha",
+      "enunciado": "O que o materialismo, mencionado no contexto do Iluminismo, defende?",
+      "opcoes": [
+        "Que a acumulação de bens materiais é o objetivo principal da vida humana",
+        "Que a realidade pode ser explicada racionalmente, sem necessidade de recorrer ao sobrenatural para compreender o mundo",
+        "Que a matéria é criada por Deus e por isso o estudo científico deve ser subordinado à fé",
+        "Que os bens materiais devem ser distribuídos igualmente entre todos os membros da sociedade"
+      ],
+      "resposta": "Que a realidade pode ser explicada racionalmente, sem necessidade de recorrer ao sobrenatural para compreender o mundo",
+      "explicacao": "O materialismo no contexto iluminista é a ideia de que a realidade pode ser explicada racionalmente, sem necessidade de recorrer ao sobrenatural para compreender o mundo. Complementa o humanismo científico ao defender que a razão e a ciência são suficientes para explicar a natureza e a sociedade."
+    },
+    {
+      "id": "q055",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a relação entre o Iluminismo e a Revolução Francesa?",
+      "opcoes": [
+        "O Iluminismo surgiu como consequência da Revolução Francesa",
+        "O Iluminismo forneceu as bases filosóficas (liberdade, igualdade, direitos naturais) que inspiraram diretamente a Revolução Francesa",
+        "O Iluminismo e a Revolução Francesa são eventos completamente independentes sem relação",
+        "O Iluminismo foi um movimento contrário à Revolução Francesa, defendendo a monarquia"
+      ],
+      "resposta": "O Iluminismo forneceu as bases filosóficas (liberdade, igualdade, direitos naturais) que inspiraram diretamente a Revolução Francesa",
+      "explicacao": "O Iluminismo influenciou diretamente a Revolução Francesa, a Declaração dos Direitos do Homem e do Cidadão, a liberdade individual e a cidadania moderna. Grande parte dos direitos humanos atuais nasce dessas ideias iluministas."
+    },
+    {
+      "id": "q056",
+      "tipo": "verdadeiro_falso",
+      "enunciado": "A OEA (Organização dos Estados Americanos) criou dois mecanismos regionais de proteção dos direitos humanos: a Comissão Interamericana e a Corte Interamericana de Direitos Humanos.",
+      "resposta": true,
+      "explicacao": "Verdadeiro. A OEA criou a Comissão Interamericana de Direitos Humanos (que recebe denúncias, investiga e encaminha casos) e a Corte Interamericana de Direitos Humanos (tribunal que julga casos internacionais, determina reparações e interpreta tratados). Ambas compõem o sistema interamericano de proteção."
+    },
+    {
+      "id": "q057",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual era a função da ONU substituta que existia antes dela, e por que essa predecessora foi considerada insuficiente?",
+      "opcoes": [
+        "O Tribunal de Nuremberg, que não conseguiu responsabilizar todos os criminosos de guerra",
+        "A Liga das Nações, substituída porque não conseguiu evitar a Segunda Guerra Mundial",
+        "A Paz de Westfália, substituída porque seus princípios eram incompatíveis com os direitos individuais",
+        "A DADDH, substituída porque tinha alcance apenas regional nas Américas"
+      ],
+      "resposta": "A Liga das Nações, substituída porque não conseguiu evitar a Segunda Guerra Mundial",
+      "explicacao": "A ONU substituiu a antiga Liga das Nações. Esta foi considerada insuficiente porque não conseguiu evitar a Segunda Guerra Mundial — mostrando a necessidade de uma organização internacional mais forte e efetiva para manter a paz e proteger os direitos humanos."
+    },
+    {
+      "id": "q058",
+      "tipo": "ligar_colunas",
+      "enunciado": "Ligue cada filósofo contratualista ao seu conceito central:",
+      "pares": [
+        {
+          "esquerda": "Thomas Hobbes",
+          "direita": "'O homem é o lobo do homem' — Estado forte necessário para evitar o caos"
+        },
+        {
+          "esquerda": "John Locke",
+          "direita": "Direitos naturais (vida, liberdade, propriedade) existem antes do Estado; povo pode resistir à tirania"
+        },
+        {
+          "esquerda": "Jean-Jacques Rousseau",
+          "direita": "O homem nasce bom; vontade geral do povo deve ser a fonte do poder político"
+        },
+        {
+          "esquerda": "Michel Foucault",
+          "direita": "Biopolítica — poder moderno controla a vida humana de forma sutil através de instituições"
+        }
+      ],
+      "explicacao": "Os contratualistas debateram as bases do Estado e da sociedade: Hobbes (pessimismo, Estado forte), Locke (otimismo, direitos naturais), Rousseau (bondade natural, soberania popular). Foucault, posterior, analisou como o poder moderno se exerce de forma mais sofisticada."
+    },
+    {
+      "id": "q059",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a grande mudança que ocorre após a Segunda Guerra Mundial em relação ao indivíduo no direito internacional?",
+      "opcoes": [
+        "O indivíduo perde direitos pois a soberania estatal é fortalecida pelos tratados de paz",
+        "O indivíduo passa a ser sujeito de direito internacional — possui direitos protegidos internacionalmente e pode ter violações fiscalizadas por organizações internacionais",
+        "O indivíduo ganha o direito de processar diretamente outros indivíduos em tribunais internacionais",
+        "O indivíduo passa a ter responsabilidade apenas perante seu Estado, sem qualquer proteção internacional"
+      ],
+      "resposta": "O indivíduo passa a ser sujeito de direito internacional — possui direitos protegidos internacionalmente e pode ter violações fiscalizadas por organizações internacionais",
+      "explicacao": "A grande mudança pós-Segunda Guerra é que o indivíduo torna-se sujeito internacional: ele possui direitos protegidos internacionalmente, tratados podem protegê-lo e organizações internacionais podem fiscalizar violações. Antes apenas os Estados eram sujeitos internacionais."
+    },
+    {
+      "id": "q060",
+      "tipo": "multipla_escolha",
+      "enunciado": "Qual é a síntese da evolução histórica que leva à criação dos direitos humanos modernos, segundo o resumão final do material?",
+      "opcoes": [
+        "Guerra → Paz → Tratados → Leis → Direitos",
+        "Grécia Antiga (razão) → Antropocentrismo → Cristianismo (igualdade) → Iluminismo (liberdade) → Estado Moderno (direitos jurídicos) → Pós-Guerra (direitos internacionais) → Atualidade (limitar vigilância e controle)",
+        "Mitos → Religião → Ciência → Democracia → Direitos Humanos",
+        "Feudalismo → Absolutismo → Liberalismo → Socialismo → Direitos Humanos"
+      ],
+      "resposta": "Grécia Antiga (razão) → Antropocentrismo → Cristianismo (igualdade) → Iluminismo (liberdade) → Estado Moderno (direitos jurídicos) → Pós-Guerra (direitos internacionais) → Atualidade (limitar vigilância e controle)",
+      "explicacao": "A evolução histórica completa dos direitos humanos: Grécia Antiga (nasce a razão filosófica) → Antropocentrismo (homem no centro) → Cristianismo Medieval (igualdade espiritual e lei natural) → Iluminismo (liberdade, igualdade, direitos naturais) → Estado Moderno (direitos jurídicos) → Pós-Segunda Guerra (internacionalização) → Atualidade (limitar vigilância, controle social e abusos do poder contemporâneo)."
+    }
+  ]
+}
